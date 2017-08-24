@@ -50,8 +50,8 @@
 	background-size: 0.7em auto;
 	border-radius: 20%;
 	}
-.markdown .plusNode[data-isbig="0"]{ background-image: url("http://tristyn.me/More/Images/plus.svg");  }
-.markdown .plusNode[data-isbig="1"]{ background-image: url("http://tristyn.me/More/Images/minus.svg"); }
+.markdown .plusNode[data-isbig="0"]{ background-image: url("http://tristyn.me/more/images/plus.svg");  }
+.markdown .plusNode[data-isbig="1"]{ background-image: url("http://tristyn.me/more/images/minus.svg"); }
 
 
 .markdown img.0{vertical-align: middle; height: 0.95em;border: none; padding:0.25em; }
