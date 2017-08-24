@@ -2,7 +2,7 @@
 body{overflow:hidden;background-color:#938873;}
 body::after{										/* Gears Background */	
 	content: "";
-	background:url(http://tristyn.me/More/Images/Gears.svg);
+	background:url(http://tristyn.me/more/images/Gears.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	opacity: 0.2;		
@@ -16,7 +16,7 @@ body::before{										/* Gears Background */
 	-o-transform:      rotate(180deg);
 	transform:         rotate(180deg);
 	content: "";
-	background:url(http://tristyn.me/More/Images/Gears.svg);
+	background:url(http://tristyn.me/more/images/Gears.svg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	opacity: 0.2;		
