@@ -1,0 +1,226 @@
+Which of the following is true about sickle-cell anemia?
+	A.	People with sickle-cell anemia have inherited one or more alleles for sickle-cell hemoglobin.
+	B.	People with sickle-cell anemia have normal levels of hemoglobin and normal numbers of erythrocytes.
+		C.	People with sickle-cell anemia have sickle-cell hemoglobin molecules that form insoluble fibers.
+	D.	People with sickle-cell anemia have a mutation in either the α or β hemoglobin chains.
+.
+2) Which of the following is true about the structure of all immunoglobulins?
+		A.	The chains are linked by disulfide bonds.
+	B.	They consist of two heavy chains and two light chains.
+	C.	The five classes of immunoglobulins each have their own characteristic type of light chain.
+	D.	An antigen-binding site is formed by the combination of two heavy chains.
+.
+Polyclonal antibodies
+	A.	are produced by a population of identical B cells.
+	B.	are produced by different B cells, each responding to the same epitope within an antigen.
+		C.	are produced by different B cells, each responding to a different epitope within an antigen.
+	D.	are produced by B cells grown in cell culture.
+.
+During skeletal muscle contraction, which of the following narrows?
+		A.	the I band
+	B.	the Z disk
+	C.	the A band
+	D.	the M line
+
+.
+5) Which of the following is true about the role of ATP during skeletal muscle contraction?
+	A.	After hydrolysis of ATP at the myosin head, Pi and ADP are immediately released.
+		B.	The release of Pi from myosin is needed for the "power stroke" that causes filament sliding.
+	C.	Binding of ATP causes the myosin head to bind actin filaments.
+	D.	The hydrolysis of ATP at the myosin head causes myosin to tightly bind the next actin subunit.
+
+.
+Which of the following is true about the organization of skeletal muscle?
+		A.	Myofibrils consist of repeating sarcomeres.
+	B.	Myofibrils consist of numerous muscle fibers.
+	C.	The sarcoplasmic reticulum surrounds each muscle fiber.
+	D.	Sarcomeres contain a complete I band and a complete A band.
+.
+Which of the following is true about the difference between ELISA and immunoblot assays, both of which can be used to detect protein antigens?
+	A.	Only immunoblots allow for quantification of the presence of an antigen in a sample.
+	B.	Only ELISA assays require a secondary antibody.
+		C.	Only immunoblots enable an approximation of an antigen's molecular weight.
+	D.	Only ELISA assays require a purified protein antigen.
+.
+Which of the following is true about proteins and enzymes?
+	A.	All proteins bind ligands.
+	B.	All enzymes have binding sites.
+	C.	All proteins have active sites.
+		D.	All enzymes are catalytic.
+.
+Which of the following binding constants represents the highest affinity?
+	A.	Ka = 1.0 x 107M-1
+		B.	Kd = 1.0 x 10-9M
+	C.	Kd = 1.5 x 10-9M
+	D.	Ka = 2.0 x 108M-1
+.
+The dissociation constant (Kd) of the human insulin receptor for insulin is 1 x 10-10M. What does this mean?
+		A.	It means that when the concentration of insulin is 1 x 10-10M, half of the available insulin receptor sites are occupied.
+	B.	It means that when the concentration of the insulin receptor is 1 x 10-10M, half of the available insulin receptor sites are occupied.
+	C.	It means that when the concentration of insulin is 1 x 10-10M, all of the available insulin receptor sites are occupied.
+	D.	It means that when the concentration of the insulin receptor is 1 x 10-10M, all of the available insulin receptor sites are occupied.
+.
+How does hemoglobin bind O2 cooperatively?
+	A.	The binding of one molecule of O2 to one subunit of hemoglobin enhances the assembly of other subunits to form a complete hemoglobin protein.
+	B.	The binding of one molecule of O2 to one hemoglobin protein enhances the binding of a molecule of O2 to a different hemoglobin protein.
+	C.	The binding of one molecule of O2 to one subunit of hemoglobin enhances the affinity of the same subunit for more molecules of O2.
+		D.	The binding of one molecule of O2 to one subunit of hemoglobin enhances the affinity of other subunits for O2.
+.
+What is the role of cytotoxic T cells (TC) in the immune response?
+	A.	They produce cytokines and interleukins that stimulate the proliferation of immune cells.
+	B.	They produce immunoglobulins (antibodies) that bind bacteria or viruses and target them for destruction.
+		C.	They destroy virally infected cells to which they are complexed through their T-cell receptors.
+	D.	They ingest large particles and cells by phagocytosis.
+.
+What is the biological advantage to the sigmoidal binding curve of hemoglobin for oxygen?
+	A.	It ensures that hemoglobin has a high affinity for oxygen.
+	B.	It allows hemoglobin to bind oxygen irreversibly.
+	C.	It ensures that hemoglobin can bind oxygen only weakly.
+		D.	It allows hemoglobin to shift between low and high affinities for oxygen.
+.
+What is the role of the heme prosthetic group in hemoglobin?
+	A.	The heme group coordinates the subunits of hemoglobin.
+	B.	The heme group binds one molecule of oxygen in the center of the hemoglobin protein.
+		C.	The heme group binds a molecule of oxygen for each subunit of hemoglobin.
+	D.	The iron atom in the heme group is needed to irreversibly bind oxygen.
+.
+Which of the following is true about the T (tense) → R (relaxed) transition of hemoglobin?
+	A.	The T state of hemoglobin binds oxygen with a higher affinity than the R state.
+		B.	The binding of O2 to a subunit in the T state can cause the transition of other subunits to the R state.
+	C.	The T state has a narrower pocket between &946; subunits than does the R state.
+	D.	When hemoglobin undergoes the T → R transition, the structures of the individual subunits change dramatically.
+
+.
+How do IgG antibodies lead to the destruction of viruses?
+		A.	Virus-specific IgG antibodies coat the virus and deliver it to macrophages for engulfment by phagocytosis.
+	B.	Virus-specific antibodies coat the virus, causing the disruption of the virus.
+	C.	Virus-specific IgG antibodies coat the virus and deliver it to cytotoxic T cells (TC).
+	D.	Virus-specific IgG antibodies induce viruses to undergo apoptosis.
+.
+Which of the following is NOT a function of hemoglobin?
+	A.	It delivers O2 to peripheral tissues.
+	B.	It removes CO2 from peripheral tissues.
+	C.	It delivers CO2 to the lungs.
+		D.	It delivers H+ to peripheral tissues.
+.
+The Bohr effect, the effect of pH and CO2 concentration on the binding and release of oxygen by hemoglobin, dictates that
+	A.	oxygen binds hemoglobin better at low pH.
+	B.	oxygen and H+ are bound at the same sites in hemoglobin.
+		C.	the binding of CO2 is inversely related to the binding of oxygen.
+	D.	the binding of CO2 is inversely related to the binding of H+.
+.
+Which of the following is true about cofactors that are essential to the activity of some enzymes?
+	A.	A holoenzyme is the protein part of an enzyme that is not catalytically active until a cofactor is bound.
+	B.	Inorganic metal ions are examples of coenzymes.
+		C.	Cofactors that are covalently bound to an enzyme protein are called prosthetic groups.
+	D.	All enzymes are proteins.
+.
+A simple plot of V0 versus [S] is superior to a double-reciprocal plot (1/Vo versus 1/[S]) if you are trying to
+	A.	determine Vmax.
+		B.	detect allosteric regulation.
+	C.	determine the type of inhibition.
+	D.	determine the Km.
+.
+In the double-reciprocal plot, increasing the concentration of inhibitor
+	A.	raises the Vmax.
+	B.	lowers the Km / Vmax.
+	C.	raises the Km / Vmax.
+		D.	lowers the Km.
+.
+In competitive inhibition, increasing concentrations of the inhibitor will have the following effect on the kinetics of the enzyme:
+	A.	Km will decrease.
+		B.	Vmax will stay the same.
+	C.	The reaction will cease because the inhibitor binds irreversibly.
+	D.	Km / Vmax will stay the same.
+.
+Which of the following is true about zymogens?
+	A.	Proproteins are one type of zymogen.
+	B.	Zymogens are inactivated by inhibitor proteins.
+		C.	Zymogens are enzymatically inactive.
+	D.	Zymogens cleave proteases.
+.
+Which of the following is true about the phosphorylation of proteins?
+		A.	Proteins are usually phosphorylated at amino acids that have hydroxyl group-containing side chains.
+	B.	Phosphorylation of proteins is catalyzed by phosphatases.
+	C.	Phosphoryation always activates enzymes.
+	D.	The specificity in phosphorylation is conferred solely by the amino acid to be phosphorylated.
+.
+In feedback inhibition
+ 
+	A.	an enzyme in a pathway inhibits one of the earlier enzymes in the pathway.
+	B.	an intermediate in a pathway inhibits one of the earlier enzymes in the pathway.
+	C.	the initial substrate of a pathway inhibits one of the enzymes in the pathway.
+		D.	the end product of a pathway inhibits one of the enzymes in the pathway.
+.
+Which of the following enzymes fits in the class of enzymes known as hydrolases?
+	A.	hexokinase
+		B.	chymotrypsin
+	C.	glycogen phosphorylase
+	D.	triose phosphate isomerase
+.
+ Which of the following is true about the role of enzymes in catalyzing chemical reactions?
+	A.	Enzymes alter the equilibrium of a reaction.
+	B.	Enzymes are needed to catalyze only thermodynamically unfavorable reactions.
+		C.	Enzymes enhance the rate of reactions.
+	D.	Enzymes eliminate the activation energy of a reaction.
+.
+Which of the following is true about the free-energy changes involved in reactions that favor the formation of product?
+ 
+		A.	The ground state free energy of the product must be lower than the ground state free energy of the substrate.
+	B.	The activation energy is the difference between the substrate and product ground state free energies.
+	C.	Enzymes lower the overall free standard free-energy change (ΔG′°) of a reaction.
+	D.	The difference between the energy levels of the ground state and transition state is always negative.
+.
+In what way does the binding of a substrate by an enzyme enhance catalysis?
+ 
+	A.	It increases the interaction of the substrate with water.
+		B.	The binding energy of the enzyme-substrate interaction lowers the activation energy.
+	C.	It increases the entropy between substrates.
+	D.	The binding of a substrate prevents the enzyme from changing conformation.
+.
+An enzyme with a high turnover number has
+		A.	a high Kcat.
+	B.	a low Km.
+	C.	a high Vmax.
+	D.	a high Kcat/Km.
+.
+ Which of the following is true about allosteric enzymes?
+ 
+	A.	Allosteric enzymes are always multimeric.
+	B.	Regulatory sites (allosteric sites) on an allosteric enzyme are always different from the catalytic site.
+		C.	Allosteric enzymes always change the conformation of the active site in response to binding of an allosteric modulator.
+	D.	Suicide inactivators are examples of allosteric modulators.
+.
+Which of the following is true about general acid-base catalysis?
+ 
+	A.	It requires the ions of water.
+		B.	Amino acid side chains on enzymes can act as proton donors or acceptors.
+	C.	It often involves covalent bonds formed between a metal ion and the substrate.
+	D.	It involves a transient covalent bond between the enzyme and the substrate.
+.
+The steady state of an enzyme-catalyzed reaction is reached when
+ 
+	A.	the rate of appearance of product over time is constant.
+	B.	the rate of enzyme-substrate formation is constant.
+	C.	the concentration of enzyme-substrate complex equals the concentration of product.
+		D.	the concentration of the enzyme-substrate complex is constant over time.
+.
+The active site of an enzyme is most complimentary to
+ 
+	A.	the substrate.
+		B.	the transition state.
+	C.	the product.
+	D.	the enzyme itself.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.

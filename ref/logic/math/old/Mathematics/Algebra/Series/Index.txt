@@ -1,0 +1,5 @@
+Index: 
+	First: $$ \sum_{i = 1}^{n} {i} = \frac{n(n+1)}{2} $$
+	Second: $$ \sum_{i = 1}^{n} {i^2} = \frac{n(n+1)(2n+1)}{6} $$
+	Third: $$ \sum_{i = 1}^{n} {i^3} = \left[ \frac{n(n+1)}{2} \right] ^2 $$
+	Nth: $$ \sum_{k = 1}^{n} k^{p} = \frac{1}{p+1} \, \sum_{i = 0}^{p} \left( {-1} \right)^{i} \, \binom{p+1}{i} \, B_{i} \, n^{p+1-i} $$ $$ B_{0} = 1 \land B_{n} = - \sum_{k = 0}^{n-1} \binom{n}{k} \, \frac{B_{k}}{n-k+1} $$

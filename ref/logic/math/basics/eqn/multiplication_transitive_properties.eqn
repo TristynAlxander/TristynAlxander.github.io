@@ -1,0 +1,16 @@
+<Equation version="1.0" name="Transitive Properties of Scalar Multiplication">
+	<LaTeX>
+		(x \lessgtr y) \land (z &lt; 0) \Rightarrow (x z \gtrless y z)		\\
+			(x &lt; y) \land (z &lt; 0) \Rightarrow (xz &gt; yz)			\\
+			(x &gt; y) \land (z &lt; 0) \Rightarrow (xz &lt; yz)			\\
+		(x \lessgtr y) \land (z &gt; 0) \Rightarrow (x z \lessgtr y z)		\\
+			(x &lt; y) \land (z &gt; 0) \Rightarrow (xz &lt; yz)			\\
+			(x &gt; y) \land (z &gt; 0) \Rightarrow (xz &gt; yz)			\\
+		
+	</LaTeX>
+	<Variables>
+		<Var symbol="x"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
+		<Var symbol="y"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
+		<Var symbol="z"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

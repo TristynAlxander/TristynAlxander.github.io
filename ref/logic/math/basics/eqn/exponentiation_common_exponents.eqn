@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Common Exponents">
+	<LaTeX>
+		(y \neq 0) \land (x ^y = z ^y)  \Rightarrow (x = z) \veebar (x = -z)
+	</LaTeX>
+	<Variables>
+		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="y"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="z"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

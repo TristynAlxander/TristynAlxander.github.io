@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Equilibrium Reaction Quotient">
+	<LaTeX> K_{eq} = \frac{\prod [X]^x}{\prod [Y]^y} = \frac{k_f}{k_r}</LaTeX>
+	<Variables>
+		<Var symbol="[X]"	mathObject="" 				unit="M"							name="Concentration of Product  X"		measurands=""		dependencies=""/>
+		<Var symbol="[Y]"	mathObject="" 				unit="M"							name="Concentration of Reactant Y"		measurands=""		dependencies=""/>
+		<Var symbol="x"		mathObject=""				unit=""								name="Sociometric Coefficient of X"		measurands=""		dependencies=""/>
+		<Var symbol="y"		mathObject=""				unit=""								name="Sociometric Coefficient of Y"		measurands=""		dependencies=""/>
+		<Var symbol="k_f"	mathObject=""				unit="M^{-(\sum{n}) + 1} s^{-1}"	name="Forward Rate Constant"			measurands=""		dependencies="var.1"/>
+		<Var symbol="k_r"	mathObject=""				unit="M^{-(\sum{n}) + 1} s^{-1}"	name="Reverse Rate Constant"			measurands=""		dependencies="var.1"/>
+	</Variables>
+</Equation>

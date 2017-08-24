@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Coulomb's Law: Electric Field of a Point Charge">
+	<LaTeX> \vec{F}_{j} = \vec{E}_{i} q_j = \frac{1}{4 \pi \varepsilon_0 } \frac{q_i q_j}{|\vec{r}_{i \to j}|^2} \hat{r}_{i \to j} </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{F}"		mathObject="Vector"				unit="N, kg m s^{-2}"		name="Force"								measurands=""		dependencies=""/>
+		<Var 	symbol="\vac{E}"		mathObject="Vector"				unit="N C^{-1}, V m^{-1}"	name="Electric Field"						measurands=""		dependencies=""/>
+		<Var 	symbol="q"				mathObject="Scalar"				unit="C, A s"				name="Charge"								measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{r}"		mathObject="Vector"				unit="m"					name="Position, Radius"						measurands=""		dependencies=""/>
+		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"				name="Dummy Variable"						measurands=""		dependencies=""/>	
+		<Var 	symbol="j"				mathObject="Whole Number"		unit="unitless"				name="Dummy Variable"						measurands=""		dependencies=""/>	
+		<Var 	symbol="\varepsilon_{0}"	mathObject="Constant"			unit="8.85418781762 \times 10^{-12} F m^{-1}, 8.85418781762 \times 10^{-12} s^4 A^2 m^{-3} kg^{-1}"						name="Vacuum Permittivity, Permittivity of Free Space, Vacuum Dielectric Constant, Dielectric Constant of Free Space"			measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

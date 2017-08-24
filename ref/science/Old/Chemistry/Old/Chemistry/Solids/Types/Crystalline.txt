@@ -1,0 +1,131 @@
+Crystalline Solids
+	Pure Crystalline Solids
+		long ranger order 
+	Polycrystalline solids
+		Multiple interlocking small crystals
+		Grain Boundaries
+	Structure
+		Space Lattice (mathematical concept)
+			Infinite 3D Point Array
+			Each Lattice Point: Identical Surrounding Motif
+			Lattice Parameters / Unit Cell Parameters
+				P(uvw) = ua + vb + wc
+					a, b, c					Bias Vectors 
+					a_{0}, b_{0}, c_{0}		Axial Lengths / Unit Vectors 
+					u, v, w					Integers
+				Interaxial Angles
+					\alpha		Angle Between b&c
+					\beta		Angle Between a&c
+					\gamma		Angle Between a&b
+		Crystal Structure (Scientific Concept)
+			periodic arrangement of atoms
+			described by basis:  lattice and atom decoration 
+.
+
+Crystallography: Crystal Arrangements
+
+Unit Cells: 
+	Basic Unit of Crystal
+	Not Unique
+	Primitive Unit Cell (P): Just at Corners 
+	Body-Centred Unit Cell (I): In in Center
+	Face-Centred Unit Cell (F): At Each Face
+		A-Face-Centred Unit Cell: At One Face 
+		B-Face-Centred Unit Cell: At One Face 
+		C-Face-Centred Unit Cell: At One Face 
+	Monoclinic Unit Cells
+
+.
+packing sequence
+	AB
+	ABC
+
+miller index
+	1/
+	[]
+	{}
+	Pointy
+	()
+	Directions 
+	Planes
+.
+============================================================================================================================
+Primitive cell: 1 atom/lattice point?
+
+
+14 Bravais lattices 
+PIFC 
+	primitive
+	internal 
+	face
+	centered
+not evenly distributed
+cubic 3
+...
+
+counting atoms / unit cell
+	Count by fraction of atom in the unit cell 
+.
+Volume packing
+	assume atoms hard sphere
+	simple cubic 
+	a \sqrt{2} = 4 R 
+		a lattice constant
+		R radius 
+.		
+Cordination number: # of nearest numbers
+
+Atomic packing factor
+apf = atomsPerCell * V_{atoms} / V_{unit cell}
+assume atoms are spheres
+
+apf independen of radius of atom? 
+
+
+
+making triangle on most compact place (where they touch most)
+
+Stacking sequence
+
+desnsity
+nA/V_{c}N_{A}
+
+position
+fractions of unit lengths
+qrs
+abc 
+xyz
+
+
+directions:[]
+families:<>
+direction u 
+	opposite: \bar{u}
+planes: 
+	same - and positive if parallele
+	hkl = 1/m 1/n 1/p
+	abc
+	clear common fractions and multiples
+
+
+============================================================================================================================
+
+.
+Crystal classes
+	bravaia lattices 
+.
+
+Cubic a = b = c; \alpha = 90, \beta = 90, \gamma = 90
+(isometric)
+Tetragonal a = b \neq c; \alpha = 90, \beta = 90, \gamma = 90
+Orthorhombic a \neq b \neq c; \alpha = 90, \beta = 90, \gamma = 90
+Monoclinic a \neq b \neq c; \alpha = 90, \beta \neq 90, \gamma = 90
+Triclinic a \neq b \neq c; \alpha \neq 90, \beta \neq 90, \gamma \neq 90
+Hexagonal a = b \neq c; \alpha = 90, \beta = 90, \gamma = 120
+Rhombohedral a = b = c; \alpha = \beta = \gamma \neq 90
+	a' = b' \neq c'; \alpha' = 90, \beta' = 90, \gamma' = 120
+
+
+.
+
+.

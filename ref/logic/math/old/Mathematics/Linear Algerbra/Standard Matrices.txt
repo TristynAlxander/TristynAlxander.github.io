@@ -1,0 +1,25 @@
+Standard Matrices: 
+	Identity: 
+		$$	I = 
+		\begin{matrix}
+		1 & 0 & \dots & 0 & \dots & 0\\
+		0 & 1 & \dots & 0 & \dots & 0 \\
+		\vdots & \vdots & \ddots & \dots & \dots & \vdots \\
+		0 & 0 & \dots & 1 & \dots & 0 \\
+		\vdots & \vdots & \dots & \dots & \ddots & \vdots \\
+		0 & 0 & \dots & 0 & \dots & 1
+		\end{matrix}
+		$$
+		Commutative:  I A = A I 
+
+	Zero: $$ A = (a_{i,j} = 0)_{n \times m} $$
+	Elementary: 
+		$$	RC(I) = \, _{e}E_{i,j}	$$
+		$$ RC(A) = \, _{e}E_{i,j} \,A	$$
+		Row Combinations: 
+			Row Addition: $$	r_i =: r_i + r_j	$$
+			Scalar Multiplication: $$	r_i =: r_i \, c	$$
+
+	Permutations:
+		Row Exchanges: $$ RE(I) = P $$ $$ r_i :=: r_{j} $$
+		Single Row Exchanges: $$ SRE(I) = P_{1} $$ $$ r_i :=: r_{i \pm 1} $$

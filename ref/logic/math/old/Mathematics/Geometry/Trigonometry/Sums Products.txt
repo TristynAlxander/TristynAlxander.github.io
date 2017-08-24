@@ -1,0 +1,10 @@
+Product-Sum: 
+	$$ \sin( \alpha ) \sin( \beta ) = \frac{\cos( \alpha + \beta )-\cos( \alpha - \beta )}{2} $$
+	$$ \cos( \alpha ) \cos( \beta ) = \frac{\cos( \alpha - \beta )+\cos( \alpha + \beta )}{2} $$
+	$$ \sin( \alpha ) \cos( \beta ) = \frac{\sin( \alpha + \beta )+\sin( \alpha - \beta )}{2} $$
+	$$ \cos( \alpha ) \sin( \beta ) = \frac{\sin ( \alpha + \beta )-\sin( \alpha - \beta )}{2} $$
+Sum-Product: 
+	$$ \sin( \alpha )+\sin( \beta ) = 2\sin(\frac{ \alpha + \beta }{2} )\cos(\frac{ \alpha - \beta }{2} ) $$
+	$$ \sin( \alpha )-\sin( \beta ) = 2\cos(\frac{ \alpha + \beta }{2} )\sin(\frac{ \alpha - \beta }{2} ) $$
+	$$ \cos( \alpha )+\cos( \beta ) = 2\cos(\frac{ \alpha + \beta }{2} )\cos(\frac{ \alpha - \beta }{2} ) $$
+	$$ \cos( \alpha )-\cos( \beta ) = -2 \sin(\frac{ \alpha + \beta }{2} ) \sin(\frac{ \alpha - \beta }{2} ) $$

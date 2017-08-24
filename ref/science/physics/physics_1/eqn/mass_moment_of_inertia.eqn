@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Moment of Inertia">
+	<LaTeX> I = \sum m_i r_i^2 = \int_m r^2 dm </LaTeX>
+	<Variables>
+		<Var symbol="I"					mathObject=""		 		unit="kg m^2"			name="Moment of Inertia, Angular Mass"		measurands=""		dependencies=""/>
+		<Var symbol="\vec{r}"			mathObject="Vector"			unit="m"				name="Radius"								measurands=""		dependencies=""/>
+		<Var symbol="m"					mathObject=""		 		unit="kg"				name="Mass"									measurands=""		dependencies=""/>
+		<Var symbol="i"					mathObject="Integer"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

@@ -1,0 +1,168 @@
+
+proteins
+
+	Globular Functions
+		Storage
+		Transport
+			molecular
+			macro
+		Defence
+		catalysis
+		
+
+proteins bind to ligands
+	Reversible, transient: P+L \leftrightarrow PL
+		k_a			association rate constant
+		k_d			dissociation rate constant
+		
+		@equilibrium
+			k_a [L] [P] = k_d [LP]
+			K_a = k_a / k_d = [LP] /([L] [P] )	association equilibrium Constant	
+			K_d = k_d / k_a = [L][P]/[LP]		dissociation equilibrium Constant	
+			
+			Fraction of occupied binding sites
+			\theta = [PL]/([P]+[L])
+			\theta = [L] / ([L]+K_{d})
+			
+			Energy
+			\Delta G = -RT ln(K_{a}) = RT ln(K_{d}) 
+	Bind at Binding Site 
+		non-covalent binding
+		Specificity
+			Lock-and-Key Model: complementary bonding sites
+				Size, shape, charge, hydrophobic / hydrophilic
+			Induced Fit: Conformational changes (of ligands OR Proteins) upon binding
+		Cooperativity: multiple binding sites interact
+			positive cooperativity: increases affinity
+			negative cooperativity: decreases affinity
+			
+	ligand
+		typically small
+.
+
+CO is toxic cuz ut cimpetes with O2
+Oxygen Captured with heme
+stored in myoglobin
+
+Heme
+	Captures Oxygen
+	Has Fe
+	Planer-ish 
+	two perpendicular binding sites
+	CO binds 20000 times better to heme
+
+myoglobin
+	Ex of Binding Pocket
+	Stores heme to prevent excessive Fe binding
+	histidine residue to heme
+	Protein pocket decreases affinity for CO
+	
+hemoglobin
+	α2β2
+	positive cooperativity
+	Storage not transport
+	T-->R
+	Tense vs Relaxed States
+		Relaxed State: higher affinity
+		Tense State: More stable
+	Conformational Changes: Heme is More curved in tense state
+	Oxygen binds well at higher pH
+	Bohr effect: Change of affinity with pH
+	CO2 exported on Amino-terminal
+	Regulation via 2,3-Bisphosphoglycerate
+		less oxygen > less 2,3-Bisphosphoglycerate > higher affinity 
+	Sickle Cell: defect -> hydrophobic sites -> crystallization
+.
+Molecular mechanism of muscle movements
+myosin & actin
+	myosin
+		Heads and climbing
+	actin
+		tropomyosin coating
+		
+
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+=======================================================================================================================================================
+
+Enzymes
+	catalytist 
+	
+	Usually Globular Protiens
+	Rarely RNA 
+	
+	cofactors
+	Inorganic 
+
+
+Why: Greater specificity
+	Avoid Side products
+	Higher rates
+	milder conditions
+	regulation & control
+.
+Enzyme Classes
+
+Transition State Stabilization
+	acid-base catalysis
+	covalent catalysis
+	metal ion catalysis
+	electrostatic catalysis
+.
+
+Proximity (Entropy Reduction)
+	Less steric options --> quicker reactions
+
+
+v = k_{cat} [E][S] /(K_{m} +[S])	
+Michaelis Menten
+Michaelis Menten Equation
+V_{0} = V_{max} [S] / (K_{m} +[S])
+
+Intrensic to enzyme
+K_{m} = (k_{-1}+kcat/)k_{1}
+k_{cat} = V_{max} / [Enz]
+
+Lineweaver Burke Equations
+
+
+Multiple Substrate Reactions
+	Multiplie Products
+	Multiple Reactants 
+	Ternary Complex: Random Order vs Ordered 
+	NoTernary Complex: Enz'
+		Parallel Lineweaver Burke Plot
+
+Inhibition
+	Irreversible
+		Suicide Inhibitors 
+	Reversible 
+	Bind to Enzyme
+	Bind to Enzyme-Substrate Complex 
+	pH
+.
+Chymotrypsin
+	Hydrophobic Pocket
+	hydrolases
+
+Steps
+	Substrate Binding
+	Nucleophilic Attack
+	Substrate Cleavage
+	Water
+	Break-off
+	Dissociation
+.
+Regulation
+	Non-covalent vs Covalent
+	Reversible vs Irreversible 
+	Allosteric Regulators
+		Feedback Inhibition
+.

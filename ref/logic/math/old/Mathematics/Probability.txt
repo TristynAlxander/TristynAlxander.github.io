@@ -1,0 +1,9 @@
+Probability(Process)
+Odds: y:x == Probability: x/(y+x)
+Probability:
+	Classical Approach (System: Outcomes): N_O / N_A
+	Relative Frequency (History: Observations): N_O / N_A
+		N_O : Number of a Particular Outcome/Observation
+		N_A : Number of total Outcomes/Observations
+	
+	

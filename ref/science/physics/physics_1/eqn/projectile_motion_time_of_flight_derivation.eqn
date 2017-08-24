@@ -1,0 +1,20 @@
+<Equation version="1.0" name="Time of Flight">
+	<LaTeX> 
+		v_{y} = v_{y,0} + a_{y} t				\\
+		v_{y,t_{1/2}} = 0						\\
+		0 = v_{y,0} + a_{y} t_{1/2}				\\
+		t_{1/2} = - \frac{v_{y,0}}{a_{y}}		\\
+		t = 2 t_{1/2}							\\
+		t = - 2 \frac{v_{y,0}}{a_{y}}			\\
+		v_{y,0} = v_{0,x-y} \sin(\theta)		\\
+		a_{y} = -g								\\
+		t = \frac{2 v_{0} \sin(\theta)}{g} 		\\
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="t"				mathObject="Scalar"				unit="s"				name="Time of Flight"							measurands=""		dependencies=""/>
+		<Var 	symbol="v"				mathObject="Scalar"				unit="m s^{-1}"			name="Velocity"									measurands=""		dependencies=""/>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="\theta"			mathObject="Scalar"				unit="^{(R)}"			name="angle"									measurands=""		dependencies=""/>
+		<Var 	symbol="g"				mathObject="9.80665"			unit="m s^{-2}"			name="Near-Earth Gravitational Acceleration"	measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

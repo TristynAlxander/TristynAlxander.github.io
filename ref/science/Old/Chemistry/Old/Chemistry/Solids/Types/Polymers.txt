@@ -1,0 +1,130 @@
+polymers
+	synthetic vs natural
+	Most have carbon Frame
+		Saturated vs Unsaturated (double or tipple)
+	Formula: []_{n}
+Made of mers
+	1	Monomers
+	2	Dimer
+	3	Trimer
+	4	Tetramer
+	5	Pentamer
+	N+M	(N+M)-mer
+	oligomers
+Shape Types
+	Linear
+	Branched
+	Crosslinks
+	Network
+	Star
+	Latter
+	Comb
+	Amorphous Polymers 
+		Glass(-type) Transition Temperatures: T_{g}
+		
+	Examples: Plastics
+		Thermoplastic: Few Crosslinks (recyclable)
+		Thermosetting: Lots of crosslinks (non-recyclable)
+		
+Composition Types
+	Homopolymer: AAAAAAAAA
+	Alternating: ABABABABABABABABAB
+	Block: AAAAAAABBBBBBB
+	Graft: AAAAAAAAAAAAAAA
+			^BBBB	^BBBB
+	Random Polymer: AABABBAABBAABAAABBBBA	<--Random
+Weight Corresponds With 
+	Tensile strength
+	Impact strength
+	Toughness
+	Stress-crack resistance
+	Elongation to break
+	Melting temperature
+	Melt viscosity
+DP = N_{0} / N = 1/(1-p) 
+	p	Fraction of molecules Converted
+.
+Molar Mass
+	M_{n}		Number average molecular mass
+	M_{v}		Viscosity molecular mass
+	M_{w}		Weight average molecular mass
+
+========================================================================================
+Mn	number average molecular mass;
+
+M_{n} = \sum x_{i} M_{i}
+
+x_{i}= n_{i} / n_{T}
+
+	M_{i}		Mass i
+	x_{i}		Probability of M_{i}
+	n_{i}		Number of M_{i} particles
+	n_{T}		Total number of particles
+
+Mv	viscosity molecular mass; 
+
+
+
+
+Mw	weight average molecular mass
+
+M_{w} = \sum w_{i} M_{i}
+
+w_{i} = \frac{n_{i} M_{i}}{\sum_{j} n_{j} M_{j}}
+
+w_{i}		Mass probability
+
+
+Degree of Polymerization (Number of mers mass m)
+N_{?} = M_{?}/m
+
+lamella
+	folded polymers into a block 
+
+Fast Cooling: Short & Branched
+	low density
+	low refractive index
+	very flexible but weak
+.
+fraction of crystalline polymer
+x_{c} = \frac{\rho_{s} - \rho_{a}}{\rho_{c} - \rho_{a}}
+	s	sample
+	c	crystal
+	a	amorphous 
+.
+Tacticity
+	disposition of side-groups, big effect
+	isotactic: all same side
+	syndiotactic: alternating sides 
+	atactic: random
+.
+Cross links strengthen
+.
+Copolymers
+	2 polymers together
+addition polymers and condensation polymers
+step growth and chain growth
+	step growth: add chains together
+	chain growth: one by one 
+Initiation
+	(ccan be high energy, or active molecules)
+Propagation
+	Catalyst for control
+Termination
+	two growing chains to meet and join
+		has free radical
+	disproportionation,
+		steal Hydrogen
+		if H comes from middle middle will have a free radical
+Free readicals can induce polymerization
+Metallocene catalysis
+...
+
+Elastomers are a subgroup of amorphous thermoplastics
+T_{g} near room temp
+
+.
+
+Polymer Electronics???
+Elastomers: Deformed let go and reform
+nonpolymeric additive

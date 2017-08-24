@@ -1,0 +1,20 @@
+<Equation version="1.0" name="Derivation of Displacement under Constant Linear Acceleration">
+	<LaTeX>
+		r - r_{0} 											\\
+		= \bar{v} t 										\\
+		= \frac{v_{0} + v}{2} t								\\
+		\left | \begin{matrix}									\\
+		\bar{a} t	&amp; = &amp;	v - v_{0}					\\ 
+		t			&amp; = &amp;	\frac{v - v_{0}}{\bar{a}}	\\ 
+																\\
+		\end{matrix}\right.										\\
+		= \frac{v_{0} + v}{2} \frac{v - v_{0}}{\bar{a}} 		\\
+		= \frac{v^{2} - v_{0}^{2}}{2 a}							\\
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="r"				mathObject="Scalar"				unit="m"				name="Position"								measurands=""		dependencies=""/>
+		<Var 	symbol="v"				mathObject="Scalar"				unit="m s^{-1}"			name="Velocity"								measurands=""		dependencies=""/>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject="Scalar"				unit="s"				name="Time"									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

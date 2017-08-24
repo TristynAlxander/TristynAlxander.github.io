@@ -1,0 +1,38 @@
+Ceramics: Metal + Nonmetal (inorganic)
+.
+Properties
+	chemically inert
+	Strong Bonding 
+	hard & brittle
+		Good under compression
+		Bad under stress or flex
+	lack of free electrons
+		thermal and electronic insulators
+	
+.
+electroceramics: Care about electric Properties
+	(often) high-purity
+	Dopable 
+noncrystalline ceramics: Glasses 
+Refractory ceramics: Using at High Temps
+traditional ceramics: silicates
+	Low-quality: Clay
+	Higher-quality: Measured Quantities 
+	Methods: Powderize -> Shape -> Fire
+		vitrification: Produces Glasses
+	minerals 
+	Aluminium can substitute silicon randomly 
+	Basic Unit: tetrahedra [SiO_{4}]^{4-} 
+		vertices shared, never edges or faces
+		Isolated: Isolated, paired, 3-ring, 4-ring, 6-ring
+		Chains or Sheets: 
+			Chains: (like polymer)
+				Single Chain (pyroxenes)
+				Double Chain (2 pyroxenes)
+			Sheets:
+				Single Layered: Many Chains
+				Double: Stacked Singles
+			Networks:
+.
+
+

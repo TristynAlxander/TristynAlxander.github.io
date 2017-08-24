@@ -1,0 +1,29 @@
+Taylor Series: 
+	$$ \sum_{n = 0} ^ {\infty} \frac {f^{(n)}(a)}{n!} \, (x-a)^{n} $$
+	T_{N,a}(x) = \sum_{n = 0} ^ {N} \frac {f^{(n)}(a)}{n!} \, (x-a)^{n}
+	Maclaurin: $$ \sum_{n = 0} ^ {\infty} \frac {f^{(n)}(0)}{n!} \, (x-0)^{n} $$
+	Binomial: $$ (1+x)^{k} = \sum_{n = 0}^\infty \binom{k}{n} x^n $$ $$ \text{Radius of Convergence: } R = 1 $$
+	Geometric: $$ \frac{1}{1-x} = \sum_{x = 0}^{\infty} {x^n} $$ $$ \text{Radius of Convergence: } R = 1 $$
+	Hyperbolic Sine: $$ \sinh x = \sum^{\infty}_{n = 0} \frac{x^{2n+1}}{(2n+1)!} $$ $$ \text{Radius of Convergence: } R = \infty $$
+	Hyperbolic CoSine: $$ \cosh x = \sum^{\infty}_{n = 0} \frac{x^{2n}}{(2n)!} $$ $$ \text{Radius of Convergence: } R = \infty $$
+	Sine: $$ \sin(x) = \sum^{\infty}_{n = 0} \frac{(-1)^n}{(2n+1)!} x^{2n+1} $$ $$ \text{Radius of Convergence: } R = \infty $$
+	CoSine: $$ \cos(x) = \sum^{\infty}_{n = 0} \frac{(-1)^n}{(2n)!} x^{2n} $$ $$ \text{Radius of Convergence: } R = \infty $$
+	Inverse Tangent: $$ \tan^{-1}(x) = \sum^{\infty}_{n = 0} \frac{(-1)^n x^{2n+1}}{2n+1} $$ $$ \text{Radius of Convergence: } R = 1 $$
+	Natural Log: 
+		$$ \ln(1-x) = - \sum^{\infty}_{n = 1} \frac{x^n}{n} $$ $$ \text{Radius of Convergence: } R = 1 $$
+		$$ \ln(1+x) = \sum_{n = 1}^\infty \frac{(-1)^{n+1}}{n} x^n $$ $$ \text{Radius of Convergence: } R = 1 $$
+
+	e: $$ e^{x} = \sum^{\infty}_{n = 0} \frac{x^n}{n!} $$ $$ \text{Radius of Convergence: } R = \infty $$
+	
+	
+	
+	Lagrange Remainder Term / Error: R_{N,a} = f(x) - T_{N,a}(x) = 
+	R_{N,a}(x)=\frac {f^{(N+1)}(c)}{(N+1)!} \, (x-a)^{N+1}
+	|R_{N,a}(x)|  \leq  \frac {M}{(N+1)!} \, |x-a|^{N+1}
+		c is on same bound as x (between a and max x)
+		M is maximized f^(N+1)(c)
+		T_{N,a}(x) varies from f(x) on range by (at most) R_{N,a}(x)
+		
+	lim_{n \to \infty} R_{N,a} = 0
+	|x-a|<R
+	

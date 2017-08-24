@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Undefined Exponentiation">
+	<LaTeX>
+		0^0 = ?
+	</LaTeX>
+	<Variables>
+		
+	</Variables>
+</Equation>

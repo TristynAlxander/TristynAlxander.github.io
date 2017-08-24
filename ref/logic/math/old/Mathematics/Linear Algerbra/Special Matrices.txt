@@ -1,0 +1,50 @@
+Special Matrices:
+	Symmetric Matrix: $$ A^{T} = A $$
+
+	Hermitian: $$ A^{H} = A $$
+		$$ A^{H} = A \implies a_{i,i} \in \mathbb{R} \implies \sum a_{i,i} \in \mathbb{R} \implies \sum \lambda \in \mathbb{R} $$
+		$$ A^{H} = A \implies A \, \vec{z} \in \mathbb{C} $$
+		$$ A^{H} = A \implies \vec{z}^{H} A \, \vec{z} \in \mathbb{R} $$
+		$$ A^{H} = A \implies \lambda_{i} \in \mathbb{R} $$
+		$$ A^{H} = A \land \lambda_{i} \neq \lambda_{j} \implies x_{i} \perp x_{j} $$
+		$$ A^{H} = A \implies A=QDQ^{T} $$
+
+	Orthogonal Matrix: Q^{T} = Q^{-1}
+		$$ b_{i}(Q) = /{ o.n.b. /}$$
+		$$ \vec{b} = \sum_{i=1}^{n} c_{i} \vec{v}_{i} $$
+		$$ c_{i} = \vec{v}_{i}^{T} \vec{b} $$
+		Projections: $$ P_{W} = Q I_{dim(W)} Q^{T} $$
+				$$ P_{W} \vec{b} = \sum_{i=1}^{n} \vec{w}^{T}_{i} \vec{b} \vec{w}_{i} $$
+				$$ P_{V,n} \vec{b} = \sum_{i=1}^{n} \vec{b}^{T} \, \vec{e}_{i} \, \vec{e}_{i} = \sum_{i=1}^{n} \vec{e}^{T}_{i} \, \vec{b} \, \vec{e}_{i} $$	
+		Approximations?
+			$$ A = Q R $$
+				$$ A = \{ a_{1} , ... , a_{n} \} $$
+				$$ Q = \{ e_{1} , ... , e_{n} \} $$
+				$$ R = \begin{bmatrix}
+					(a_{1}^{T}e_{1}) & (a_{2}^{T}e_{1}) & ... \\ 
+					0 & (a_{2}^{T}e_{2}) & ...\\
+					\vdots & \vdots & \ddots 
+					\end{bmatrix} $$
+			$$ A \vec{x} = \vec{b} \to R \vec{x} = Q^{T} \vec{b} $$
+
+	Unitries: $$ U^{-1} = U^{H} $$
+		Isometry: $$ || U  \vec{x} || = ||  \vec{x} || $$
+		$$ | \lambda_{U} | = 1 $$
+		$$ \lambda_{i} \neq \lambda_{j} \implies x_{i} \perp x_{j} $$
+
+	Gram-Schmidt Process
+		Given: $$ b_{i}(V) = \{ v_{1}, ..., v_{i}, ..., v_{n} \} $$
+		$$ e_{1} = \frac{ v_{1} }{|| v_{1} ||} $$
+		...
+		$$ e_{n} = \frac{ v_{n} - P_{V,n-1} v_{n} }{|| v_{n} - P_{V,n-1} v_{n} ||} $$
+		
+	Inner Product: $$ (\vec{u},\vec{v}) = \vec{u}^{H} \cdot \vec{v} $$
+			(u+v,w)=(u,w)+(v,w)
+			(\alpha v,w) = \alpha (v,w)
+			(v,w)=\overline{(w,v)}
+			
+	Norm: $$ || u || = \sqrt{\vec{u}^{H} \cdot \vec{u}} $$
+		
+	SchwarzInequality: $$ \vec{a}^{T} \vec{b} \leq ||a|| \: ||b|| $$
+
+	Orthogonal Vectors: $$ \vec{u}^{H} \cdot \vec{v} = 0 \leftrightarrow \vec{u} \perp \vec{V} $$

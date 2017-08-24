@@ -1,0 +1,31 @@
+Matrix Forms: 
+	General: 
+		$$ 
+		A 
+		\equiv 
+		(a_{i,j})_{m \times n} 
+		\equiv
+		[\vec{a}_{1}, ..., \vec{a}_{n}] 
+		\equiv
+		\begin{bmatrix}
+		a_{1,1} & a_{1,2} & \dots & a_{1,n} \\
+		a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+		\vdots & \vdots & \ddots & \vdots \\
+		a_{m,1} & a_{m,2} & \dots & a_{m,n} \\
+		\end{bmatrix}
+		$$
+	
+	Column: $$	A = (a_{i,j})_{m \times 1}	$$
+	Row: $$	A = (a_{i,j})_{1 \times n}	$$
+	Square: $$	A = (a_{i,j})_{n \times n}	$$
+	Triangular: 
+		$$ (a)_{m \times n} \implies PA = LU $$
+		$$ (a)_{k \times k} \implies PA = LDU $$
+		Upper: 
+			$$ \{ U | a_{i > j} = 0 \} $$
+			Row Echelon From: 
+			$$ PA = LU \implies \text{ref}(A) = U$$
+				Reduced: First non-zero Element in each row is one.
+
+		Lower: $$ \{ L | a_{i < j} = 0 \} $$
+		Diagonal: $$ \{ D | a_{i < j} = 0 , a_{i > j} = 0 \} $$

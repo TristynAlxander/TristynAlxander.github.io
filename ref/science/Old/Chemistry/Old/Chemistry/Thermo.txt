@@ -1,0 +1,137 @@
+Thermodynamic Potential
+	Internal Energy
+	Helmholtz free energy
+	
+	Enthalpy
+		\[ \Delta H = H_p - H_r \]
+			\Delta H	(J)		Change in Enthalpy
+			H_p			(J)		Enthalpy of Products
+			H_r			(J)		Enthalpy of Reactants
+		Standard enthalpy of formation: H^{0}_{f}
+			Gases		@stp
+			Aqueous		@1M & stp
+			Solid		@stp
+			Product		1 mol
+		
+		Standard Bond Enthalpies: \Delta H _{rxn}
+			\Delta H _{r \times n} = H_{bf,p} - H_{bf,r}
+				H_{bf,p}			Bond Formation Energy of Products
+				H_{bf,r}			Bond Formation Energy of Reactants
+			\Delta H _{r \times n} = E_{bd,r} - E_{bd,p}
+				E_{bd,r}			Bond Dissociation Energy of Reactants
+				E_{bd,p}			Bond Dissociation Energy of Products 
+			Depends on Each Element
+			Depends on Bond Type
+			
+		CAUTION: Check your reference! (This is all over a negative.)
+			If Dissociation, use formula for dissociation.
+			If Formation, use formula for formation.
+		
+		
+		Heat
+			\Delta H = q
+				@ dP/dt=0
+				q		(J)		Heat
+				H		(J)		Enthalpy
+				P		(Pa)	Pressure
+				t		(s)		time
+			Heat of Fusion:			\Delta H_{fus}	(J/mol OR J/g)
+				@ dT/dt = 0
+				Solid + \Delta H_{fus} --> Liquid
+			Heat of Vaporization:	\Delta H_{vap}	(J/mol OR J/g)
+				@ dT/dt = 0
+				Liquid + \Delta H_{vap} --> Gas
+	Landau Potential (Grand Potential)
+.
+Calorimetry
+	q = mc \Delta T
+		@ Constant Phase
+		q		Heat
+		m		Mass XOR Mols
+		c		Specific Heat XOR Molar heat
+		T		Temperature
+	\Delta H m
+		@ Phase Change
+		H		Enthalpy of Fusion or Vaporization
+		m		Mass XOR Moles
+	Heat capacity
+		Molar heat capacity:	(J / {mol K})
+		Specific heat capacity: c	(J / {g K})
+		Calories 
+			1 calorie = 4.2 J
+			1 Calorie = 1000 calorie
+.
+Laws of Thermodynamics
+	0th: 
+		T_A = T_B \land T_B = T_C \implies T_A = T_C
+		
+	1st: 
+		\Delta E = Q + W
+			E		Internal Energy
+			q		Heat
+			w		Work
+	2nd: 
+		\Delta S \geq q/T
+			S		(J/K)	Entropy
+			q		(J)		Heat Energy
+			T		(K)		Temperature 
+		Reversible:		\Delta S = q/T
+		Irreversible:	\Delta S > q/T
+	3th:
+		
+
+.
+
+Existence Diagram: Shows Non-Equilibrium Existences (including Meta-Stability).
+Phase Diagram: Shows Equilibriums.
+	Axis: Pressure, Temperature, & Composition(s)
+		-->> Pressure:Up::Density:Up
+		Composition \subset Component
+			Concentrations: m% or mol% 
+			>1 components & Solid-Liquid Transitions -->> Pressure Constant
+			
+	Regions: Solid(s), Liquid(l), Gas(g)
+	Phase Boundary / Coexistence Curves
+		
+		Unary:
+			Sublimation: s->g
+			Deposition: g->s
+			Evaporation: l->g
+			Condensation: g->l
+			Melting: s->l
+			Solidification: l->s
+			
+			Triple Point: 3 Phases
+			Super Critical Point: End of liquid Gas distinction
+				Above Temperature and Pressure, super critical fluid
+		Binary: (Isobaric)
+			Complete Solubility vs Partial Solubility
+			Complete Metal Solubility (Hume-Rothery) Rules
+				1:	Atomic Radius: -15% < %diff < +15%
+				2:	Crystal Structures: match
+				3:	Valency: Same
+				4:	Electronegativity: Similar
+			
+			Solidus: s <-> s+l
+			Liquidus: l <-> s+l
+			Partial Solubility Only
+				Eutectic Point: 
+					l -> s_{\alpha} + s_{\beta}
+					(s_{\alpha} + l <-> s_{\beta} + l)
+					Solidus & Liquidus Meet
+				Peritectic Point:
+					l+s_{\alpha}	&	l+s_{\beta}	&	s_{\alpha}+s_{\beta}
+				Invariant Points: Phases_{1} <-> Phases_{2}
+				Miscibility Gap: 2 solid phases
+					Consolute temp: peak
+					Sinclinal or Anticlinal
+		Lever Rule
+			Tie Line: Line across 2phase region at particular temp.
+			% Phase A = % Phase B / %Phases_{T}
+			
+			
+		
+.
+Define Equilibrium:
+	Lowest Energy State
+	Time Independent

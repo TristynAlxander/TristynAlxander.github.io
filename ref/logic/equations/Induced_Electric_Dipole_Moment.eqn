@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Induced Electric Dipole Moment">
+	<LaTeX> \mu_{E,ind} = \alpha E </LaTeX>
+	<Variables>
+		<Var symbol="\mu_{E,ind}"		mathObject="" 				unit="C m, esu-cm, D"	name="Induced Electric Dipole Moment"		measurands=""		dependencies=""/>
+		<Var symbol="\alpha"			mathObject=""		 		unit="m^3, \AA^3"		name="Polarizability"						measurands=""		dependencies=""/>
+		<Var symbol="E"					mathObject="" 				unit="C m^{-2}"			name="Electric Field"						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

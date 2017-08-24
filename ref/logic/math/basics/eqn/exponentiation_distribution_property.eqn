@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Distribution Property of Exponentiation">
+	<LaTeX>
+		( x y )^{z} = x ^{z} y ^{z}									\\
+		\left( \frac{x}{y} \right)^{z} = \frac{x ^{z}}{y ^{z}}		\\
+	</LaTeX>
+	<Variables>
+		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="y"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="z"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

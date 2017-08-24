@@ -1,0 +1,4 @@
+Convergence: $$ \forall \varepsilon > 0 \: \exists N \in \mathbb{N} \\ \land \\ \forall p \geq q \geq N \: \exists \left| \sum_{k = q}^{p} a_k \right| \leq \varepsilon $$
+	Conditionally: $$ \forall \varepsilon > 0 \: \exists N \in \mathbb{N} \land \forall p \geq q \geq N \: \exists \left| \sum_{k = q}^{p} a_k \right| \leq \varepsilon  \\ \land \\ \forall \varepsilon > 0 \: \exists N \in \mathbb{N} \land \forall p \geq q \geq N \: \nexists \left| \sum_{k = q}^{p} |a_k| \right| \leq \varepsilon $$
+	Absolutely: $$ \forall \varepsilon > 0 \: \exists N \in \mathbb{N} \\ \land \\ \forall p \geq q \geq N \: \exists \left| \sum_{k = q}^{p} |a_k| \right| \leq \varepsilon $$ $$ \text{Absolutely Convergent} \implies \text{Convergent} $$
+Divergence: $$ \forall \varepsilon > 0 \: \exists N \in \mathbb{N} \\ \land \\ \forall p \geq q \geq N \: \nexists \left| \sum_{k = q}^{p} a_k \right| \leq \varepsilon $$

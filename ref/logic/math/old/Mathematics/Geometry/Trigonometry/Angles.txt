@@ -1,0 +1,14 @@
+Radial Hypotenuse: $$ r = \sqrt[2]{a^2 + o^2} $$
+Angles: 
+	CoTerminal: $$ \theta_1 - \theta_2 = \mathbb{z} \, 2 \pi $$
+	Line: $$ \theta = \pi $$
+	Obtuse: $$ \frac{2\pi}{4} < \theta < \pi $$
+	Right: $$ \theta = \frac{2\pi}{4} $$
+	Quadrennial: $$ \theta = \mathbb{z} \, \frac{\pi}{2} $$
+	Acute: $$ 0 < \theta < \frac{2\pi}{4} $$
+	RadialAngle: $$ \theta^{(R)} = \theta = \frac{s}{r} $$
+	Cycle: $$ 1 \text{Cycle} = 2\pi $$
+	Degrees: $$ \operatorname{Rad}(360^{\circ}) = 2 \pi ^{(R)} $$
+	Minutes: $$ 1^{\circ} = 60' $$
+	Seconds: $$ 1' = 60'' $$
+	ReferenceAngle: $$ 0 \leq \alpha \leq \frac{\pi}{2} $$ $$ \operatorname{fun}(\theta) = \pm \operatorname{fun}(\alpha) $$

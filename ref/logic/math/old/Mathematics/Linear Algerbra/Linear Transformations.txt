@@ -1,0 +1,18 @@
+Linear Transformations: 
+	Definition:
+		$$ \vec{v}, \vec{u} \in V$$
+		$$r \in \mathbb{R}$$
+		$$ T(r \vec{v}) = r T(\vec{v}) $$
+		$$ T(\vec{v} + \vec{u}) = T(\vec{v}) + T(\vec{u}) $$
+	MatrixForm: $$ T_{A}(\vec{v}) = \textbf{A} \vec{v} $$
+	Projections: 
+		Vectors: $$ \frac{\text{Proj} \vec{v}}{\vec{a}} = P_{\vec{a}} \vec{v} = \left( \frac{\vec{a} \cdot \vec{a}^{T}}{\vec{a}^{T} \cdot \vec{a}}\right) \vec{v} $$
+		VectorSpaces: $$ \frac{\text{Proj} \vec{v}}{\text{span}(\vec{a}_1 , \dots , \vec{a}_n )} = P_{A} \vec{v} = A \, (A^{T} \, A)^{-1} \, A^{T} \vec{v} $$
+		$$ P_{\vec{a}}^{T} =P_{\vec{a}} $$
+		$$ P_{\vec{a}}^{2} = P_{\vec{a}}$$
+		$$ \vec{a} \perp \vec{b} \Rightarrow  P_{\vec{a}} P_{\vec{b}} = 0$$
+		Projections are the bests approximations.
+	Stretching: $$ \begin{bmatrix} x & 0 \\ 0 & 1 \end{bmatrix} $$
+	Rotations: 
+		$$ R_{\theta} = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix} $$
+		$$ R_{\theta} = (\vec{v}_1 , \vec{v}_2) \Rightarrow  || \vec{v}_1 || = || \vec{v}_2 || = 1 \land \vec{v}_{1}^{T} \cdot \vec{v}_{2} = 0 $$

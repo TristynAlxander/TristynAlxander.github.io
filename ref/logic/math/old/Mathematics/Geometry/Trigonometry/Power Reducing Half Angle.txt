@@ -1,0 +1,4 @@
+Power Reducing Half Angle: 
+	Sine: $$ \sin^2(\theta) = \frac{1 - \cos(2 \theta)}{2} $$
+	Cosine: $$ \cos^2(\theta) = \frac{1 + \cos(2 \theta)}{2} $$
+	Tangent: $$ \tan^2(\theta) = \frac{1 - \cos(2 \theta)}{1 + \cos(2 \theta )} $$

@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Range of Trajectory">
+	<LaTeX> r = \frac{v_{0}^{2} \sin(2\theta_0)}{g} </LaTeX>
+	<Variables>
+		<Var 	symbol="r"				mathObject="Scalar"				unit="m"				name="Range"									measurands=""		dependencies=""/>
+		<Var 	symbol="v"				mathObject="Scalar"				unit="m s^{-1}"			name="Velocity"									measurands=""		dependencies=""/>
+		<Var 	symbol="\theta"			mathObject="Scalar"				unit="^{(R)}"			name="angle"									measurands=""		dependencies=""/>
+		<Var 	symbol="g"				mathObject="9.80665"			unit="m s^{-2}"			name="Near-Earth Gravitational Acceleration"	measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Time of Flight">
+	<LaTeX> t = \frac{2 v_{0} \sin(\theta)}{g} </LaTeX>
+	<Variables>
+		<Var 	symbol="t"				mathObject="Scalar"				unit="s"				name="Time of Flight"							measurands=""		dependencies=""/>
+		<Var 	symbol="v"				mathObject="Scalar"				unit="m s^{-1}"			name="Velocity"									measurands=""		dependencies=""/>
+		<Var 	symbol="\theta"			mathObject="Scalar"				unit="^{(R)}"			name="angle"									measurands=""		dependencies=""/>
+		<Var 	symbol="g"				mathObject="9.80665"			unit="m s^{-2}"			name="Near-Earth Gravitational Acceleration"	measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

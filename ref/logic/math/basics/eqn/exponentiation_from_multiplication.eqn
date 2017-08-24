@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Exponentiation from Multiplication">
+	<LaTeX>
+		b^a = \prod_i^a b_i
+	</LaTeX>
+	<Variables>
+		<Var symbol="a"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="b"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="i"			mathObject="" 				unit=""			name="Dummy Counter"		measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

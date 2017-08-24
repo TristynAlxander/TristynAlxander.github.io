@@ -1,0 +1,13 @@
+<Equation version="1.0" name="Decomposition of Reducible Representations">
+	<LaTeX>\Gamma_{reducible} = \sum a_{i} \Gamma_{i,irreducible} \\ a_{i} = h^{-1} \sum_{R} [X_{R}][Y_{R}] C_{R}</LaTeX>
+	<Variables>
+		<Var symbol="[X]"		mathObject="" 				unit=""								name="Character/Trace of Reducible"							measurands=""		dependencies=""/>
+		<Var symbol="[Y]"		mathObject="" 				unit=""								name="Character/Trace of Irreducible"						measurands=""		dependencies=""/>
+		<Var symbol="R"			mathObject=""				unit=""								name="Operation Counter"									measurands=""		dependencies=""/>
+		<Var symbol="C"			mathObject=""				unit=""								name="Degeneracy"											measurands=""		dependencies=""/>
+		<Var symbol="h"			mathObject=""				unit=""								name="Order (Sum of Degeneracies)"							measurands=""		dependencies=""/>
+		<Var symbol="a"			mathObject=""				unit=""								name="Number of times Irreducible appears in Reducible"		measurands=""		dependencies=""/>
+		<Var symbol="i"			mathObject=""				unit=""								name="Irreducible Counter"									measurands=""		dependencies=""/>
+		<Var symbol="\Gamma"	mathObject=""				unit=""								name="Representations"										measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

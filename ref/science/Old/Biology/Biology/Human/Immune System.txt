@@ -1,0 +1,32 @@
+immediate  protective  response
+	No Making Proteins 
+	minutes
+	Signalling by Ca2+ or reactive oxygen species (ROS)
+	
+Innate 
+	always present & Immediate Response (hours)
+	
+	epithelial barriers
+	phagocytic leukocytes
+		macrophages
+			Like sentinels
+			Origin: bone marrow
+			Abundance in risk locations (lungs, gut)
+			
+			phagocytize  cell debris, foreign materials, and pathogens
+			ROS
+				superoxide
+				Hydrogen PerOxide 
+			ID Self vs not
+				pattern recognition receptors (PRRs)
+					toll like receptors (TLRs)
+						Humans have at least 10 TLRs
+						Activation ->  immune signalling cascades -> proinflammatory cytokines
+		neutrophils
+	dendritic cells
+	natural killer (NK) cells, 
+	circulating  plasma  proteins
+	
+Adaptive 
+	Days
+	completely  dependent  on  antigen  presentation

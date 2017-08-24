@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Instantaneous Velocity">
+	<LaTeX> \vec{v} = \frac{d \vec{r}}{d t} </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m/s"				name="Velocity"								measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{r}"		mathObject="Vector"				unit="m"				name="Position, Radius"						measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject=""					unit="s"				name="Time"									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Velocity under Constant Linear Acceleration">
+	<LaTeX> v = v_{0} + a t </LaTeX>
+	<Variables>
+		<Var 	symbol="v"				mathObject="Scalar"				unit="m s^{-1}"			name="Velocity"								measurands=""		dependencies=""/>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject="Scalar"				unit="s"				name="Time"									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

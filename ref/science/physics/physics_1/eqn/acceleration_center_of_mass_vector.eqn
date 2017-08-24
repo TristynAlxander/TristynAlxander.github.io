@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Center of Mass Vector Acceleration">
+	<LaTeX> \vec{a}_{sys} = \frac{\sum m_{i} \vec{a}_{i}}{\sum m_{i}} = \frac{1}{\sum m_{i}} \int \vec{a} dm </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{a}_{sys}"	mathObject="Vector"				unit="m s^{-2}"			name="Center of Mass Acceleration, System's Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{a}"		mathObject="Vector"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="m"				mathObject=""			 		unit="kg"				name="Mass, Inertia"						measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject=""					unit="s"				name="Time"									measurands=""		dependencies=""/>
+		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

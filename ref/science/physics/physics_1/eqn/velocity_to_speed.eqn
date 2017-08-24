@@ -1,0 +1,7 @@
+<Equation version="1.0" name="Velocity to Speed">
+	<LaTeX> s = |\vec{v}| </LaTeX>
+	<Variables>
+		<Var 	symbol="s, v"			mathObject="Scalar"				unit="m/s"				name="Speed"			measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m/s"				name="Velocity"			measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

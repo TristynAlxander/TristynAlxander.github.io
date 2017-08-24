@@ -1,0 +1,54 @@
+In - Out = Remainder
+
+
+
+
+Variables:
+In 
+	In Expected
+	In Extra
+		Take-It-Or-Leave-It-Freebies
+			Take if sufficient storage
+			sufficient storage
+				S_A > S_n
+					S_A		Effective Space Available
+					S_A = S_T - S_t
+						S_T		Effective Space Total
+						S_t		Effective Space Taken
+					S_n		Effective Space New
+
+Out
+	Bills
+		clothing 
+		Grooming supplies
+			Tooth Brushes
+			Tooth Paste
+			Floss
+			
+		Food Costs
+		Student Debt
+		Housing
+		electric
+		internet
+		*?Phone?* - Do I need this? 
+		Taxes
+			State
+			Federal
+			More?
+	Savings
+		Repair Fund
+		Rainy Day Fund
+		Retirement (There's a name for this)
+
+Remainder
+	(Waste: Remainder > 0)
+	(Ideal: Remainder = 0)
+	(Debt: Remainder < 0)
+
+time
+========================================================================================================================================================
+
+
+.
+Buying
+Minimize Price per Effective Unit

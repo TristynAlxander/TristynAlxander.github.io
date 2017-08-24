@@ -1,0 +1,29 @@
+#logoBox{
+	position: absolute;
+	top: 30%;
+	right: 50%;
+	bottom: 0;
+	left:50%;
+	transform: translateX(-50%);
+	}
+#logoBox a{
+	color:#888888;
+	}
+#logoBox img{width: 10em;height:10em;margin-right:1em;}
+#logoBox #Title{
+		font-size:3em;font-weight:bold;
+		text-align:center;vertical-align:bottom; 
+		height:1.5em;}
+#logoBox #search{
+		font-size:0.8em;
+		vertical-align:top;
+		}
+#logoBox #search input{font-size:1.3em; font-family:"Courier New", Courier, monospace;
+		padding:0.25em;padding-left:0.5em;
+		margin-bottom: 0.1em;
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		}
+body#PoI{
+	background-color:#fbfbfb;
+	}

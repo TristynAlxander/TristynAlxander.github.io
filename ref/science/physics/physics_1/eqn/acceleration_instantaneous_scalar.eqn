@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Instantaneous Scalar Acceleration">
+	<LaTeX> a \equiv \frac{d v}{dt} \equiv \frac{d^{2} r}{dt^{2}} </LaTeX>
+	<Variables>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="v, s"			mathObject="Scalar"				unit="m/s"				name="Speed"								measurands=""		dependencies=""/>
+		<Var 	symbol="r, x, \ell"		mathObject="Scalar"				unit="m"				name="Distance, Length"						measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject=""					unit="s"				name="Time"									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

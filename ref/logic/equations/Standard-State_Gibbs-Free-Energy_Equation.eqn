@@ -1,0 +1,11 @@
+
+
+<Equation version="1.0" name="Standard-State Gibbs-Free-Energy Equation">
+	<LaTeX>\Delta G^o = - RT \ln(K_{eq})</LaTeX>
+	<Variables>
+		<Var symbol="\Delta G^o"	mathObject="" 				unit=""						name="Standard-State Gibbs Free Energy"		measurands=""		dependencies=""/>
+		<Var symbol="R"				mathObject="8.3144598(48)"	unit="J K^{−1} mol^{−1}"	name="Ideal Gas Constant"					measurands=""		dependencies=""/>
+		<Var symbol="T"				mathObject=""				unit="K"					name="Temperature"							measurands=""		dependencies=""/>
+		<Var symbol="K_{eq}"		mathObject=""				unit=""						name="Equilibrium Reaction Quotient"		measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

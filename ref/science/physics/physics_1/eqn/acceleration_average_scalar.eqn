@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Average Scalar Acceleration">
+	<LaTeX> \langle a \rangle = \frac{\Delta v}{\Delta t} </LaTeX>
+	<Variables>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="v, s"			mathObject="Scalar"				unit="m/s"				name="Speed"								measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject=""					unit="s"				name="Time"									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

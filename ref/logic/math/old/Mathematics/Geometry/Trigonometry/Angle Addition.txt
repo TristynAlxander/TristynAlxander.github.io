@@ -1,0 +1,4 @@
+Angle Addition: 
+	Sine: $$ \sin(\alpha \pm \beta) = \sin( \alpha ) \cos( \beta ) \pm \cos( \alpha ) \sin( \beta ) $$
+	Cosine: $$ \cos(\alpha \pm \beta) = \cos( \alpha ) \cos( \beta ) \mp \sin( \alpha ) $$
+	Tangent: $$ \tan(\alpha \pm \beta) = \frac{ \tan( \alpha) \pm \tan( \beta)}{1 \mp \tan( \alpha) \tan( \beta)} $$

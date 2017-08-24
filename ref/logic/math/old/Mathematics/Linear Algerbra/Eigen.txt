@@ -1,0 +1,44 @@
+Eigen: 
+	$$ \exists A^{-1} \leftrightarrow |A| \neq 0 \leftrightarrow N(A) = 0 \leftrightarrow r(A) = n $$
+	$$ \nexists A^{-1} \leftrightarrow |A| = 0 \leftrightarrow N(A) \neq 0 \leftrightarrow r(A) < n $$
+
+	$$ \lnot\exists (A - \lambda I)^{-1} \leftrightarrow |A - \lambda I| = 0 \leftrightarrow N(A - \lambda I) \neq 0 \leftrightarrow r(A - \lambda I) < n $$
+	Eigen-value: $$\lambda \in \mathbb{C}$$
+		Use: |A - \lambda I| = 0
+	
+	Eigen-space: $$N(A - \lambda_{i} I) = E_{\lambda}$$
+		EigenVector: $$\vec{v} \in N(A - \lambda_{i} I)$$
+			$$A \vec{v} \in N(A - \lambda_{i} I)$$
+			$$AB = BA \implies B \vec{v} \in N(A - \lambda_{i} I)$$
+			
+		$$ A \vec{x} = \lambda_x \vec{x} $$
+		$$ A^{k} \vec{x} = \lambda_{x}^{k} \vec{x} $$
+		$$ A^{-1} \vec{x} = \frac{1}{\lambda_x} \vec{x} $$
+		$$ P(A) \vec{x} = p(\lambda_x) \vec{x} $$
+
+	Characteristic Polynomial: $$|A_{n \times n} -\lambda I| = (-1)^{n} \lambda^{n} + \sum_{0}^{n-1} c_{i} \lambda^{i}$$
+
+	Trace: $$\sum_{1}^{n} \lambda_{i} = \sum_{1}^{n} a_{i,i}$$
+
+	Determinants: $$ |A| = \prod_{1}^{n} \lambda_{i} $$
+
+	Diagonals: 
+		$$\vec{v}_{i} \in N(A - \lambda_{i} I)$$
+		$$ v_{1} , ... , v_{n} \in \{ L.I. \} $$
+		$$ S = ( v_{1} , ... , v_{n} )  $$
+		$$ D = \begin{bmatrix} \lambda_{1} & 0 & ... \\ 0 & \ddots & ...\\ \vdots & \vdots & \lambda_{n} \end{bmatrix} $$
+		
+		$$ S^{-1} A S = D  $$
+		$$ S^{-1} A^{k} S = D^{k}  $$
+		$$ AB = BA \leftrightarrow S_{A} = S_{B}
+		
+	Similar: $$ A Similar B \leftrightarrow \exists M \implies M^{-1} A M = B  \leftrightarrow A ~ B $$
+		Eigen Values: $$ \forall \lambda_{B,i} \exist \lambda_{A,i} | \lambda_{B,i} =\lambda_{A,i}  $$
+		Eigen Values: $$ A \vec{x} = \lambda \vec{x} \leftrightarrow M B M^{-1} \vec{x} = \lambda \vec{x} \leftrightarrow B M^{-1} \vec{x} = \lambda M^{-1} \vec{x} $$
+		$$ \exists (A - \lambda I)^{-1} \leftrightarrow \exists (B - \lambda I)^{-1} $$ 
+	
+	Normal: N^{H} N = N N^{H}
+	
+	Jordan Blocks: 
+	
+	Projections: $$ \lambda = 1 \lor 0 $$

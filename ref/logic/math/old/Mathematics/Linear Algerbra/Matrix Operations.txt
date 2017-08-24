@@ -1,0 +1,160 @@
+Matrix Operations: 
+	Multiplication: 
+		$$ A \, B = (a_{i,j})_{m \times n}  \cdot  (b_{k,\ell})_{n \times p} = (a_{i,n} \cdot b_{n,\ell})_{m \times p} $$
+		$$ B \, A = (b_{i,j})_{n \times m}  \cdot  (a_{k,\ell})_{m \times n} =(b_{i,m} \cdot a_{m,\ell})_{n \times n} $$
+		Association: $$ A(BC) = (AB)C $$
+		Distribution: $$ A(B+C) = AB+AC $$
+		NonCommutative: $$ A B \not\equiv B A $$
+
+	Inverse: 
+		$$A^{-1} \exists  \leftrightarrow |A| \neq 0$$
+		$$A^{-1} \exists  \Rightarrow  A^{-1} = \frac{C^{T}}{|A|}$$
+		
+		Gaussian Jordan Method: 
+			$$
+			\begin{matrix}
+			a_{1,1} & \dots & a_{1,n} & \mid & 1 & \dots & 0\\ 
+			\vdots & \ddots & \vdots & \mid & \vdots & \ddots & \vdots \\
+			a_{m,1} & \dots & a_{n,m} & \mid & 0 & \dots & 1
+			\end{matrix}
+			\\ \to \\
+			\begin{matrix}
+			1 & \dots & 0 & \mid & b_{1,1} & \dots & b_{1,n} \\ 
+			\vdots & \ddots & \vdots & \mid & \vdots & \ddots & \vdots \\
+			0 & \dots & 1 & \mid & b_{m,1} & \dots & b_{n,m}
+			\end{matrix}
+			$$
+		
+		Cancelling: 
+			$$ A^{-1} \, A = I $$
+			$$ A \, A^{-1} = I $$
+
+		Invertible: $$ A \exists \land A^{-1} \exists $$
+			$$A \in \text{Invertible} \land B \in \text{Invertible} \Rightarrow  A B \in \text{Invertible}$$
+			$$\text{Invertible} \Rightarrow  \text{pivot} \neq 0$$
+		
+		Communal Inverses
+			$$ AB = BA \Rightarrow  A^{-1} B = B A^{-1} $$
+
+		Left: $$n \leq m \leftrightarrow \exists A^{-1} \mid A^{-1} A = I$$
+		Right: $$n \geq m \leftrightarrow \exists A^{-1} \mid A A^{-1} = I$$
+		
+		(AB)^{-1} = A^{-1} B^{-1}
+		
+		
+	Transpose: 
+		$$ A^{T} $$ 
+		$$(a_{i,j})_{m \times n} :=: (a_{j,i})_{n \times m} $$
+		$$ A^{T \, T} = A $$
+		$$ (A+B)^{T} = A^{T} + B^{T} $$
+		$$ (rA)^{T} = r(A^{T})$$
+		$$(AB)^{T} = B^{T} A^{T}$$
+		$$ (A^{T})^{-1} = (A^{-1})^{T} $$
+
+	Determinants: 
+		$$ a_{n \times m} \land n=m \Rightarrow  \exists |A| $$
+		
+		Diagonal: 
+			$$ |A| = |\text{ref}(A)| = (-1)^{p_{1}} \prod_{1}^{n} a_{ref,i,i} $$
+			$$ T_{n \times n} \in \{ \text{Triangular} \} \Rightarrow  |T| = \prod_{1}^{n} t_{i,i}$$
+
+		BigFormula: 
+		RowExpansion: 
+			$$ |A| = \sum_{j}^{n} a_{i,j} c_{i,j} $$ 
+			Cofactor: 
+				$$c_{i,j} = (-1)^{i+j} |M_{i,j}|$$
+				Cofactor Matrix: $$C = (c_{i,j})_{m \times n}$$
+				Minor: 
+					$$
+					A = 
+					\begin{bmatrix}
+					a_{1,1} & \dots & a_{1,j-1} & a_{1,j} & a_{1,j+1} & \dots & a_{1,n} \\
+					\dots & \dots & \dots & \dots & \dots & \dots & \dots \\
+					a_{i-1,1} & \dots & a_{i-1,j-1} & a_{i-1,j} & a_{i-1,j+1} & \dots & a_{i-1,n} \\
+					a_{i,1} & \dots & a_{i,j-1} & a_{i,j} & a_{i,j+1} & \dots & a_{i,n} \\
+					a_{i+1,1} & \dots & a_{i+1,j-1} & a_{i+1,j} & a_{i+1,j+1} & \dots & a_{i+1,n} \\
+					\dots & \dots & \dots & \dots & \dots & \dots & \dots \\
+					a_{n,1} & \dots & a_{n,j-1} & a_{n,j} & a_{n,j+1} & \dots & a_{n,n} \\
+					\end{bmatrix}
+					\Rightarrow 
+					M_{i,j} =
+					\begin{bmatrix}
+					a_{1,1} & \dots & a_{1,j-1} & a_{1,j+1} & \dots & a_{1,n} \\
+					\dots & \dots & \dots & \dots & \dots & \dots \\
+					a_{i-1,1} & \dots & a_{i-1,j-1} & a_{i-1,j+1} & \dots & a_{i-1,n} \\
+					a_{i+1,1} & \dots & a_{i+1,j-1} & a_{i+1,j+1} & \dots & a_{i+1,n} \\
+					\dots & \dots & \dots & \dots & \dots & \dots \\
+					a_{n,1} & \dots & a_{n,j-1} & a_{n,j+1} & \dots & a_{n,n} \\
+					\end{bmatrix}
+					$$
+
+		Properties: 
+			$$|A \, B| = |A| \, |B| = |B| \, |A| = |B \, A|$$
+			$$|A \pm B| \not\equiv |A| \pm |B| $$
+			$$ |A| = |A^{T}| $$
+			$$ |A^{-1}| = \frac{1}{|A|} $$
+			
+			$$ r_i = r_j \Rightarrow  |A| = 0 $$
+			$$ r_i = \vec{0} \Rightarrow  |A| = 0 $$
+		
+		Scalars: $$ |k \, A_{n \times n} | = k^{n} |A| $$
+		
+		$$ |I| = 1 $$
+		Permutations: 
+			$$ |P_{1}| = -1 $$
+			$$ |P|= \pm 1 $$
+		
+		singular: $$ |A| = 0 $$
+		nonsingular: $$ |A| \neq 0 $$
+		
+		Row Linearity: 
+			Addition: 
+				$$
+				\begin{vmatrix}
+				a_{1,1}  & a_{1,2} & \dots  & a_{1,n}  \\
+				a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{i,1} + b_{i,1} & a_{i,2} + b_{i,2} & \dots + \dots & a_{i,n} + b_{i,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{n,1} & a_{n,2} & \dots & a_{n,n} \\
+				\end{vmatrix}
+				=
+				\begin{vmatrix}
+				a_{1,1}  & a_{1,2} & \dots  & a_{1,n}  \\
+				a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{i,1} & a_{i,2} & \dots & a_{i,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{n,1} & a_{n,2} & \dots & a_{n,n} \\
+				\end{vmatrix}
+				+
+				\begin{vmatrix}
+				a_{1,1}  & a_{1,2} & \dots  & a_{1,n}  \\
+				a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				b_{i,1} & b_{i,2} & \dots &  b_{i,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{n,1} & a_{n,2} & \dots & a_{n,n} \\
+				\end{vmatrix}
+				$$
+			Multiplication: 
+				$$
+				\begin{vmatrix}
+				a_{1,1}  & a_{1,2} & \dots  & a_{1,n}  \\
+				a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				k \, a_{i,1} & k \, a_{i,2} & \dots & k \, a_{i,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{n,1} & a_{n,2} & \dots & a_{n,n} \\
+				\end{vmatrix}
+				=
+				k
+				\begin{vmatrix}
+				a_{1,1}  & a_{1,2} & \dots  & a_{1,n}  \\
+				a_{2,1} & a_{2,2} & \dots & a_{2,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{i,1} & a_{i,2} & \dots & a_{i,n} \\
+				\vdots & \vdots & \ddots & \vdots \\
+				a_{n,1} & a_{n,2} & \dots & a_{n,n} \\
+				\end{vmatrix}
+				$$

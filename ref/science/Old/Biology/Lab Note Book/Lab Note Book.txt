@@ -1,0 +1,84 @@
+Sub-culturing cells
+	Aspirate Used Media
+		Vacuum Pump
+		Note: Pumped Media Flask
+			Should be less than half full
+			Bleach in bottom
+	Wash Cells
+		Phosphate buffered saline (PBS) (No calcium & magnesium, cuz it would disable trypsin)  
+		(removes trace calcium, magnesium, and serum)
+		Flow over it. (Rinse, Up-Down?)
+		Aspirate PBS
+	Lift Cells
+		Trypsin
+		Re-incubate (3min)
+			(because trypsin needs correct temp to operate)
+		Check adherence under microscope
+			Bump Container if needed
+		Media (2*[Trypsin])
+			deactivated trypsin
+			In-out to rinse
+		
+	Transfer entire into conical tube
+		Vibrate
+		
+	Simple Passage
+		Refill Media 
+		1:6 Dilution
+		
+	Label Label Label
+		-----
+		Count
+			dilution factor = 19[Trypan Blue]:1[media]	(uL)
+			Finger Vortex (Flick) tube to mix up media
+			?mix?
+			
+			micro L or mL ? 
+			
+			Don't Count Blue
+			Top: 	4x4 *4
+			Bottom:	4x4 *4
+			If close, Average
+			
+			Average / 4 * dilution factor  *10^4
+			
+			#want / #have * 1000 *TotalWant = Media amount
+			#Plate * #Wells = Total Wells
+			
+			Always make for slightly more than need
+			
+			
+		-----
+
+=========================================================================================================================
+Hemacytometer CAT#0267110
+	1mm
+	
+	(1e-6)m
+	
+	\sum_1^4 C/q = C*4/q		Cells per 4 quadrant areas
+	
+	
+	A/4 = q
+	C / A_{T}
+	
+	
+	C/q
+	
+	C/4q
+	
+	 = C/4A		Cells per 
+	
+	C/A1		Cells per Area A
+	
+	
+	
+	C/n		Average cells in quadrant of size A
+	C		Average cells in n quadrants of size A
+	
+
+
+
+=========================================================================================================================
+Always turn off microscope when done 
+Make sure centrifuge is balanced 

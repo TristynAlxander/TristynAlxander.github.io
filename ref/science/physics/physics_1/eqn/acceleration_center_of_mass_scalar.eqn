@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Center of Mass Scalar Acceleration">
+	<LaTeX> a_{sys} = \frac{\sum m_{i} a_{i}}{\sum m_{i}} = \frac{1}{\sum m_{i}} \int a dm </LaTeX>
+	<Variables>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Center of Mass Acceleration, System's Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="a"				mathObject="Scalar"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="m"				mathObject=""			 		unit="kg"				name="Mass, Inertia"						measurands=""		dependencies=""/>
+		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
+	</Variables>
+</Equation>

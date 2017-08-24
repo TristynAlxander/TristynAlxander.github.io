@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Instantaneous Vector Acceleration">
+	<LaTeX> \vec{a} = \frac{d \vec{v}}{dt} = \frac{d^{2} \vec{r}}{dt^{2}} </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{a}"		mathObject="Vector"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m/s"				name="Velocity"								measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{r}"		mathObject="Vector"				unit="m"				name="Position, Radius"						measurands=""		dependencies=""/>
+		<Var 	symbol="t"				mathObject=""					unit="s"				name="Time"									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

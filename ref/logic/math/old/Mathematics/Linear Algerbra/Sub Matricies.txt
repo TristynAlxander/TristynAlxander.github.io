@@ -1,0 +1,5 @@
+Sub Matricies:
+	$$ A,B,C,D \in \{M_{n \times n}\} \implies \begin{bmatrix} A & B \\ C & D \end{bmatrix}_{2n \times 2n} $$
+	$$ \begin{vmatrix} A & B \\ C & D \end{vmatrix} \not\equiv  |A| |D|-|C| |B| $$
+	$$ \exists A^{-1} \implies \begin{vmatrix} A & B \\ C & D \end{vmatrix}_{2n \times 2n} = |A| \, |D-B \, A^{-1} C| $$
+	$$ AC = CA \implies \begin{vmatrix} A & B \\ C & D \end{vmatrix} =  |AD-CB| $$

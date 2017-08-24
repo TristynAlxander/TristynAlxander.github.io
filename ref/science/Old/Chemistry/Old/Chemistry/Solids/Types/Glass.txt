@@ -1,0 +1,51 @@
+Glasses
+	(Usually) Inorganic Oxides
+	Some Metallic Glass Now
+	Properties: hard, transparent, fairly strong, corrosion-resistant
+	Silicate Glasses:
+		SiO_{2}
+		Slow Nucleation
+	
+	Supercooled
+		Made via Rapid Cooling
+		structures depends on cooling rate
+		amorphous: lack of long range order
+		
+		Is Solid. Can Be Thought of Viscus Liquid.
+		liquid ->solid (without crystal formation)
+		Doesn't Melt. Softens. No Sharp melting point.
+	
+	Glass Transition Temperature: T_{g}
+		Graph Specific Volume (m^{3}kg^{-1}) vs. Temperature (K)
+		Find Intersect
+		Depends on Cooling Rate
+	
+	Random Network Model
+		Network Formers: Small Cations (adopt a particular shape)
+		Network Modifiers: large Cations (disrupt shapes)
+		Intermediates
+	
+	
+	
+	
+	\eta = \eta_{0} e^{E/RT}
+		\eta viscosity
+	
+	
+	Vogel–Fulcher–Tamman equation
+	\eta = A e^{B/(T-T_{0})}
+	
+	
+	non-Arrhenian: Fragile
+	Arrhenian: Strong
+	
+	Strengthening: Use Ion Size to change compression/tension
+		strong in compression
+		weak in tension
+		Tensile vs Plane (Seem to always be opposite)
+	
+.
+	spinodal decomposition
+	Not (Usually) thermodynamically stable (will eventually crystalize)
+
+	

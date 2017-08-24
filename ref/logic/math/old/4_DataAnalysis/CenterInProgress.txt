@@ -1,0 +1,32 @@
+Measures of Central Tendency
+\begin{itemize} \item[] \begin{itemize}
+	\item[] (Arithmetic) Mean (or Average):
+	\begin{itemize} \item[] \begin{itemize}
+	  \item[] Simple: \( \langle i \rangle   = \sum i P_i   = \sum \frac{i N_i}      {N_T} = \frac{\sum i N_i}     {\sum N_i}     \)
+	  \item[] Number: \( \langle X \rangle_n = \sum X_i P_i = \sum \frac{X_i N_i}    {N_T} = \frac{\sum N_i X_i}   {\sum N_i}     \)
+	  \item[] Weight: \( \langle X \rangle_w = \sum X_i P_i = \sum \frac{X_i N_i W_i}{W_T} = \frac{\sum N_i X_i^2} {\sum N_i X_i} \)
+	\end{itemize} \end{itemize}
+	\item[] Median: Center (or average of centers) of ordered data.
+	\item[] Mode: Highest Frequency Value
+\end{itemize} \end{itemize}
+
+Measures of Position
+\begin{itemize} \item[] \begin{itemize}
+	\item[] Quartiles:
+	\begin{itemize} \item[] \begin{itemize}
+		\item[] First-Quartile: Lesser-Median (Median of lower half)
+		\item[] Second-Quartile: Median
+		\item[] Third-Quartile: Greater-Median (Median of greater half)
+	\end{itemize} \end{itemize}
+	\item[] Percentiles
+\end{itemize} \end{itemize}
+
+Measures of Dispersion
+\begin{itemize} \item[] \begin{itemize}
+	\item[] Range: Greatest - Least
+	\item[] Interquartile-Range: Third-Quartile - First-Quartile
+	\item[] Polydispersity: \( D = \langle X \rangle_w / \langle X \rangle_n \)
+	\item[] (Population) Standard Deviation: \( \sigma = \sqrt{\overline{(n-\bar{n})^{2}}} \)
+	\item[] sample standard deviation
+	\item[] standardization: \( n_{i,s} = \frac{n_i - \bar{n}}{\sigma} \)
+\end{itemize} \end{itemize}

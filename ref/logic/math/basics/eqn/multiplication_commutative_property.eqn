@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Commutative Property of Scalar Multiplication">
+	<LaTeX>
+		x y = y x
+	</LaTeX>
+	<Variables>
+		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="y"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

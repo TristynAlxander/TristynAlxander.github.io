@@ -1,0 +1,10 @@
+Latin		English
+------------------------
+Allo		Other
+Iso			Same
+Trope		Figure
+de novo		from nothing
+vivo		living
+vitro		glass
+ex			outside of
+in			in/the/to

@@ -1,0 +1,15 @@
+Cytosol
+	Reactive Oxygen Species
+		Normal @ some Concentrations
+		signalling events
+			Oxidation of sulfhydryl containing proteins
+			activation/deactivation  of  posttranslational  modification  proteins
+		Danger: irreversible oxidation of sulfhydryl containing proteins
+			R-S-S-R -> R-S^{-} -> R-SOH
+			R-SOH -> R-S-S-R
+			R-SOH <-> R-S O_{2} H
+			Danger: R-S O_{2} H -> R-S O_{3} H
+			
+	posttranslational  modification  proteins
+		phosphatases
+		kinases

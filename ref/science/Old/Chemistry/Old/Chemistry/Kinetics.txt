@@ -1,0 +1,143 @@
+Analysis Methods
+
+[math0](equations/Differential_Rate_Law.eqn)
+	Reaction Rates
+		R = \frac{-1}{a} \frac{d[A]}{dt}= \frac{-1}{b} \frac{d[B]}{dt}= \frac{1}{c} \frac{d[C]}{dt}= \frac{1}{d} \frac{d[D]}{dt}
+		Assumes: a A + b B \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} c C + d D
+	Differential Rate Law Examples
+		Example 1:
+			Given:							\[  A + B \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} X + Y  \]
+			By Differential Rate Law:		\[ \frac{d[X]}{dt} = - k_{-1}[X]^{n}[Y]^{m}  + k_{1}[A]^{\ell}[B]^{p} \]
+			Done.
+		Example 2:
+			Given:							\[  a A + b B + c C + ... \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} x X + y Y + z Z + ...  \underset{k_{-2}}{\overset{k_{2}}{\rightleftharpoons}} f F  + g G + h H + ...  \]
+			By Differential Rate Law:		\[ \frac{d[X]}{dt} = -(k_{2}[X]^{n_{1}}[Y]^{n_{2}}[Z]^{n_{3}}[...]^{n_{...}} + k_{-1}[X]^{m_{1}}[Y]^{m_{2}}[Z]^{m_{3}}[...]^{m_{...}})  + (k_{1}[A]^{\ell_{1}}[B]^{\ell_{2}}[C]^{\ell_{3}}[...]^{\ell_{...}} + k_{-2}[G]^{p_{1}}[F]^{p_{2}}[H]^{p_{3}}[...]^{p_{...}}) \]
+			Done.
+	Fast & Slow Reactions (Parallel Reactions)
+		\[ \underset{\text{Fast Reaction}}{\left( k_{1} \prod [Y_{i}]^{n_{i}} \right)}   >>  \underset{\text{Slow Reaction}}{\left( k_{2} \prod [X_{j}]^{m_{j}} \right)}   \approx 0 \]
+		Example 1: 
+			Given:								\[ A + B \rightleftharpoons X + Y \]
+			Assume Fast Forward, Slow Reverse:	\[ A + B \rightarrow X + Y \]
+			By Differential Rate Law:			\[ \frac{d[X]}{dt} = k [A]^{n}[B]^{m} \]
+		Example 2:
+			Given:								\[ A + B   \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} X + Y \underset{k_{-2}}{\overset{k_{2}}{\rightleftharpoons}} F + G \]
+			Assume Fast Forward, Slow Reverse:	\[ A + B   \overset{k_{1}}{\rightarrow }                          X + Y \overset{k_{2}}{\rightarrow } F + G \]
+			By Differential Rate Law:			\[ \frac{d[X]}{dt} = k_{1} [A]^{n}[B]^{m} - k_{2} [X]^{\ell}[Y]^{p} \]
+	Series Reactions
+		Rate Limiting Steps
+			\[ \underset{\text{Fast Reaction}}{\left( k_{1} \prod [Y_{i}]^{n_{i}} \right)}   >>  \underset{\text{Slow Reaction}}{\left( k_{2} \prod [X_{j}]^{m_{j}} \right)} \approx R_{T} \]
+			Example 1:
+				Given:											\[ A + B   \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} X + Y \underset{k_{-2}}{\overset{k_{2}}{\rightleftharpoons}} F + G \]
+				Given: Slow First Step. Fast Second Step.		\[ A + B \overset{k_{1}}{\rightarrow} X + Y \underset{k_{-2}}{\overset{k_{2}}{\rightleftharpoons}} F + G \]
+				By Differential Rate Law:						\[ R_{T} = -k_{1} [A]^{n}[B]^{m} \]
+			Counter- Example: 
+				Given:											\[ A + B   \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} X + Y \underset{k_{-2}}{\overset{k_{2}}{\rightleftharpoons}} F + G \]
+				Given: Fast First Step. Slow Second Step.		\[ A + B \underset{k_{-1}}{\overset{k_{1}}{\rightleftharpoons}} X + Y \overset{k_{2}}{\rightarrow} F + G \]
+				By Differential Rate Law at Equilibrium:		\[ R_{1} = k_{1}[A]^{p}[B]^{q} = k_{-1}[X]^{\ell}[Y]^{h} = R_{-1} \]
+				Assume Mechanism Steps:							\[ R_{1} = k_{1}[A][B] = k_{-1}[X][Y] = R_{-1}		\]
+				By Differential Rate Law for Total Reaction:	\[ R_{T} = \frac{d[F]}{dt} = k_{2}[X]^{n}[Y]^{m}	\]
+				Assume Mechanism Step:							\[ R_{T} = \frac{d[F]}{dt} = k_{2}[X][Y]			\]
+				Substitution: 									\[ R_{T} = k_{2}\frac{k_{1}}{k_{-1}}[A][B]			\]
+		Steady State Approximation
+			Assume Intermediates are constant with time.
+	Method of Initial Rates
+	Determining *Order of Reactant*:
+		Vary only the reactant of interest (or reactants of known orders).
+		Measure Rate.
+		Divide the two *Differential Rate Law* equations.
+			Notice the *Rate Constants* cancel (or are solvable).
+			Notice reactants not of interest cancel.
+	Integrated Rate Laws
+		Reorganize *Differential Rate Law*
+			Separable Differential Equation
+			If multiple reactants, 
+				Approximate: Non-differential reactants to Constant wrt time. 
+				Usually requires substantial differences in initial concentration.
+		Integrate 
+			From initial conditions. To final conditions.
+			Left Side: Integrate wrt Reactant
+			Right Side: Integrate (a constant) wrt time.
+	Determining the *Rate Constants*
+		Linear Plot: Function of the reactant (y-axis) verses time (x-axis).
+			Reorganize Integrated Rate Law to Slope Intercept Form
+			*Rate Constant* is the Slope.
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+
+
+
+
+
+.
+Arrhenius Equation
+$$ k = A e^{-E_a / RT} $$
+	k				(*)				Rate Constant
+	A				(Hz)			frequency factor				(Empirically Determined)
+	e								Mathematical Constant
+	E_a				(J)				Activation Energy
+	R = 8.3144621	(J/{mol K})		Gas Constant
+	T				(K)				Temperature 
+.
+Catalysed
+	Lowers Activation Energy
+	Not Destroyed
+	Alters Kinetics
+	Enzyme: Catalyst + Biological
+.
+Equilibria
+	At Equilibrium
+		
+		r_{forward} = r_{reverse}
+	Rate Law
+	r = -d[X_{i}]/dt = k \prod_{i=0}^{n} [X_{i}]^{x_{i}}
+		r	()			rate
+		k	(???)		constant
+		[X]				concentrations of rate-determining compounds
+		x				
+		Note: Rate may be determined by intermediates.
+		
+	At Equilibrium
+		k_r \prod [X]^x = k_f \prod [Y]^y
+			k		Constants (Forward & Reverse)
+			X		Products
+			Y		Reactants 
+			x		Products' Stoichiometric Coefficients
+			y		Reactants' Stoichiometric Coefficients
+			Don't Include Pure Liquids(\ell) or Pure Solids(s)
+	[math](Equilibrium_Reaction_Quotient.eqn)
+		Acid Dissociation Constant:	K_a = \frac{[H^{+}] [A^{-}]}{[HA]}
+		Auto Ionization of Water: K_w = [H^{+}][HO^{-}] = 10^{-14}
+		Don't Include Pure Liquids(\ell) or Pure Solids(s)
+	ICE Table
+					Reactants			Products
+		Initial		
+		Change		
+		Equilibrium	
+	Le Chatelier's Principle
+		More of Right/Left	-->	Shift Left/Right
+		Gases:		Least Space = Least Atoms
+		(Complex) Common-Ion Effect (Same, but Ions)
+.
+Reaction Mechanisms
+.
+S_{N}1 Reactions
+	S_{N}1: Substitution Nucleophilic Mono-molecular
+	Dissociative
+	Intermediate
+	Rate: Increasing with replacements
+S_{N}2 Reactions
+	S_{N}2: Substitution Nucleophilic bi-molecular
+	Associative
+	Transition-States
+	Rate: Decreasing with replacements
+	Steric Hindrance

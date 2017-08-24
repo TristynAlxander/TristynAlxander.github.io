@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Relative Velocity">
+	<LaTeX> \vec{v}_{i \to k} = \vec{v}_{i \to j} + \vec{v}_{j \to k} </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m/s"				name="Velocity"								measurands=""		dependencies=""/>
+		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
+		<Var 	symbol="j"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
+		<Var 	symbol="k"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
+	</Variables>
+</Equation>

@@ -1,0 +1,4 @@
+mineral name
+	often structure based
+	Less compound based
+.

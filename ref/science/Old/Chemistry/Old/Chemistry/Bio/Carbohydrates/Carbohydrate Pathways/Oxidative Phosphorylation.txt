@@ -1,0 +1,157 @@
+
+Respiration: NADH & FADH2 --> ATP
+
+Electron Transport Chain
+
+Chemiosmotic Theory
+	ADP + Pi --> ATP
+	Energy from H+ gradient flow
+	Across membranes
+		Bacteria: Plasma 
+		Chloroplasts: Thylakoid 
+		Mitochondria: Cristae 
+	Coupled to against-the-flow electron flow & phosphorylation
+.
+Structural Strategies
+	Increase surface area via folding
+	Double membranes
+.
+
+
+I: NADH Dehydrogenase 
+	NADH --> NAD
+	2e to Uniquinone
+	Co-enzyme Q 2H 
+	4H per NADH
+	
+	If inhibited
+		Build up oh NADH
+		Lack of NAD+
+			Anaerobic Glycolysis 
+		Less ATP
+		
+	
+II: FADH2 (succinate) Dehydrogenase
+	FADH2 --> FAD
+	2e to Uniquinone
+	
+	If inhibited
+		Build up of FADH2
+		Lack of FAD
+		Less ATP
+	
+Quinone:
+	Only non-protein
+	Quinone			Oxidized
+	semiQuinone		Radical
+	Quinol			With H
+	Uniquinone
+	ROS: O2*
+
+III: Cytocrome bc1
+	if inhibited
+		Q is reduce
+		NADH & FADH2 build up
+		NAD and FAD lack
+			Anaerobic Glycolysis 
+		no ATP
+	
+IV: Cytocrome oxidase 
+	if inhibited
+		Q is reduce
+		NADH & FADH2 build up
+		NAD and FAD lack
+			Anaerobic Glycolysis 
+		no ATP
+	
+	
+V: ATP Synthase 
+	central shaft gamma
+	conformational changes in alphas and betas
+	With e's
+	ADP + P --> ATP
+	Couples H+ to ATP
+	totally reversible
+	Mass Action Ratio: [ATP]/([ADP][Pi])
+
+	if inhibited
+		No ATP 
+		H still pumped out
+		H not pumped back in
+		electron transport chain eventually stops
+		
+	
+Uncoupled
+	electrons flow
+		oxygen consumed
+	protons don't
+	No ATP
+	More Heat
+
+	
+Important cofactos
+Heme
+FiS
+
+
+
+Proton Mode of Force
+	electrochemical proton gradient 
+	Actively Transports H
+	passes electrons to Q
+	takes 2H & electrons transports across 
+	
+	DG = RT ln(C2 / C1) + ZF D Psi = 2.3 RT DpH + F D psi
+	DG'o=-nƒDE'o
+	
+	
+	Ex
+	f= 2.3*8.31*300*.25 + 96.485e3 *.05 = 6257.725
+	i= 2.3*8.31*300*.75 + 96.485e3 *.15 = 18773.175
+	
+	6257.725-18773.175
+
+Interference
+	Electron Transport
+		Inhibit Cytochrome oxidase 
+			Cyanide
+			Carbon monoxide
+		e cytochrome b --> e Q
+			Antimycin A
+		e Fe-5 to e Q
+			Myxothiazel
+			Rotenone
+			Amytal
+			Piericidin A
+		Competes with Q
+			DCMU
+	ATP Synthase
+		Inhibits F1
+			Aurovertin
+		Inhibits F0 and CF0
+			Oligomycin
+			Venturicide
+		Blocks F0 FC0 flow
+			DCCD
+		
+	Uncoupling of Phosphorylation
+		Hydrophobic proton carriers
+			FCCP
+			DNP
+		K+Ionophore
+			Vallnomycin
+		Thermogenin
+			Brown adipose tissue
+			proton conducting poors
+	ATP-ADP exchange
+		Atractloside
+			inhibits nucleotide translocase
+.
+
+
+
+
+
+
+
+

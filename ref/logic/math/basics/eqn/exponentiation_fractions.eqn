@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Fractions in Exponentiation">
+	<LaTeX>
+		(y \neq 0)  \Rightarrow (x ^{\frac{1}{y}} = \sqrt[y]{x})
+	</LaTeX>
+	<Variables>
+		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="y"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

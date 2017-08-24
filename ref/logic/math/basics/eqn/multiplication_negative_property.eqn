@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Negative Property of Scalar Multiplication">
+	<LaTeX>
+		-1 x = -x
+	</LaTeX>
+	<Variables>
+		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

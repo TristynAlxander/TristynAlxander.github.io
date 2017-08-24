@@ -1,0 +1,195 @@
+Variables
+	Phosphoenolpyruvate (PEP)
+	
+	Phosphofructokinase 1 (PFK1)
+	Phosphofructokinase 2 (PFK2)
+
+
+Glycolysis
+	Glucose
+		Hexokinase Glucokinase (ATP-->ADP)
+	Glucose-6-phosphate
+		phosphohexose isomerase (<-->)
+	Fructose-6-phosphate
+		phosphofructokinase-1 (ATP-->ADP)
+	Fructose-1,6-bisphosphate
+		aldolase (<-->)
+	(
+	Dihydroxyacetone phosphate
+		trioephosphate isomerase (<-->)
+	)
+	*2
+	Glyceraldehyde-3-phosphate
+		glyceraldehyde-3-phosphate dehydrogenase (NAD<-->NADH)			in C 
+	1,3-bisphosphoglycerate
+		phosphoglycerate kinase (ADP <--> ATP)
+	3-phosphoglycerate
+		phosphoglycerate mutase (<-->)
+	2-phosphoglycerate
+		enolase (<-->)
+	PEP
+		pyruvate kinase (ADP --> ATP)
+	pyruvate
+		
+	
+	Malate Asparate Shuttle
+		Mitochondria Membrane
+		3ATP / NADH
+		
+		Asparate
+			Transminase (alpha-Ketoglutarate <--> Glutamate)				in M
+		Oxaloacetate
+			Malate dehydrogenase (NADH <--> NAD)
+		Malate
+		
+		Cytosol
+		--> NAD & alpha-Ketoglutarate
+		Matrix 
+		--> NADH & Glutamate 
+		
+		Malate		(Cytosol --> Matrix)
+		Asparate	(Matrix --> Cytosol)
+		
+		
+	Glycerol-3-phosphate Shuttle
+		2ATP/NADH
+		Mitochondria Membrane
+		cytoplasm
+		
+		Dihydroxyacetone phosphate
+			Cytoplasmic Glycerol-3-phosphate dehydrogenase (NADH --> NAD)
+		Glycerol-3-phosphate
+			Mitochondrial Glycerol-3-phosphate dehydrogenase (E-FAD --> E-FADH_{2})
+		Dihydroxyacetone phosphate
+		
+		[E-FADH_{2} --> E-FAD][Q --> QH_{2}]
+		
+	
+	Anaerobic Glycolysis 
+		Allows for Glycolysis
+		Notably Faster
+		
+		Pyruvate
+			lactate dehydrogenase (NADH --> NAD)							in C
+		Lactate
+		
+		
+	Cori Cycle
+		-4ATP
+		
+		2 Lactate
+			Gluconeogenesis
+		Glucose
+			Glycolysis
+		2 Lactate
+
+
+
+Gluconeogenesis
+	
+	pyruvate
+		pyruvate carboxylase	(HCO_3 + ATP --> ADP)
+	Oxaloacetate
+		PEP carboxykinase		(GTP --> GDP+CO_{2})
+	3-phosphoglycerate
+		phosphoglycerate kinase (ATP <--> ADP)
+	1,3-bisphosphoglycerate
+		(NADH<-->NAD)
+	Fructose-1,6-bisphosphate
+		Fructose-1,6-bisphosphase (-->P)
+	Fructose-6-phosphate
+		phosphohexose isomerase (<-->)
+	Glucose-6-phosphate
+		glucose-6-phosphatase(-->P)
+	Glucose
+
+
+
+Regulation
+
+
+	Inactive Adenylate Cyclase--Glucagon--> Active Adenylate Cyclase
+	ATP --Adenylate Cyclase--> cAMP
+	Inactive Kinase --cAMP--> Active Kinase
+	Active PFK2 , Inactive Fructose-2,6-bisphosphatase --Kinase(ATP-->ADP)--> Inactive PFK2 , Active Fructose-2,6-bisphosphatase
+	
+	-->
+	Fructose-2,6-bisphosphatate --Fructose-2,6-bisphosphatase (H2O-->P)--> Fructose-6-phosphate
+	Inactive Fructose-1,6-bisphosphatase --Less Fructose-2,6-bisphosphatate--> Active Fructose-1,6-bisphosphatase 
+	Fructose-1,6-bisphosphate--Fructose-1,6-bisphosphatase-->Fructose-6-phosphate
+	Gluconeogenesis (Fructose-6-phosphate <--phosphohexose isomerase--> Glucose-6-phosphate --> Glucose)
+	
+	-/->
+	Fructose-6-phosphate --PFK2 (ATP-->ADP)--> Fructose-2,6-bisphosphatate
+	Inactive PFK1 --More Fructose-2,6-bisphosphatate--> Active PFK1
+	Fructose-6-phosphate --PFK1--> Fructose-1,6-bisphosphate
+	Glycolysis (Fructose-1,6-bisphosphate <-...-> PEP --> Pyruvate)
+	
+	
+	==============
+	Glycolytic Enzymes
+	------------
+	
+	active pyruvate kinase -- ATP (Phosphorylation) -- inactive pyruvate kinase
+	
+	active pyruvate kinase -- Alanine -- inactive pyruvate kinase
+	
+	Inactive Kinase A --cAMP--> Active Kinase A
+	active pyruvate kinase -- Kinase A -- inactive pyruvate kinase
+	-/->
+	
+	inactive pyruvate kinase -- Fructose-1,6-bisphosphatate -- active pyruvate kinase
+	-->
+	
+	
+	Last step of Glycolysis:
+		PEP --pyruvate kinase (ADP --> ATP)-->pyruvate
+	
+	active pyruvate kinase --> Glycolysis
+	
+	------------
+	
+	Inactive PFK1 --More Fructose-2,6-bisphosphatate--> Active PFK1
+	-->
+	
+	Active PFK1 --ATP--> Inactive PFK1
+	Active PFK1 --citrate--> Inactive PFK1
+	-/->
+	
+	Active PFK1 --> Glycolysis
+	
+	------------
+	
+	Inactive Glucokinase --Insulin--> Active Glucokinase
+	
+	
+	============
+	Gluconeogenic  Enzymes
+	------------
+	
+	Inactive pyruvate carboxylase --acetyl CoA--> active pyruvate carboxylase
+	
+	active pyruvate carboxylase--> Gluconeogenesis
+	
+	------------
+	
+	Glucagon --> PEP carboxykinase
+	Epinephrine --> PEP carboxykinase
+	Glucocorticoids --> PEP carboxykinase
+	Insulin -/-> PEP carboxykinase
+	
+	PEP carboxykinase --> Gluconeogenesis
+	
+	------------
+	
+	Active Fructose-1,6-bisphosphatase --Fructose-2,6-bisphosphatate--> inactive Fructose-1,6-bisphosphatase
+	Active Fructose-1,6-bisphosphatase --AMP--> inactive Fructose-1,6-bisphosphatase
+	InActive Fructose-1,6-bisphosphatase --fasting--> active Fructose-1,6-bisphosphatase
+	
+	active Fructose-1,6-bisphosphatase --> Gluconeogenesis
+	
+	------------
+	
+	InActive glucose-6-phosphatase --fasting--> Active glucose-6-phosphatase 
+	
+	Active glucose-6-phosphatase --> Gluconeogenesis

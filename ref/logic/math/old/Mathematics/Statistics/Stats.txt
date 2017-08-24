@@ -1,0 +1,103 @@
+
+
+Average Value of a Function:
+	\bar{f} = \sum f_{i} p_{i}
+		\bar{f}	Average Value of f
+		p_{i}	Probability @i
+		f_{i}	Function Value @i
+	\overline{f+g} = \bar{f} + \bar{g}
+	\overline{cf} = c \bar{f}
+	Iff Statistically Independent: \overline{fg} = \bar{f} \bar{g}
+		s_{1} \equiv s_{1} \Rightarrow s_{1} dependent s_{1}
+		s_{1} = s_{2} \not\Rightarrow  s_{1} dependent s_{2} 
+
+Not:
+	\neg\neg{p} = p
+	\neg{p} = q
+
+Case Probabilities: (Must account for all probabilities of a case)
+	(p + \neg{p}) = (p + q) = 1
+		p		Probability
+		q		Not-Probabsility
+	1 = \sum_{all} p_{i}
+		p_{i}	Probability of i
+.
+Case \subset Arrangement \subset System 
+Events change the arrangement of the system
+A different type of case?
+.
+And: P = \prod p_{i} 
+	P		Probability of p_{1} AND ... AND p_{i}
+	p_{i}	Probability @i
+		
+Or: P = \sum p_{i}
+	P		Probability of p_{1} OR ... OR p_{i}
+	p_{i}	Probability @i
+
+Multiple Cases: \prod (p_{i} + \neg{p_{i}}) = 1
+	i				case counter
+	\prod p_{i}		probability of i p's
+
+.
+Stirling's Approximations
+	m! \approx \sqrt{2 \pi m} (\frac{m}{e})^{m}
+	ln(m!) \approx m ln(m) - m
+.
+
+Iff Identical Cases:
+
+	Binary (Mutually Exclusive) Cases: (p + q)
+		(p + q)^{N} = \sum^{N}_{n=0} \frac{N!}{n!(N-n)!} p^{n} q^{N-n}
+		Term:  P_{N}(n) = \frac{N!}{n!(N-n)!} p^{n} q^{N-n}
+			N			Total Number of Identical Cases
+			p^{n} q^{N-n}						Probability of each factor holding true
+			\frac{N!}{n!(N-n)!}					Number of Possible Arrangements
+			n									Number of p-Cases
+			N-n									Number of q-Cases
+	Generalized (Mutually Exclusive) Cases: (P_{1} + P_{2} + ... + P_{N})
+		(P_{1} + P_{2} + ... + P_{N})^{N} = \sum^{N}_{n=0} P_{N}(n_{1}, n_{2}, ... n_{m})_{i}
+		Term: P_{N}(n_{1}, n_{2}, ... n_{m}) = \frac{N!}{n_{1}! n_{2}! ... n_{m}!} p_{1}^{n_{1}} p_{2}^{n_{2}} ... p_{m}^{n_{m}}
+			N										Total Number of Identical Cases
+			p_{1}, p_{2}, ... p_{m}					Probability of each (mutually exclusive) holding true
+			\frac{N!}{n_{1}! n_{2}! ... n_{m}!}		Number of Possible Arrangements
+			n_{m}									Number of p_{m}-cases
+	
+	Average Number: \bar{n} = pN
+	\bar{n}		Average (across Arrangements) number of p-Cases
+		p			Probability
+		N			Total Number of Identical Cases
+	
+
+	Standard Deviation (root mean square)
+	\sigma = \sqrt{\overline{(n-\bar{n})^{2}}}
+		\sigma			Average fluctuation (about the mean) of Number of p-Cases.		(This is a Arrangements Constant)
+		(n-\bar{n})		Fluctuation (about the mean).
+		n				Number of p-Cases (Function)									(This is a Arrangements Constant)
+		\bar{n}			Average (across Arrangements)	Number of p-Cases				(This is  System constant)
+		For Binary (Mutually Exclusive) (Dependent) Cases:
+			\sigma = \sqrt{pqN}
+				\sigma			Average fluctuation (about the mean) of Number of p-Cases.
+				p				Probability
+				q				Not-Probability
+				N				Total Number of Identical Cases
+		Variance: \sigma^{2}
+			Dependent: \sigma^{2} = \bar{n^{2}} - \bar{n}^{2}
+		Relative Fluctuation: 
+			For Binary (Mutually Exclusive) Cases:\frac{\sigma}{\bar{n}} = \sqrt{\frac{q}{p N}} \approx \frac{1}{\sqrt{N}}
+		
+.
+n^{2} p^{n} = (p \frac{\partial}{\partial p})^{2} p ^{n}
+.
+
+Gaussian function 
+	P(x) = Ae^{-B (x \bar{x})^{2}}
+	Bell Curve Approximation
+		P(n) = \frac{1}{\sigma\sqrt{2\pi}} e^{- \frac{(n-\bar{n})^{2}}{2 \sigma^{2}}}
+		Good for larger systems.
+
+The Random Walk
+	Standard Deviation after N Steps/Events
+		\sigma_{N} = \sqrt{N} \sigma 
+	Average Distance after N steps
+		\bar{S_{N}} = N \bar{s}
+

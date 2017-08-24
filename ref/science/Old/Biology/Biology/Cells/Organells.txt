@@ -1,0 +1,28 @@
+Cytoplasm
+	Viscus 
+Cytoskeleton
+	Function: Shape, Transport, Movement
+	microtubules
+	actin filaments
+	intermediate filaments
+	filaments
+		Edge Overlap Keeps together there
+Endoplasmic Reticulum (ER)
+	Rough Endoplasmic Reticulum (RER)
+Peroxisome
+Nucleus
+	Nucleolus
+	Nuclear Pores
+Mitochondria
+	Genome: 
+		Double Stranded Circular
+		5 Copies / Mitochondria
+		37 genes
+			13 respiratory
+	Other 1100 proteins are nuclearly encoded and imported 
+	
+	Maternal Origin
+	
+	apoptosis
+		driven by Cytochrome C 
+	

@@ -1,0 +1,105 @@
+Types
+	General
+		C_{x} (H_{2}O)_{y}
+	Classification
+		Chain Size
+		Number of Sugar Units
+		C=O location
+		Stereochemistry
+	By Number of Sugar Units
+		Mono-saccharides		1
+		Di-saccharides			2
+		Oligo-saccharides		3-12
+		Poly-saccharides		>12
+	C=O location
+		Aldose has Aldehyde
+		Ketose has Ketone
+	Cyclization
+		OH to H end
+	Hemi-
+		alcohol + Aldehyde/ketonr
+		R/H, R,RO and an OH on a carbon
+
+Natural all D-Enantiomer, rather than L
+
+
+Chair vs Boat conformation
+	never actually Haworth Projection
+
+Animeric Carbon
+	Carbon 1
+	attaches to O
+
+Mono-saccharides
+	D-glyceraldehyde
+	D-glucose
+		C4 OH not with CH_{2}OH
+	D-fructose
+		5 sided
+	D-galactose
+		C4 OH with CH_{2}OH
+	D-ribose
+		5 sided
+
+Di-saccharides
+	glycosides: sugar acetals
+	glycosidic bonds
+		O-bridges
+		\alpha vs \beta 
+			\alpha opposite side of CH_{2}OH
+			\beta same side as CH_{2}OH
+			if bonded, look at remaining hemiacetal
+		a or B (C# --> C#)
+	broken down by humans
+		Maltose = glucose + glucose
+			alpha (1-->4) bond
+			isomaltose
+				alpha 1-->6
+		Lactose = galactose + glucose
+			beta (1-->4) bond
+			Galactosemia: lack of enzymes to conversion galactose to glucose
+		Sucrose = glucose + fructose
+			alpha (1-->2)
+	Cellobiose = glucose + glucose
+			beta (1-->4) bond
+
+Poly-saccharides
+	Starch (Plants)
+		Amylose:		Straight Chain
+			alpha (1 --> 4)
+		Amylopectin:	Branched Structure
+			alpha (1 --> 4) Normal
+			alpha (1 --> 6)	Cross
+	Glycogen (Animals)
+		In Liver & Muscles
+		Attached to Glycogenin
+		beta (1 --> 4) Normal
+		alpha (1 --> 6)	Cross
+
+Carbohydrate Pathways
+	
+	
+	
+	
+	
+	Substrate Level 
+		
+		
+.
+Potential Pathway Products
+	Glycolysis & Gluconeogenesis
+		Glucose-6-P --> 5 carbon
+		Glucose-6-P --> Glycerol P
+		1,3-bisphosphoglycerate --> 2,3-bisphosphoglycerate
+		3-phosphoglycerate --> 2,3-bisphosphoglycerate
+		3-phosphoglycerate --> Serine
+		Pyruvate --> Alanine
+		Acetyl CoA --> Fatty acids
+		Glycerol P + Fatty acids --> Triglyceride
+	CAC
+		aa -> propinyl CoA -> succinyl CoA -> oxaloacetate -> gluconeogenesis
+		Citrate  -> De novo fatty acids
+		heme precursors
+		aa precursors
+		aa amino acid?
+

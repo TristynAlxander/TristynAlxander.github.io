@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Center of Mass Position">
+	<LaTeX> \vec{r}_{Sys} = \frac{\sum m_{i} \vec{r}_{i}}{\sum m_{i}} = \frac{1}{\sum m_{i}} \int \vec{r} dm </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{r}_{Sys}"	mathObject="Vector"				unit="m"				name="Center of Mass, Center of Mass Position, System's Position"		measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{r}"		mathObject="Vector"				unit="m"				name="Position, Radius"									measurands=""		dependencies=""/>
+		<Var 	symbol="m"				mathObject=""			 		unit="kg"				name="Mass, Inertia"									measurands=""		dependencies=""/>
+		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"									measurands=""		dependencies=""/>	
+	</Variables>
+</Equation>

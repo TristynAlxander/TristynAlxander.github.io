@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Center of Mass Distance">
+	<LaTeX> r_{Sys} = \frac{\sum m_{i} r_{i}}{\sum m_{i}} = \frac{1}{\sum m_{i}} \int r dm </LaTeX>
+	<Variables>
+		<Var 	symbol="r_{Sys}"		mathObject="Scalar"				unit="m"				name="Center of Mass, Center of Mass Distance, System Distance"		measurands=""		dependencies=""/>
+		<Var 	symbol="r"				mathObject="Scalar"				unit="m"				name="Distance, Length"						measurands=""		dependencies=""/>	
+		<Var 	symbol="m"				mathObject=""			 		unit="kg"				name="Mass, Inertia"						measurands=""		dependencies=""/>
+		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
+	</Variables>
+</Equation>

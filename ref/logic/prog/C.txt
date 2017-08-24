@@ -1,0 +1,64 @@
+Basic Types: Variables
+	Integers: char, int, short, long, long long
+		char:		-128 to 127
+		int:		
+		short:		
+		long:		
+		long long:	
+	Unsigned integers: unsigned char, unsigned int, unsigned short, unsigned long, unsigned long long
+	Floating point numbers: float, double
+	Structures
+No Bool type
+	#Define BOOL char
+	#define FALSE 0
+	#define TRUE 1
+
+Defining variables
+	var id;
+	var id = val;
+	var id = val, id2 = val2, id3 = val3;
+	Example:
+		int foo;
+		int fooo=3;
+		int foooo=4, fooooo=5;
+.
+Defining Arrays 
+	var id[n];
+	id[n-i] = val;
+	Example:
+		int num[3];
+		num[2] = 80;
+		num[1] = 25;
+		num[0] = 2;
+	
+	Strings (character arrays)
+		Read Only String
+			char * id = "John Smith";
+		Manipulable Strings 
+			char id[] = "John Smith";
+
+
+math
+	+
+	*
+
+stdio.h Library
+	printf("",)
+		%s	string
+		%d
+		\n	next line
+	sprintf
+	strncmp("","",#)
+		returns 0
+			equal
+			
+	strcmp
+	
+
+Header
+
+
+
+	Import Libraries (Example "stdio.h")
+		#include <stdio.h>
+Main

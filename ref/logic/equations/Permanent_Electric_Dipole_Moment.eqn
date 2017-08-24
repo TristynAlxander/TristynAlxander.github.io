@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Permanent Electric Dipole Moment">
+	<LaTeX>\vec{p}= q \ell \hat{p}</LaTeX>
+	<Variables>
+		<Var symbol="\vec{p}, \mu_{E}"	mathObject="Vector" 		unit="C m, esu-cm, D"	name="Permanent Electric Dipole Moment"		measurands=""		dependencies=""/>
+		<Var symbol="q"					mathObject="Scalar" 		unit="C"				name="Charge"								measurands=""		dependencies=""/>
+		<Var symbol="r, x, \ell"		mathObject="Scalar" 		unit="m"				name="Dipole Length"						measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

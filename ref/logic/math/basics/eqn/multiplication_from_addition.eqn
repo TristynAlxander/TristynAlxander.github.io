@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Multiplication from Addition">
+	<LaTeX>
+		a b = \sum_{i=1}^a b_i = \sum_{k=1}^b a_k
+	</LaTeX>
+	<Variables>
+		<Var symbol="a"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="b"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
+		<Var symbol="i"			mathObject="" 				unit=""			name="Dummy Counter"		measurands=""		dependencies=""/>
+		<Var symbol="k"			mathObject="" 				unit=""			name="Dummy Counter"		measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

@@ -1,0 +1,13 @@
+<Equation version="1.0" name="Implied Inequalities of Addition">
+	<LaTeX>
+		(a \gtrless 0) \land (b \gtrless 0) \land (a + b = c) \Rightarrow (c \gtrless a) \land (c \gtrless b)		\\
+		(a > 0) \land (b > 0) \land (a + b = c) \Rightarrow (c > a) \land (c > b)									\\
+		(a < 0) \land (b < 0) \land (a + b = c) \Rightarrow (c < a) \land (c < b)									\\
+		
+	</LaTeX>
+	<Variables>
+		<Var symbol="a"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
+		<Var symbol="b"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
+		<Var symbol="c"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
+	</Variables>
+</Equation>
