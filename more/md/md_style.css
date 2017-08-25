@@ -79,6 +79,7 @@
 	/* LaTeX */
 	.markdown .MathJax_Display{margin-top:0em !important; margin-bottom:0em !important; width: auto !important; text-align: center;}
 	.markdown .MathJax_Display .MathJax_FullWidth{ width: auto !important; margin: 0 auto !important; display: inline-block !important;}
+	.markdown .left_align .MathJax_Display{text-align: left !important;} 
 	
 	/* Hover Row Color */
 	.markdown table > tbody > tr > td.LateX:hover{background-color: #ffffff;}

@@ -5,22 +5,20 @@ for(var i=0;i<markdownElementsArray.length;i++){
 
 // Removes MathJax Ignore, Sets alignment left, Typesets remaining MathJax
 // https://stackoverflow.com/questions/30077862/how-to-left-align-certain-equations-in-mathjax/
-      window.MathJax = {
-        AuthorInit: function() {
-          MathJax.Hub.Register.StartupHook("Begin", function() {
-            MathJax.Hub.Queue(function() {
-              var elements = document.getElementsByClassName('tex2jax_ignore');
-              for (var i = 0; i < elements.length; i++) {
-                elements[i].classList.remove('tex2jax_ignore');
-              }
-              MathJax.Hub.Config({
-                displayAlign: "left"
-              });
-              MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-            });
-          });
+	window.MathJax = {
+		AuthorInit: function() {
+			MathJax.Hub.Register.StartupHook("Begin", function() {
+				MathJax.Hub.Queue(function() {
+					var my_elements = document.getElementsByClassName('tex2jax_ignore');
+					while(my_elements.length > 0) {
+						my_elements[0].classList.remove('tex2jax_ignore');
+						}
+					MathJax.Hub.Config({displayAlign: "left"});
+					MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+				});
+			});
         }
-      };
+    };
 
 
 /* This markdown flavor emphasizes compartmentalization. 

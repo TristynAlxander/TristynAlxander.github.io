@@ -26,7 +26,7 @@ function parseMathV1(xmlhttp,is_derivation){																				// Version 1 Par
 																																//
 	//<table class="mathBox">																										// Make Table (see left)
 	var mathBox = document.createElement("table");																					//
-	if(is_derivation){mathBox.setAttribute("class", "mathBox tex2jax_ignore");}														// MathJax ignores these
+	if(is_derivation){mathBox.setAttribute("class", "mathBox left_align");}															// 
 	else{mathBox.setAttribute("class", "mathBox");}																					//
 	mathBox.style.display = "inline-table";																							//
 	
@@ -68,7 +68,8 @@ function parseMathV1(xmlhttp,is_derivation){																				// Version 1 Par
 																																		//
 	//<td colspan=6 id="LateX">																										// Make Table Down (see left)
 	var TDbody = document.createElement("td");																							//
-	TDbody.setAttribute("class", "LateX");																								//
+	if(is_derivation){TDbody.setAttribute("class", "LateX tex2jax_ignore");}														// MathJax ignores these
+	else{TDbody.setAttribute("class", "LateX");}																						//
 	TDbody.setAttribute("colspan", "6");																								//
 	TRbody.appendChild(TDbody);																											//
 																																		//
