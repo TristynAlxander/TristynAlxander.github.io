@@ -14,7 +14,7 @@
 	<span id="links"><a href="http://tristyn.me/ref/note.html">Index</a> | <a href="http://tristyn.me/ref/note.html?http://tristyn.me/pages/more.md">More</a> | <a href="http://tristyn.me/pages/resume.html" target="_blank">Tristyn</a></span>
 </td></tr>
 </table>
-
+<div id="test"></div>
 </body>
 <script type="text/javascript">
 
@@ -32,20 +32,10 @@ function find_paper(tis){
 		}
 	else{
 		var doi_str = tis.value+".md";
-		while(doi_str.includes("/")){ doi_str = doi_str.replace("/","@");}
-		if(paper_exist("http://tristyn.me/ref/papers/"+doi_str)){
-			not_found.style.display = "none";
-			found.style.display = "inline";
-			found.setAttribute("href","http://tristyn.me/ref/note?papers/"+doi_str);
-			}
-		else{
-			not_found.style.display = "inline";
-			found.style.display = "none";
-			found.setAttribute("href","");
-			}
-		}
-	
-	function paper_exist(url_str){
+		while(doi_str.includes("\/")){ doi_str = doi_str.replace("\/","@");}
+		var url_str = "http://tristyn.me/ref/note?papers/"+doi_str;
+		
+		
 		var docstr;
 		var dochttp;
 		if (window.XMLHttpRequest){dochttp = new XMLHttpRequest();} else {dochttp = new ActiveXObject("Microsoft.XMLHTTP");}
@@ -53,11 +43,20 @@ function find_paper(tis){
 		dochttp.open('HEAD', url_str, true);
 		dochttp.onreadystatechange = function(){
 			if (dochttp.readyState == 4){
-				if(dochttp.status == 200){		return true;}
-				else if(dochttp.status == 404){	return false;}
+				if(dochttp.status == 200){
+					not_found.style.display = "none";
+					found.style.display = "inline";
+					found.setAttribute("href",url_str);
+					}
+				else if(dochttp.status == 404){
+					not_found.style.display = "inline";
+					found.style.display = "none";
+					found.setAttribute("href","");
+					}
 				}
 			}
 		dochttp.send(null);
+		
 		}
 	}
 </script>
