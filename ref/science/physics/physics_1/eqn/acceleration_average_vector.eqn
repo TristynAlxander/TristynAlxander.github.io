@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Average Vector Acceleration">
-	<LaTeX> \langle \vec{a} \rangle = \frac{\Delta \vec{v}}{\Delta t} </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{a}"		mathObject="Vector"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m/s"				name="Velocity"								measurands=""		dependencies=""/>
-		<Var 	symbol="t"				mathObject=""					unit="s"				name="Time"									measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

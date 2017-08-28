@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Density">
+	<LaTeX> \rho = \frac{m}{V} </LaTeX>
+	<Variables>
+		<Var symbol="\rho "				mathObject="Scalar"		 		unit="kg m^{-3}"		name="Density"					measurands=""		dependencies=""/>
+		<Var symbol="m"					mathObject="Scalar"		 		unit="kg"				name="Mass"						measurands=""		dependencies=""/>
+		<Var symbol="V"					mathObject="Scalar"				unit="m^3"				name="Volume"					measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

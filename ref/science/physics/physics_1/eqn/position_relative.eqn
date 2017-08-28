@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Relative Position">
-	<LaTeX> \vec{r}_{i \to k} = \vec{r}_{i \to j} + \vec{r}_{j \to k} </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{r}"		mathObject="Vector"				unit="m"				name="Radius, Position"						measurands=""		dependencies=""/>
-		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
-		<Var 	symbol="j"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
-		<Var 	symbol="k"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"						measurands=""		dependencies=""/>	
-	</Variables>
-</Equation>

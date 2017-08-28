@@ -18,7 +18,7 @@
 		Object-Oriented
 
 ## Science Index
-	[**Introduction to Science**](science/intro_to_science.md)
+	[**Introduction to Science**](note.html?science/intro_to_science.md)
 	**Physics**
 		[Physics 1](note.html?science/physics/physics_1/physics_1.md): Elementary Mechanics
 		Physics 2: 	[Electrodynamics]("Electricity and Magnetism")
@@ -73,7 +73,7 @@
 
 
 ## Life Index
-	[**Introduction to Life**](life/intro_to_life.md)
+	[**Introduction to Life**](note.html?life/intro_to_life.md)
 	**Economics**
 	**Game Theory**
 	**Communication Arts**

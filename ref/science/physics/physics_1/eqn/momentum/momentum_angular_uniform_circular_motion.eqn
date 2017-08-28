@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Angular Momentum under Uniform Circular Motion">
+	<LaTeX> \vec{L} = I \omega </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{L}"			mathObject="Vector"				unit="J s"				name="Angular Momentum"					measurands=""		dependencies=""/>
+		<Var 	symbol="I"					mathObject="Scalar"				unit="kg m^2"			name="Moment of Inertia (Angular Mass)"	measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{\omega}"		mathObject="Rotational Vector"	unit="s^{-1}"			name="Angular Velocity"					measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

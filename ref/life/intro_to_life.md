@@ -10,22 +10,12 @@
 			Ethics is about making choices by one's ethical "values."
 			The study of ethics is about evaluating choices to identify one's values. 
 			It's about framing the world in terms of your values. 
-		Value: [Survival & Longevity]("A-priori motive of any stable system.")
-			Do what you have to do to survive, for as long as you can. 
-			You are your first priority.
-		Value: Freedom & Independence
-			Society: To Improve Quality of Life.
-				Individuality before the collectivism.
-				Should be about helping each other.
-				Should never decrease freedom. 
-			Romantic Relationships: Mutual Inspiration. 
-				About everyone doing their best.
-				Encourages Personal Growth.
-				Teammates, not other halves.
-				Not about changing the people.
-			Neutral Non-interventionism: 
-				Unless you're involved, stay uninvolved.
-				Advocate Coexistence, Avoid Authority.
+		Habit: Evaluate (Daily, Monthly, and Yearly) Events in terms of your values. 
+			Write it down, so that you force yourself to think about it.
+			Can Delete or shred when you're done. 
+			Ask Critical Questions:
+				What's my Bias? What are my assumptions?
+				What if someone else had done it?
 	**Literacy**: A failure to articulate is a failure to understand.
 		Literary Literacy
 		Mathematic Literacy
@@ -41,7 +31,7 @@
 ## Personal Style
 	FAQ&A's
 		What is your name? Tristyn\* ^^^\*Spelling ^^^may ^^^vary. 
-		How may the spelling vary? `` (T|t)r(i|y)st(i|y)n(( |_|.)?(A|a)l(e)?(x|X)ander)? ``, not that I care. 
+		How may the spelling vary? `` (T|t)r(i|y)st(i|y)n(( |_|.)?((A|a)l(e)?(x|X)ander))? ``, not that I care. 
 		What are you most proud of? This website, maybe?
 		What's your best piece of advice? Don't collect advice.
 		What did you want to be when you grew up? What'd'ya mean "grow up"?
@@ -52,7 +42,25 @@
 		Food: Sweet &amp; Juicy Fruits.
 		Music: Depends on my mood and what I'm thinking about.
 		Generas: SciFi, Tropical, Pirate, Western, Anime, ...
-
+	My Values
+		Value: [Survival & Longevity]("A-priori motive of any stable system.")
+			Do what you have to do to survive, for as long as you can. 
+			You are your first priority.
+		Value: Individuality, Freedom, & Independence
+			Society: To Improve Quality of Life.
+				Mutual-Respect & Self-Improvement.
+				Individuality before the collectivism.
+				Should be about helping each other.
+				Should never decrease freedom. 
+			Romantic Relationships: Mutual Inspiration. 
+				About everyone doing their best.
+				Encourages Personal Growth.
+				Teammates, not other halves.
+				Not about changing the people.
+			Neutral Non-interventionism: 
+				Unless you're involved, stay uninvolved.
+				Advocate Coexistence, Avoid Authority.
+	
 ## Professionalism
 
 	**Organization**

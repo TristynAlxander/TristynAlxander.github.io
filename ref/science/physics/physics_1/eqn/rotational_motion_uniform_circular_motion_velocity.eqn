@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Angular Velocity under Uniform Circular Motion">
+	<LaTeX> \omega = \frac{v}{r} </LaTeX>
+	<Variables>
+		<Var 	symbol="\omega"				mathObject=""				unit="s^{-1}"		name="Angular Velocity"			measurands=""		dependencies=""/>
+		<Var 	symbol="v"					mathObject=""				unit="m s^{-1}"		name="Velocity"					measurands=""		dependencies=""/>	
+		<Var 	symbol="r"					mathObject=""				unit="m"			name="Radius"					measurands=""		dependencies=""/>	
+	</Variables>
+</Equation>

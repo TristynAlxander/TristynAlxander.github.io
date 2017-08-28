@@ -1,0 +1,8 @@
+<Equation version="1.0" name="Angle Displacement under Constant Angular Acceleration">
+	<LaTeX> \theta - \theta_{0} = \frac{\omega^{2} - \omega_{0}^{2}}{2 \alpha_a} </LaTeX>
+	<Variables>
+		<Var 	symbol="\theta"				mathObject=""				unit=""				name="Angle"					measurands=""		dependencies=""/>
+		<Var 	symbol="\omega"				mathObject=""				unit="s^{-1}"		name="Angular Velocity"			measurands=""		dependencies=""/>
+		<Var 	symbol="\alpha_{a}"			mathObject=""				unit="s^{-2}"		name="Angular Acceleration"		measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

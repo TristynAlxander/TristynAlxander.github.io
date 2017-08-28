@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Displacement Vector">
-	<LaTeX> \Delta \vec{r} = \vec{r}_{f} - \vec{r}_{i} </LaTeX>
-	<Variables>
-		<Var symbol="\Delta \vec{r}"	mathObject="Vector"			unit="m"				name="Displacement"							measurands=""		dependencies=""/>
-		<Var symbol="\vec{r}_{f}"		mathObject="Vector"			unit="m"				name="Final Position, Final Radius"			measurands=""		dependencies=""/>
-		<Var symbol="\vec{r}_{i}"		mathObject="Vector"			unit="m"				name="Initial Position, Initial Radius"		measurands=""		dependencies=""/>
-	</Variables>
-</Equation>
