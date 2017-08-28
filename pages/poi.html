@@ -31,10 +31,12 @@ function find_paper(tis){
 		found.setAttribute("href","");
 		}
 	else{
-		if(paper_exist("http://tristyn.me/ref/papers/"+tis.value)){
+		var doi_str = tis.value+".md";
+		while(doi_str.includes("/")){ doi_str = doi_str.replace("/","@");}
+		if(paper_exist("http://tristyn.me/ref/papers/"+doi_str)){
 			not_found.style.display = "none";
 			found.style.display = "inline";
-			found.setAttribute("href","http://tristyn.me/ref/note?papers/"+tis.value);
+			found.setAttribute("href","http://tristyn.me/ref/note?papers/"+doi_str);
 			}
 		else{
 			not_found.style.display = "inline";
