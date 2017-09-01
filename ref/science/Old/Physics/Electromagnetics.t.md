@@ -11,24 +11,12 @@ Electromagnetic
 		||
 	Charge
 		Quantification of Charge: \[ q = \pm n q_{e} \]
-			||
-			| q				| (C) 						| Charge	&
-			| n				| unitless					| Integer	&
-			||
-			||
-			| Charge of an Electron					|:	\( q_e = e =1.60217657 \times 10^{-19} (C) \)	:|:		(C)				:|:		1.60217657e-19	:&
-			||
 			Oil-Drop Experiment
 		Charge Density
 			Line
 			Area
 			Volume
-	Current: \[I = \frac{dQ}{dt} \]
-		||
-		| I			| (A)					| Current	&
-		| q			| (C) = (A s)			| Charge	&
-		| t			| (s)					| Time		&
-		||
+
 Electric Fields: \[ E_T = \sum E_i \]
 	Permittivity
 	[math](equations/Coulombs_Law_Electric_Field_of_a_Point Charge.eqn)

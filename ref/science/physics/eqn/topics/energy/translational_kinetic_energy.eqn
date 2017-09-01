@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Translational Kinetic Energy">
+	<LaTeX>
+		K_{tran} \equiv \frac{p^2}{2m} = \frac{m v^{2}}{2}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="v, s"								mathObject="Scalar"						unit="m s^{-1}"				name="Velocity"							measurands=""		dependencies=""/>
+		<Var 	symbol="m"									mathObject="Scalar"						unit="kg"					name="Mass, Inertia"					measurands=""		dependencies=""/>
+		<Var 	symbol="p"									mathObject="Scalar"						unit="kg m s^{-1}"			name="Momentum"							measurands=""		dependencies=""/>
+		<Var 	symbol="K"									mathObject="Scalar"						unit="J"					name="Kinetic Energy"					measurands="Energy"		dependencies=""/>
+	</Variables>
+</Equation>

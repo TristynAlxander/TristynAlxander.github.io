@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Definition of Torque">
+	<LaTeX>
+		\vec{\tau} = \vec{r} \times \vec{F}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{\tau}, M"		mathObject="Vector"				unit="N m"				name="Torque, Moment of Force"				measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{r}"			mathObject="Vector"				unit="m"				name="Radius"								measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{F}"			mathObject="Vector"				unit="N"				name="Force"								measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

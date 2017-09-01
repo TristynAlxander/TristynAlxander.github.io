@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Quantification of Charge">
+	<LaTeX>
+		q = \pm n q_{e}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="q, Q"								mathObject="Scalar"						unit="C, A s"				name="Charge"							measurands=""		dependencies=""/>
+		<Var 	symbol="q_{e}, e"							mathObject="1.60217657 \times 10^{-19}"	unit="C, A s"				name="Charge of an Electron"			measurands=""		dependencies=""/>
+		<Var 	symbol="n"									mathObject="Integer"					unit="s"					name=""									measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

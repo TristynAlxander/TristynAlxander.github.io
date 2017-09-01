@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Angular Velocity under Constant Angular Acceleration">
-	<LaTeX> \omega = \omega_{0} + \alpha_{a} t </LaTeX>
-	<Variables>
-		<Var 	symbol="\omega"				mathObject=""				unit="s^{-1}"		name="Angular Velocity"			measurands=""		dependencies=""/>
-		<Var 	symbol="\alpha_{a}"			mathObject=""				unit="s^{-2}"		name="Angular Acceleration"		measurands=""		dependencies=""/>
-		<Var 	symbol="t"					mathObject=""				unit="s"			name="Time"						measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

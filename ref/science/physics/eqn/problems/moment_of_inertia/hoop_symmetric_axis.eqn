@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Moment of Inertia for a Hoop about the Symmetric Axis">
+	<LaTeX>
+		I = m_{T} r^2
+	</LaTeX>
+	<Variables>
+		<Var	symbol="I"									mathObject="Scalar"		 				unit="kg m^2"				name="Moment of Inertia, Angular Mass"	measurands=""		dependencies=""/>
+		<Var 	symbol="m"									mathObject="Scalar"						unit="kg"					name="Mass, Inertia"					measurands=""		dependencies=""/>
+		<Var 	symbol="r, x, \ell"							mathObject="Scalar"						unit="m"					name="Radius, Position"					measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

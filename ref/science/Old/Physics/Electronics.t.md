@@ -27,7 +27,7 @@ Resistors
 		||
 	Series: \[ R_T = \sum_i R_i \]
 		||
-		| R		| \( (\Omega) = (kg m^2 s^{-3} A^{-2}) \)	| Resistance	&
+		| R		|  \Omega	| Resistance	&
 		| _i	| unitless									| wrt i			&
 		| _T	| unitless									| Total			&
 		||

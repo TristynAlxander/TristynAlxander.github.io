@@ -1,23 +1,6 @@
 #Energetics
 
-Work: \[ W = \vec{F} \cdot \vec{r} = \int \vec{F} \cdot d\vec{r} \]
-	Sign Convention
-
 Kinetic Energy
-	Translational: \[ K_{i} = \frac{m s_i^{2}}{2}=\frac{p_i^2}{2m} \]
-		||
-		| K 						| (J) 							| Kinetic Energy	&
-		| m							| (kg)							| Mass (Inertia)	&
-		| \( \vec{p} \)				| \( (kg m s^{-1}) \)			| Momentum			&
-		| s							| \( (m s^{-1}) \)				| Speed				&
-		||
-	Rotational: \[ K = \frac{I \vec{\omega}^2}{2}=\frac{L^2}{2I} \]
-		||
-		| K 						| \( (J) =  (kg m^2 s^{-2}) \)	| Kinetic Energy						&
-		| \( \vec{\omega} \)		| \( (^{(R)} s^{-1}) \)			| Angular Velocity						&
-		| I							| \( (kg m^2) \)				| Moment of Inertia (Angular Mass)		&
-		| \( \vec{L} \)				| \( (J s) \)					| Angular Momentum						&
-		||
 	Thermal
 Potential Energy: \[ U = |\vec{F}|/|\vec{r}| \]
 	Energy via position (in a Force Feild).

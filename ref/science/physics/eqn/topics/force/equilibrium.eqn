@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Equilibrium">
+	<LaTeX>
+		\Sum \vec{F}_{i}   = 0 \\
+		\Sum \vec{tau}_{i} = 0 \\
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{F}"							mathObject="Vector"						unit="N"					name="Force"							measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{\tau}"							mathObject="Vector"						unit="N m"					name="Torque, Moment of Force"			measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

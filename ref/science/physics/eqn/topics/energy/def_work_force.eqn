@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Definition of Work (via Force)">
+	<LaTeX>
+		W \equiv \int_{t_{i}}^{t_{f}} \vec{F} \cdot \vec{v} dt = \int_{\vec{r}_{i}}^{\vec{r}_{f}} \vec{F} \cdot d\vec{r}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="t"									mathObject="Scalar"						unit="s"					name="Time"								measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{v}"							mathObject="Vector"						unit="m s^{-1}"				name="Velocity"							measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{F}"							mathObject="Vector"						unit="N"					name="Force"							measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{r}, \vec{x},\vec{\ell}"		mathObject="Vector"						unit="m"					name="Position, Radius"					measurands=""		dependencies=""/>
+		<Var 	symbol="W"									mathObject="Scalar"						unit="J"					name="Work"								measurands="Energy"		dependencies=""/>
+	</Variables>
+</Equation>

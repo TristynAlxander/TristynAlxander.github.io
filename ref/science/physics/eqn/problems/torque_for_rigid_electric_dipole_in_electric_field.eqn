@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Torque on a Rigid Electric Dipole Moment">
+	<LaTeX>
+		\vec{\tau} = \vec{p} \times \vec{E}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{\tau}"							mathObject="Vector"				unit="N m"				name="Torque, Moment of Force"			measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{p}"							mathObject="Vector"				unit="C m"					name="Electric Dipole Moment"			measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{E}"							mathObject="Vector"				unit="N C^{-1}, V m^{-1}"	name="Electric Field"					measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

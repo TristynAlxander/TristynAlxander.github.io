@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Drag Force">
+	<LaTeX>
+		D = \frac{C \rho A v^2}{2}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="D"									mathObject="Scalar"						unit="N"					name="Drag Force"						measurands=""		dependencies=""/>
+		<Var 	symbol="v, s"								mathObject="Scalar"						unit="m s^{-1}"				name="Velocity"							measurands=""		dependencies=""/>
+		<Var 	symbol="A"									mathObject="Scalar"						unit="m^2"					name="Effective Area"					measurands=""		dependencies=""/>
+		<Var	symbol="\rho "								mathObject="Scalar"		 				unit="kg m^{-3}"			name="Air Density"						measurands=""		dependencies=""/>
+		<Var	symbol="C"									mathObject="Scalar"		 				unit=""						name="Drag Coefficient"					measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

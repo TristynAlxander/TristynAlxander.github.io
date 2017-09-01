@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Acceleration Components">
-	<LaTeX> \vec{a} = \vec{a}_{r} + \vec{a}_{T}  </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{a}"			mathObject=""		unit="s^{-2}"		name="Acceleration"					measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}_{r}"		mathObject=""		unit="s^{-2}"		name="Radial Acceleration"			measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}_{T}"		mathObject=""		unit="s^{-2}"		name="Tangential Acceleration"		measurands=""		dependencies=""/>	
-	</Variables>
-</Equation>

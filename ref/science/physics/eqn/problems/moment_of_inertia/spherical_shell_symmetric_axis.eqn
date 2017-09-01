@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Moment of Inertia for a Spherical Shell about a Symmetric Axis">
+	<LaTeX>
+		I = \frac{2 m_{T} r^2}{3}
+	</LaTeX>
+	<Variables>
+		<Var	symbol="I"									mathObject="Scalar"		 				unit="kg m^2"				name="Moment of Inertia, Angular Mass"	measurands=""		dependencies=""/>
+		<Var 	symbol="m"									mathObject="Scalar"						unit="kg"					name="Mass, Inertia"					measurands=""		dependencies=""/>
+		<Var 	symbol="r, x, \ell"							mathObject="Scalar"						unit="m"					name="Radius, Position"					measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

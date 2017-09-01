@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Friction">
+	<LaTeX>
+		f = \mu_{s} N	\\
+		f = \mu_{k} N	\\
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="f"									mathObject="Scalar"						unit="N"					name="Friction Force"					measurands=""		dependencies=""/>
+		<Var 	symbol="N"									mathObject="Scalar"						unit="N"					name="Normal Force"						measurands=""		dependencies=""/>
+		<Var 	symbol="f"									mathObject="Scalar"						unit="N"					name="Force"							measurands=""		dependencies=""/>
+		<Var 	symbol="\mu"								mathObject="Scalar"						unit=""						name="Coefficient of Friction"			measurands=""		dependencies=""/>
+	</Variables>
+</Equation>

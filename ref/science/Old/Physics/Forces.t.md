@@ -1,49 +1,7 @@
 #Forces
 
-Newton's Laws
-	First Law: \[ \vec{F}_{net} = 0 \implies \vec{a} = 0 \]
-		||
-		| \( \vec{F} \)	| \( (N) = (kg m s^{-2}) \)	| Force				&
-		| _net			| unitless					| Total				&
-		| \( \vec{a} \)	| \( (m s^{-2}) \)			| Acceleration		&
-		||
-	Second Law: \[ \vec{F} = \vec{a} m \]
-		||
-		| \( \vec{a} \)	| \( (m s^{-2}) \)			| Acceleration		&
-		| m				| (kg)						| Mass (Inertia)	&
-		| \( \vec{F} \)	| \( (N) = (kg m s^{-2}) \)	| Force				&
-		||
-	Third Law: \[ \vec{F}_{A,B} = - \vec{F}_{B,A} \]
-		||
-		| \( \vec{F} \)	| \( (N) = (kg m s^{-2}) \)	| Force				&
-		| _i,j			| unitless					| i wrt j			&
-		||
 Contact Forces
-	Frictional Force
-		(Non-Conservative)
-		Static: \[ | f_s | \leq \mu_s N  \]
-			||
-			| \( f_s \)		| \( (N) = (kg m s^{-2}) \)	| Static Friction Force					&
-			| N				| \( (N) = (kg m s^{-2}) \)	| Normal Force							&
-			| \( \mu_s \)	| unitless					| Static Friction Material Coefficient	&
-			||
-		Kinetic: \[ f_k = \mu_k N \]
-			||
-			| \( f_k \)		| \( (N) = (kg m s^{-2}) \)	| Kinetic Friction Force				&
-			| N				| \( (N) = (kg m s^{-2}) \)	| Normal Force							&
-			| \( \mu_k \)	| unitless					| Kinetic Friction Material Coefficient	&
-			||	
 	Tension Force
-	Normal Force
-	Drag Force: \[ \vec{D} = \frac{C \rho A v^2}{2} \]
-		||
-		| \( \vec{D} \)		| \( (N) = (kg m s^{-2}) \)	| Drag Force		&
-		| \( \rho \)		| \( (kg m^{-3}) \)			| Air Density		&
-		| A					| \( (m^2) \)				| Effective Area	&
-		| \( \vec{v} \)		| \( (m s^{-1}) \)			| Velocity			&
-		| C					| unitless					| Drag Coefficient	&
-		||
-	Applied Force
 	Spring Force: \[ \vec{F}_s = -k_i \vec{r}_{rest} \]
 		||
 		| \( \vec{F}_s \)		| \( (N) = (kg m s^{-2}) \)	| Spring Force		&

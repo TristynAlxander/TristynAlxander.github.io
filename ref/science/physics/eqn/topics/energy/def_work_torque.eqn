@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Definition of Work (via Torque)">
+	<LaTeX>
+		W = \int_{\theta_{i}}^{\theta_{f}} \tau d\theta
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="\theta"								mathObject="Scalar"						unit=""						name="Angle"							measurands=""		dependencies=""/>
+		<Var 	symbol="\tau, M"							mathObject="Scalar"						unit="N m"					name="Torque, Moment of Force"			measurands=""		dependencies=""/>
+	</Variables>
+</Equation>
