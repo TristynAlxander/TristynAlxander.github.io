@@ -32,7 +32,7 @@
 				| Reference Model:			| Description is unrefined data.				|
 			Irrelevant what precedes what temporally.
 		**Operationalization**: Immeasurable phenomenon defined through their relations to measurable phenomenon.
-			Rational Operationalization: These immeasurable phenomenon must be represented & defined mathematically.[math](science/rational_empirical_bridge.eqn)
+			Rational Operationalization: These immeasurable phenomenon must be represented & defined mathematically.[math](science/rational_empirical_bridge.eqn.xml)
 		**Falsifiability**: Theories must be able to be proven false through empirical measurements.	
 	**Philosophical Razors**
 		Correspondence Principle: New Theories should reduce/simplify to Old Theories.
