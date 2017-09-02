@@ -33,14 +33,14 @@ function find_paper(tis){
 	else{
 		var doi_str = tis.value+".md";
 		while(doi_str.includes("\/")){ doi_str = doi_str.replace("\/","@");}
-		var url_str = "http://tristyn.me/ref/note?papers/"+doi_str;
+		var url_str = "http://tristyn.me/ref/note.html?papers/"+doi_str;
 		
 		
 		var docstr;
 		var dochttp;
 		if (window.XMLHttpRequest){dochttp = new XMLHttpRequest();} else {dochttp = new ActiveXObject("Microsoft.XMLHTTP");}
 		
-		dochttp.open('HEAD', url_str, true);
+		dochttp.open('HEAD', "http://tristyn.me/ref/papers/"+doi_str, true);												// Notice: this is not note.html
 		dochttp.onreadystatechange = function(){
 			if (dochttp.readyState == 4){
 				if(dochttp.status == 200){
@@ -48,7 +48,7 @@ function find_paper(tis){
 					found.style.display = "inline";
 					found.setAttribute("href",url_str);
 					}
-				else if(dochttp.status == 404){
+				else{
 					not_found.style.display = "inline";
 					found.style.display = "none";
 					found.setAttribute("href","");
