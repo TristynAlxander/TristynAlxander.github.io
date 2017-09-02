@@ -20,7 +20,7 @@
 ## Science Index
 	[**Introduction to Science**](note.html?science/intro_to_science.md)
 	**Physics**
-		[Physics 1](note.html?science/physics/physics_1/physics_1.md): Elementary Mechanics
+		[Physics](note.html?science/physics/topics.md)
 		Physics 2: 	[Electrodynamics]("Electricity and Magnetism")
 			Light & Optics
 		Sound
