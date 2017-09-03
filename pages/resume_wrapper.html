@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC>
+<html><head><title>Tristyn's Resume</title>
+<link rel="icon" type="image/png" href="../more/images/poi.ico.png">
+<meta name="description" content="Tristyn's Webpage">
+<meta name="keywords" content="Tristyn, Resume">
+
+<link rel="stylesheet" type="text/css" href="../more/css/style.css" />
+<style type="text/css">
+body{overflow:hidden;background-color:#8d8878;}
+body::after{										/* Gears Background */	
+	content: "";
+	background:url(http://tristyn.me/more/images/gears.svg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	opacity: 0.2;		
+	position: absolute;		z-index: -1;
+	top: 0;		left: 0;		bottom: 0;		right: 0;
+	}
+body::before{										/* Gears Background */	
+	-webkit-transform: rotate(180deg);
+	-moz-transform:    rotate(180deg);
+	-ms-transform:     rotate(180deg);
+	-o-transform:      rotate(180deg);
+	transform:         rotate(180deg);
+	content: "";
+	background:url(http://tristyn.me/more/images/gears.svg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	opacity: 0.2;		
+	position: absolute;		z-index: -1;
+	top: 0;		left: 0;		bottom: 0;		right: 0;
+	}
+#myframe{						/*	Parent Container	*/
+	height:100%; width: 8.5in;
+	text-align:center;
+	margin: 0 auto 0 auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	}
+#myframe iframe{				/*	Child Container, Hides Scrollbar	*/
+	height:100%; width: 8.7in;
+	}
+#scroll_message{
+	font-size:0.8em;
+	position:absolute;
+	left: 0.5em;	bottom: 0.5em;
+	display:none;
+	}
+</style>
+<script type="text/javascript">
+function scroll_on_function(){document.getElementById("scroll_message").style.display = "none";}
+function scroll_off_function(){document.getElementById("scroll_message").style.display = "inline";}
+</script>
+
+</head><body id="Homepage">
+
+<div id="myframe" onmouseover="scroll_on_function()" onmouseout="scroll_off_function()"><iframe src="resume.html"></iframe></div>
+
+
+<div id="scroll_message">
+Scroll on the paper...
+</div>
+
+</body></html>
