@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Radial Acceleration under Uniform Circular Motion">
-	<LaTeX> \alpha_{r} = \frac{v^{2}}{r} = \omega^{2} r </LaTeX>
-	<Variables>
-		<Var 	symbol="\alpha_{r}"		mathObject=""				unit="m s^{-2}"		name="Radial Acceleration"		measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{v}"		mathObject=""				unit="m s^{-1}"		name="Velocity"					measurands=""		dependencies=""/>
-		<Var 	symbol="\omega"			mathObject=""				unit="s^{-1}"		name="Angular Velocity"			measurands=""		dependencies=""/>
-		<Var 	symbol="r"				mathObject=""				unit="m"			name="Radius"					measurands=""		dependencies=""/>	
-	</Variables>
-</Equation>

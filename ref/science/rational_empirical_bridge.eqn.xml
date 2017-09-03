@@ -1,7 +1,8 @@
 <Equation version="1.0" name="Rational-Empirical Bridge">
 	<LaTeX> R_\ell(x_1 , ..., x_i , ..., x_n) </LaTeX>
 	<Variables>
-		<Var 	symbol="x_i"			mathObject="Math Object"		unit="???"				name="Observation"							measurands="???"	dependencies=""/>
-		<Var 	symbol="R_\ell"			mathObject="Math Relation"		unit=""					name="Model"								measurands=""		dependencies=""/>
+		<Var 	symbol="x_i"			math_object="Math Object"		unit="???"				name="Observation"	/>
+		<Var 	symbol="R_\ell"			math_object="Math Relation"		unit=""					name="Model"		/>
 	</Variables>
+	<Assumptions></Assumptions>
 </Equation>

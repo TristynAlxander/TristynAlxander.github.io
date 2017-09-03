@@ -1,0 +1,30 @@
+<Equation version="1.0" name="Range of Trajectory">
+	<LaTeX> 
+		r_{x} = r_{x,0} + v_{x,0} t + \frac{a_{x} t^{2}}{2}			\\
+		\left | \begin{matrix}										\\
+		r_{x,0}		&amp; = &amp;	0								\\ 
+		a_{x}		&amp; = &amp;	0								\\ 
+		t			&amp; = &amp;	\frac{2 v_{0} \sin(\theta)}{g}	\\ 
+																	\\
+		\end{matrix}\right.											\\
+		r_{x} =  v_{x,0} \frac{2 v_{0} \sin(\theta)}{g} 			\\
+		r_{x} =  v_{0} \cos(\theta) \frac{2 v_{0} \sin(\theta)}{g} 	\\
+		
+		\left | \begin{matrix}										\\
+		\sin( \alpha ) \cos( \beta )	&amp; = &amp;	\frac{\sin( \alpha + \beta )+\sin( \alpha - \beta )}{2}			\\ 
+		\sin( \theta ) \cos( \theta )	&amp; = &amp;	\frac{\sin( 2\theta ) + \sin(0)}{2}								\\ 
+		\sin( \theta ) \cos( \theta )	&amp; = &amp;	\frac{\sin( 2\theta )}{2}										\\ 
+																	\\
+		\end{matrix}\right.											\\
+		
+		r_{x} =  v_{0}  \frac{2 v_{0}}{g} \frac{\sin( 2\theta )}{2}	\\
+		r_{x} = \frac{v_{0}^{2} \sin(2\theta)}{g} 
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="r"				math_object="Scalar"				unit="m"				name="Range"									/>
+		<Var 	symbol="v"				math_object="Scalar"				unit="m s^{-1}"			name="Velocity"									/>
+		<Var 	symbol="\theta"			math_object="Scalar"				unit="^{(R)}"			name="angle"									/>
+		<Var 	symbol="g"				math_object="9.80665"			unit="m s^{-2}"			name="Near-Earth Gravitational Acceleration"	/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

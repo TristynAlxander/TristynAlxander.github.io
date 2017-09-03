@@ -1,6 +1,0 @@
-<Equation version="1.0" name="Newton's Third Law">
-	<LaTeX> \vec{F}_{A,B} = - \vec{F}_{B,A} </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{F}"			mathObject="Vector"			unit="N"			name="Force"					measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

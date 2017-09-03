@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Angular Acceleration">
-	<LaTeX> \alpha_{a} = \frac{d \omega}{d t} = \frac{d^2 \theta}{d t^2}  </LaTeX>
-	<Variables>
-		<Var 	symbol="\alpha_{a}"			mathObject=""				unit="s^{-2}"		name="Angular Acceleration"		measurands=""		dependencies=""/>
-		<Var 	symbol="\omega"				mathObject=""				unit="s^{-1}"		name="Angular Velocity"			measurands=""		dependencies=""/>
-		<Var 	symbol="\theta"				mathObject=""				unit=""				name="Angle"					measurands=""		dependencies=""/>
-		<Var 	symbol="t"					mathObject=""				unit="s"			name="Radius"					measurands=""		dependencies=""/>	
-	</Variables>
-</Equation>

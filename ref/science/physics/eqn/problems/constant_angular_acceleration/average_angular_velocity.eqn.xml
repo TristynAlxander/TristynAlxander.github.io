@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Average Angular Velocity">
+	<LaTeX> \bar{\omega} = \frac{\omega - \omega_{0}}{2} </LaTeX>
+	<Variables>
+		<Var 	symbol="\omega"				math_object=""				unit="s^{-1}"		name="Angular Velocity"			/>
+	</Variables>
+	<Assumptions>
+		<Ass text="Constant Angular Acceleration"/>
+	</Assumptions>
+</Equation>

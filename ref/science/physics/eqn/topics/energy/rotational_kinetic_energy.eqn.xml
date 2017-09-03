@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Rotational Kinetic Energy">
+	<LaTeX>
+		K_{rot} \equiv \frac{\vec{L}^2}{2 I} = \frac{I \omega^2}{2}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="K"									math_object="Scalar"						unit="J"					name="Kinetic Energy"					/>
+		<Var	symbol="I"									math_object="Scalar"		 				unit="kg m^2"				name="Moment of Inertia, Angular Mass"	/>
+		<Var 	symbol="\omega"								math_object="Scalar"						unit="s^{-1}"				name="Angular Velocity"					/>
+		<Var 	symbol="\vec{L}"							math_object="Vector"						unit="J s"					name="Angular Momentum"					/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

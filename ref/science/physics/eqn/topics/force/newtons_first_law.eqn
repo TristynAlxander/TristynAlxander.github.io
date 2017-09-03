@@ -1,7 +1,0 @@
-<Equation version="1.0" name="Newton's First Law">
-	<LaTeX> \vec{F}_{net} = 0 \implies \vec{a} = 0 </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{F}"			mathObject="Vector"			unit="N"			name="Force"					measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}"			mathObject="Vector"			unit="m s^{-2}"		name="Acceleration"				measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

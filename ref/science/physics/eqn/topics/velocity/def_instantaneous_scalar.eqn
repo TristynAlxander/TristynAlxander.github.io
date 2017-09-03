@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Definition of Instantaneous Speed (Position to Velocity)">
-	<LaTeX> s \equiv \frac{d r}{d t} </LaTeX>
-	<Variables>
-		<Var 	symbol="s, v"			mathObject="Scalar"				unit="m s^{-1}"			name="Speed"								measurands=""		dependencies=""/>
-		<Var 	symbol="r, x, \ell"		mathObject="Scalar"				unit="m"				name="Distance, Length"						measurands=""		dependencies=""/>
-		<Var 	symbol="t"				mathObject="Scalar				unit="s"				name="Time"									measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

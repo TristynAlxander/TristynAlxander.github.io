@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Newton's 2nd Law of Rotation">
+	<LaTeX>
+		\vec{\tau} = \vec{\alpha}_{a} I
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{\alpha}_{a}"					math_object="Vector"						unit="s^{-2}"				name="Angular Acceleration"				/>
+		<Var	symbol="I"									math_object="Scalar"		 				unit="kg m^2"				name="Moment of Inertia, Angular Mass"	/>
+		<Var 	symbol="\vec{\tau}"							math_object="Vector"						unit="N m"					name="Torque, Moment of Force"			/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

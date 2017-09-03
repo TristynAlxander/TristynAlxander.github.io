@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Reduced Mass">
-	<LaTeX> \mu^{-1} = \sum m_{i}^{-1} </LaTeX>
-	<Variables>
-		<Var	symbol="\mu"				mathObject=""		 		unit="kg"					name="Reduced Mass, Reduced Inertia"			measurands=""		dependencies=""/>
-		<Var 	symbol="m"					mathObject=""			 	unit="kg"					name="Mass, Inertia"							measurands=""		dependencies=""/>
-		<Var	symbol="i"					mathObject="Integer"		unit="unitless"				name="Dummy Variable"							measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

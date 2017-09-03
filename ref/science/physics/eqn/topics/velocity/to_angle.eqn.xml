@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Angular Velocity to Angle">
+	<LaTeX> \theta = \theta_{0} + \int \omega dt </LaTeX>
+	<Variables>
+		<Var 	symbol="\theta"			math_object="Scalar"				unit=""					name="Angle"							/>
+		<Var 	symbol="\omega"			math_object="Scalar"				unit="s^{-1}"			name="Angular Velocity"					/>
+		<Var 	symbol="t"				math_object="Scalar"				unit="s"				name="Time"									/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

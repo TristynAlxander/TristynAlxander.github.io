@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Definition of Average Vector Acceleration (Velocity to Acceleration)">
+	<LaTeX> \langle \vec{a} \rangle = \frac{\Delta \vec{v}}{\Delta t} </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{a}"		math_object="Vector"				unit="m s^{-2}"			name="Acceleration"							/>
+		<Var 	symbol="\vec{v}"		math_object="Vector"				unit="m s^{-1}"			name="Velocity"								/>
+		<Var 	symbol="t"				math_object="Scalar"				unit="s"				name="Time"									/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

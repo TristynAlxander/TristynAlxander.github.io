@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Newton's Second Law">
-	<LaTeX> \vec{F} = \vec{a} m </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{F}"			mathObject="Vector"			unit="N"			name="Force"					measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}"			mathObject="Vector"			unit="m s^{-2}"		name="Acceleration"				measurands=""		dependencies=""/>
-		<Var 	symbol="m"					mathObject="Vector"			unit="kg"			name="Mass (Inertia)"			measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

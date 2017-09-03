@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Average Velocity under Constant Linear Acceleration">
+	<LaTeX>
+		\bar{v} = \frac{v_{0} + v}{2}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="v, s"			math_object="Scalar"			unit="m s^{-1}"				name="Velocity"				/>
+	</Variables>
+	<Assumptions>
+		<Ass text="Constant Acceleration"/>
+	</Assumptions>
+</Equation>

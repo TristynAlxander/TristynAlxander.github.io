@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Work under Constant Force with Component in the Direction of Motion.">
+	<LaTeX>
+		W = F r \cos(\theta)
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="r, x, \ell"							math_object="Scalar"						unit="m"					name="Position, Radius"					/>
+		<Var 	symbol="\theta"								math_object="Scalar"						unit=""						name="Angle"							/>
+		<Var 	symbol="F"									math_object="Scalar"						unit="N"					name="Force"							/>
+		<Var 	symbol="W"									math_object="Scalar"						unit="J"					name="Work"								/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

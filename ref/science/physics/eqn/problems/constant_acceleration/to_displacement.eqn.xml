@@ -1,0 +1,13 @@
+<Equation version="1.0" name="Constant Acceleration to Displacement">
+	<LaTeX>
+		r - r_{0} = \frac{v^{2} - v_{0}^{2}}{2 a}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="r, x, \ell"				math_object="Scalar"			unit="m"					name="Position, Radius"					/>
+		<Var 	symbol="v, s"					math_object="Scalar"			unit="m s^{-1}"				name="Velocity"							/>
+		<Var 	symbol="a"						math_object="Scalar"			unit="m s^{-2}"				name="Acceleration"						/>
+	</Variables>]
+	<Assumptions>
+		<Ass text="Constant Acceleration"/>
+	</Assumptions>
+</Equation>

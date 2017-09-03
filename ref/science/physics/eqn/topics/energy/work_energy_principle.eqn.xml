@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Work-Energy Principle">
+	<LaTeX>
+		W = \Delta K = - \Delta U
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="W"									math_object="Scalar"						unit="J"					name="Work"								/>
+		<Var 	symbol="K"									math_object="Scalar"						unit="J"					name="Kinetic Energy"					/>
+		<Var 	symbol="U"									math_object="Scalar"						unit="J"					name="Potential Energy"					/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

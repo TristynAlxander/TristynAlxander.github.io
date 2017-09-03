@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Acceleration to Position (Vector)">
-	<LaTeX> \vec{r} = \int \int \vec{a} dt dt = \vec{r}_{0} + \int \left( \vec{v}_{0} + \int \vec{a} dt \right) dt </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{r}"		mathObject="Vector"				unit="m"				name="Position"								measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}"		mathObject="Vector"				unit="m s^{-2}"			name="Acceleration"							measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m s^{-1}"			name="Velocity"								measurands=""		dependencies=""/>
-		<Var 	symbol="t"				mathObject="Scalar"				unit="s"				name="Time"									measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

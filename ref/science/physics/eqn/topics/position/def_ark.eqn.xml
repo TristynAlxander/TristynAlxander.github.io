@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Ark">
+	<LaTeX> s = r \theta </LaTeX>
+	<Variables>
+		<Var 	symbol="s"				math_object=""				unit="m"			name="Ark"							/>
+		<Var 	symbol="r"				math_object=""				unit="m"			name="Radius"						/>	
+		<Var 	symbol="\theta"			math_object=""				unit="^(R)"			name="Angle"						/>	
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

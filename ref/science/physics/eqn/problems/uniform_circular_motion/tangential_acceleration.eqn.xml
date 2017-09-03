@@ -1,0 +1,12 @@
+<Equation version="1.0" name="Tangential Acceleration under Uniform Circular Motion">
+	<LaTeX> a_{T} = \alpha_{a} r </LaTeX>
+	<Variables>
+		<Var 	symbol="a_{T}"				math_object=""				unit="m s^{-2}"		name="Tangential Acceleration"	/>
+		<Var 	symbol="\alpha_{a}"			math_object=""				unit="s^{-2}"		name="Angular Acceleration"		/>	
+		<Var 	symbol="r"					math_object=""				unit="m"			name="Radius"					/>	
+	</Variables>
+	<Assumptions>
+		<Ass text="Circular Motion"/>
+		<Ass text="Constant Velocity"/>
+	</Assumptions>
+</Equation>

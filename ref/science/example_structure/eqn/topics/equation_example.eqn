@@ -1,57 +1,65 @@
-<Equation version="1.0" name="Name_of_Equation">
+<Equation version="1.1" name="Name_of_Equation">
 	<LaTeX>
 		\LaTeX
 	</LaTeX>
 	<Variables>
-		<Var 	symbol="t"									mathObject="Scalar"						unit="s"					name="Time"								measurands=""		dependencies=""/>
-		<Var 	symbol="s"									mathObject=""							unit="m"					name="Ark"								measurands=""		dependencies=""/>
-		<Var 	symbol="r, x, \ell"							mathObject="Scalar"						unit="m"					name="Position, Radius"					measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{r}, \vec{x},\vec{\ell}"		mathObject="Vector"						unit="m"					name="Position, Radius"					measurands=""		dependencies=""/>
-		<Var 	symbol="v, s"								mathObject="Scalar"						unit="m s^{-1}"				name="Velocity"							measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{v}"							mathObject="Vector"						unit="m s^{-1}"				name="Velocity"							measurands=""		dependencies=""/>
-		<Var 	symbol="a"									mathObject="Scalar"						unit="m s^{-2}"				name="Acceleration"						measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}"							mathObject="Vector"						unit="m s^{-2}"				name="Acceleration"						measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}_{r}"						mathObject="Vector"						unit="m s^{-2}"				name="Radial Acceleration, Centripetal Acceleration, Negative Centrifugal Acceleration"		measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{a}_{T}"						mathObject="Vector"						unit="m s^{-2}"				name="Tangential Acceleration, Coriolis Acceleration"										measurands=""		dependencies=""/>
+		<Var 	symbol="t"									math_object="Scalar"						unit="s"					name="Time"/>
+		<Var 	symbol="s"									math_object="Scalar"						unit="m"					name="Ark"/>
+		<Var 	symbol="r, x, \ell"							math_object="Scalar"						unit="m"					name="Position, Radius"/>
+		<Var 	symbol="\vec{r}, \vec{x},\vec{\ell}"		math_object="Vector"						unit="m"					name="Position, Radius"/>
+		<Var 	symbol="v, s"								math_object="Scalar"						unit="m s^{-1}"				name="Velocity"/>
+		<Var 	symbol="\vec{v}"							math_object="Vector"						unit="m s^{-1}"				name="Velocity"/>
+		<Var 	symbol="a"									math_object="Scalar"						unit="m s^{-2}"				name="Acceleration"/>
+		<Var 	symbol="\vec{a}"							math_object="Vector"						unit="m s^{-2}"				name="Acceleration"/>
+		<Var 	symbol="\vec{a}_{r}"						math_object="Vector"						unit="m s^{-2}"				name="Radial Acceleration, Centripetal Acceleration, Negative Centrifugal Acceleration"/>
+		<Var 	symbol="\vec{a}_{T}"						math_object="Vector"						unit="m s^{-2}"				name="Tangential Acceleration, Coriolis Acceleration"		/>
 		
-		<Var 	symbol="\theta"								mathObject="Scalar"						unit=""						name="Angle"							measurands=""		dependencies=""/>
-		<Var 	symbol="\omega"								mathObject="Scalar"						unit="s^{-1}"				name="Angular Velocity"					measurands=""		dependencies=""/>
-		<Var 	symbol="\alpha_{a}"							mathObject="Scalar"						unit="s^{-2}"				name="Angular Acceleration"				measurands=""		dependencies=""/>
+		<Var 	symbol="\theta"								math_object="Scalar"						unit=""						name="Angle"/>
+		<Var 	symbol="\omega"								math_object="Scalar"						unit="s^{-1}"				name="Angular Velocity"/>
+		<Var 	symbol="\alpha_{a}"							math_object="Scalar"						unit="s^{-2}"				name="Angular Acceleration"/>
 		
-		<Var 	symbol="m"									mathObject="Scalar"						unit="kg"					name="Mass, Inertia"					measurands=""		dependencies=""/>
-		<Var	symbol="\rho "								mathObject="Scalar"		 				unit="kg m^{-3}"			name="Density"							measurands=""		dependencies=""/>
-		<Var	symbol="I"									mathObject="Scalar"		 				unit="kg m^2"				name="Moment of Inertia, Angular Mass"	measurands=""		dependencies=""/>
-		<Var	symbol="\mu"								mathObject="Scalar"				 		unit="kg"					name="Reduced Mass, Reduced Inertia"	measurands=""		dependencies=""/>
+		<Var 	symbol="m"									math_object="Scalar"						unit="kg"					name="Mass, Inertia"/>
+		<Var	symbol="\rho "								math_object="Scalar"		 				unit="kg m^{-3}"			name="Density"/>
+		<Var	symbol="I"									math_object="Scalar"		 				unit="kg m^2"				name="Moment of Inertia, Angular Mass"/>
+		<Var	symbol="\mu"								math_object="Scalar"				 		unit="kg"					name="Reduced Mass, Reduced Inertia"/>
 		
-		<Var 	symbol="\vec{p}"							mathObject="Vector"						unit="kg m s^{-1}"			name="Momentum"							measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{L}"							mathObject="Vector"						unit="J s"					name="Angular Momentum"					measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{p}"							math_object="Vector"						unit="kg m s^{-1}"			name="Momentum"/>
+		<Var 	symbol="\vec{L}"							math_object="Vector"						unit="J s"					name="Angular Momentum"/>
 		
-		<Var 	symbol="\vec{F}"							mathObject="Vector"						unit="N"					name="Force"							measurands=""		dependencies=""/>
-		<Var 	symbol="F"									mathObject="Scalar"						unit="N"					name="Force"							measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{\tau}"							mathObject="Vector"						unit="N m"					name="Torque, Moment of Force"			measurands=""		dependencies=""/>
-		<Var 	symbol="\tau, M"							mathObject="Scalar"						unit="N m"					name="Torque, Moment of Force"			measurands=""		dependencies=""/>
-		
-		
-		<Var 	symbol="\vec{p}"							mathObject="Vector"						unit="C m"					name="Electric Dipole Moment"			measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{E}"							mathObject="Vector"						unit="N C^{-1}, V m^{-1}"	name="Electric Field"					measurands=""		dependencies=""/>
+		<Var 	symbol="\vec{F}"							math_object="Vector"						unit="N"					name="Force"/>
+		<Var 	symbol="F"									math_object="Scalar"						unit="N"					name="Force"/>
+		<Var 	symbol="\vec{\tau}"							math_object="Vector"						unit="N m"					name="Torque, Moment of Force"/>
+		<Var 	symbol="\tau, M"							math_object="Scalar"						unit="N m"					name="Torque, Moment of Force"/>
 		
 		
-		<Var 	symbol="W"									mathObject="Scalar"						unit="J"					name="Work"								measurands="Energy"		dependencies=""/>
-		<Var 	symbol="K"									mathObject="Scalar"						unit="J"					name="Kinetic Energy"					measurands="Energy"		dependencies=""/>
+		<Var 	symbol="\vec{p}"							math_object="Vector"						unit="C m"					name="Electric Dipole Moment"/>
+		<Var 	symbol="\vec{E}"							math_object="Vector"						unit="N C^{-1}, V m^{-1}"	name="Electric Field"/>
 		
 		
-		<Var 	symbol="V"									mathObject="Scalar"						unit="V"					name="Voltage"							measurands=""		dependencies=""/>
-		<Var 	symbol="R"									mathObject="Scalar"						unit="\Omega"				name="Resistance"						measurands=""		dependencies=""/>
-		<Var 	symbol="I"									mathObject="Scalar"						unit="A"					name="Current"							measurands=""		dependencies=""/>
-		<Var 	symbol="P"									mathObject="Scalar"						unit="W"					name="Watts"							measurands=""		dependencies=""/>
-		<Var 	symbol="C"									mathObject="Scalar"						unit="F"					name="Capacitance"						measurands=""		dependencies=""/>
-		<Var 	symbol="q, Q"								mathObject="Scalar"						unit="C, A s"				name="Charge"							measurands=""		dependencies=""/>
-		<Var 	symbol="q_{e}, e"							mathObject="1.60217657 \times 10^{-19}"	unit="C, A s"				name="Charge of an Electron"			measurands=""		dependencies=""/>
+		<Var 	symbol="W"									math_object="Scalar"						unit="J"					name="Work"/>
+		<Var 	symbol="K"									math_object="Scalar"						unit="J"					name="Kinetic Energy"/>
+		
+		
+		<Var 	symbol="V"									math_object="Scalar"						unit="V"					name="Voltage"/>
+		<Var 	symbol="R"									math_object="Scalar"						unit="\Omega"				name="Resistance"/>
+		<Var 	symbol="I"									math_object="Scalar"						unit="A"					name="Current"/>
+		<Var 	symbol="P"									math_object="Scalar"						unit="W"					name="Watts"/>
+		<Var 	symbol="C"									math_object="Scalar"						unit="F"					name="Capacitance"/>
+		<Var 	symbol="q, Q"								math_object="Scalar"						unit="C, A s"				name="Charge"/>
+		<Var 	symbol="q_{e}, e"							math_object="1.60217657 \times 10^{-19}"	unit="C, A s"				name="Charge of an Electron"/>
 		
 		
 		
-		<Var symbol="V"										mathObject="Scalar"				unit="m^3"					name="Volume"							measurands=""		dependencies=""/>
-		<Var symbol="A"										mathObject="Scalar"				unit="m^2"					name="Area"								measurands=""		dependencies=""/>
+		<Var symbol="V"										math_object="Scalar"				unit="m^3"					name="Volume"/>
+		<Var symbol="A"										math_object="Scalar"				unit="m^2"					name="Area"/>
 		
 	</Variables>
+	<Assumptions>
+		<Ass text="Constant Acceleration"/>
+		<Ass text="Constant Angular Acceleration"/>
+		<Ass text="Non-Relativistic Spacetime"/>
+		<Ass text="Circular Motion"/>
+		<Ass text="Constant Velocity"/>
+		<Ass text="Near Earth Gravity"/>
+	</Assumptions>
 </Equation>

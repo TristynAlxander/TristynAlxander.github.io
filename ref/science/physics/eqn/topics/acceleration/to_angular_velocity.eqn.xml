@@ -1,0 +1,9 @@
+<Equation version="1.0" name="Angular Acceleration to Angular Velocity">
+	<LaTeX> \omega = \omega_{0} + \int \alpha_{a} dt </LaTeX>
+	<Variables>
+		<Var 	symbol="\omega"				math_object=""				unit="s^{-1}"		name="Angular Velocity"			/>
+		<Var 	symbol="\alpha_{a}"			math_object=""				unit="s^{-2}"		name="Angular Acceleration"		/>
+		<Var 	symbol="t"					math_object="Scalar"				unit="s"			name="Time"						/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

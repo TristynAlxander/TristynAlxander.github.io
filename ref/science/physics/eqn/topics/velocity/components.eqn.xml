@@ -1,0 +1,7 @@
+<Equation version="1.0" name="Velocity Components">
+	<LaTeX> \vec{v} = \vec{v}_{\parallel} + \vec{v}_{\perp} </LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{v}"				math_object=""				unit="m s^{-1}"		name="Velocity"			/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

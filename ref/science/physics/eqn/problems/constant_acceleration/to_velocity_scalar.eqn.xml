@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Constant Acceleration to Velocity (Scalar)">
+	<LaTeX> v = v_{0} + a t </LaTeX>
+	<Variables>
+		<Var 	symbol="v"				math_object="Scalar"				unit="m s^{-1}"			name="Velocity"								/>
+		<Var 	symbol="a"				math_object="Scalar"				unit="m s^{-2}"			name="Acceleration"							/>
+		<Var 	symbol="t"				math_object="Scalar"				unit="s"				name="Time"									/>
+	</Variables>
+	<Assumptions>
+		<Ass text="Constant Acceleration"/>
+	</Assumptions>
+</Equation>

@@ -1,0 +1,10 @@
+<Equation version="1.0" name="Acceleration to Position (Scalar)">
+	<LaTeX> r = \int \int a dt dt = r_{0} + \int \left( v_{0} + \int a dt \right) dt </LaTeX>
+	<Variables>
+		<Var 	symbol="r"				math_object="Scalar"				unit="m"				name="Position"								/>
+		<Var 	symbol="v"				math_object="Scalar"				unit="m s^{-1}"			name="Velocity"								/>
+		<Var 	symbol="a"				math_object="Scalar"				unit="m s^{-2}"			name="Acceleration"							/>
+		<Var 	symbol="t"				math_object="Scalar"				unit="s"				name="Time"									/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

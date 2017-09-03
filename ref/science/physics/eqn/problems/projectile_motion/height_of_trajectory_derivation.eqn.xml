@@ -1,0 +1,22 @@
+<Equation version="1.0" name="Height of Trajectory">
+	<LaTeX> 
+		r_{y} = r_{y,0} + v_{y,0} t + \frac{a_{y} t^{2}}{2}			\\
+		
+		\left | \begin{matrix}										\\
+		r_{y,0}		&amp; = &amp;	0								\\ 
+		a_{y}		&amp; = &amp;	g								\\ 
+		v_{t_{1/2}}	&amp; = &amp;	0								\\ 
+		t_{1/2}		&amp; = &amp;	\frac{v_{0} \sin(\theta)}{g}	\\ 
+																	\\
+		\end{matrix}\right.											\\
+		r_{y} = \frac{g \left(\frac{v_{0} \sin(\theta)}{g}\right)^{2}}{2}						\\
+		r_{y} = \frac{v_{0}^{2} \sin^{2}(\theta)}{2g}				\\
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="h"				math_object="Scalar"				unit="m"				name="Peak Height"								/>
+		<Var 	symbol="v"				math_object="Scalar"				unit="m s^{-1}"			name="Velocity"									/>
+		<Var 	symbol="\theta"			math_object="Scalar"				unit="^{(R)}"			name="angle"									/>
+		<Var 	symbol="g"				math_object="9.80665"			unit="m s^{-2}"			name="Near-Earth Gravitational Acceleration"	/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

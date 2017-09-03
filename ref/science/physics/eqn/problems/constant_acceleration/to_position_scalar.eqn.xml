@@ -1,0 +1,14 @@
+<Equation version="1.0" name="Constant Acceleration to Position (Scalar)">
+	<LaTeX>
+		r = r_{0} + v_{0} t + \frac{a t^2}{2}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="t"									math_object="Scalar"						unit="s"					name="Time"								/>
+		<Var 	symbol="r, x, \ell"							math_object="Scalar"						unit="m"					name="Position, Radius"					/>
+		<Var 	symbol="v, s"								math_object="Scalar"						unit="m s^{-1}"				name="Velocity"							/>
+		<Var 	symbol="a"									math_object="Scalar"						unit="m s^{-2}"				name="Acceleration"						/>
+	</Variables>
+	<Assumptions>
+		<Ass text="Constant Acceleration"/>
+	</Assumptions>
+</Equation>

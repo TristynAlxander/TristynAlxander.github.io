@@ -1,0 +1,11 @@
+<Equation version="1.0" name="Average Velocity">
+	<LaTeX>
+		\langle \vec{v} \rangle = \frac{\vec{r}}{t}
+	</LaTeX>
+	<Variables>
+		<Var 	symbol="\vec{r}"		math_object="Vector"				unit="m"				name="Position"								/>
+		<Var 	symbol="\vec{v}"		math_object="Vector"				unit="m s^{-1}"			name="Velocity"								/>
+		<Var 	symbol="t"				math_object="Scalar"				unit="s"				name="Time"									/>
+	</Variables>
+	<Assumptions></Assumptions>
+</Equation>

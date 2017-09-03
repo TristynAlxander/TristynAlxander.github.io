@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Center of Mass Velocity">
-	<LaTeX> \vec{v}_{sys} = \frac{\sum m_{i} \vec{v}_{i}}{\sum m_{i}} = \frac{1}{\sum m_{i}} \int \vec{v} dm </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{v}_{Sys}"	mathObject="Vector"				unit="m/s"				name="Center of Mass Velocity, System Velocity"		measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{v}"		mathObject="Vector"				unit="m/s"				name="Velocity"								measurands=""		dependencies=""/>
-		<Var 	symbol="m"				mathObject=""			 		unit="kg"				name="Mass, Inertia"								measurands=""		dependencies=""/>
-		<Var 	symbol="i"				mathObject="Whole Number"		unit="unitless"			name="Dummy Variable"								measurands=""		dependencies=""/>	
-	</Variables>
-</Equation>
