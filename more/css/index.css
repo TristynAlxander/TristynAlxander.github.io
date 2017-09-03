@@ -38,3 +38,11 @@ body::before{										/* Gears Background */
 #myframe iframe{				/*	Child Container, Hides Scrollbar	*/
 	height:100%; width:64em;
 	}
+
+#tristyn{
+	font-size:0.8em;
+	position:absolute;
+	left: 0.5em;	bottom: 0.5em;
+	}
+#tristyn a{color:#666666;}
+#tristyn a:hover{background-color:rgba(0,0,200,0.03);	text-shadow: 0 0 0px #9999ff;}

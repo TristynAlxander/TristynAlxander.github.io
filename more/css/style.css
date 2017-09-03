@@ -15,4 +15,4 @@
 	code{background-color:rgba(150,150,200,0.1); font-family: monospace;}
 
 /* Links */
-	a:hover{	background-color:rgba(0,0,255,0.05);	text-shadow: 0 0 2px #9999ff;}
+	a:hover{background-color:rgba(0,0,255,0.05);}

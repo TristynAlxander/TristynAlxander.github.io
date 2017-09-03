@@ -70,7 +70,7 @@
 /* Math */
 
 	/* Title */
-	.markdown .mathTitle{
+	.markdown .math_title{
 		font-weight:bold;
 		text-align:center;
 		font-size:1.1em;
@@ -83,11 +83,11 @@
 	
 	/* Hover Row Color */
 	.markdown table > tbody > tr > td.LateX:hover{background-color: #ffffff;}
-	.markdown table > tfoot > tr.LabelRow:hover{	background-color: #eeeeee;}
+	.markdown table > tfoot > tr.label_row:hover{	background-color: #eeeeee;}
 	.markdown table > tfoot > tr.Var:hover{		background-color: #eeeeee;}
 
 	/* Checkboxes */
-	.markdown tfoot > tr.LabelRow > td > input[type=checkbox]{
+	.markdown tfoot > tr.label_row > td > input[type=checkbox]{
 		-ms-transform:		scale(0.75);		/* IE */
 		-moz-transform:		scale(0.75);		/* FF */
 		-webkit-transform:	scale(0.75);		/* Safari and Chrome */
@@ -95,20 +95,20 @@
 		}
 
 	/* Label Row: Text Align & Default Display */
-	.markdown tfoot > tr.LabelRow{													display: none;	}
-	.markdown tfoot > tr.LabelRow > td > span.symbol{				text-align:center;					}
-	.markdown tfoot > tr.LabelRow > td > span.mathObject{			text-align:center;	display: none;	}
-	.markdown tfoot > tr.LabelRow > td > span.unit{				text-align:center;					}
-	.markdown tfoot > tr.LabelRow > td > span.VarName{			text-align:center;					}
-	.markdown tfoot > tr.LabelRow > td > span.measurands{			text-align:center;	display: none;	}
-	.markdown tfoot > tr.LabelRow > td > span.dependencies{		text-align:center;	display: none;	}
+	.markdown tfoot > tr.label_row{													display: none;	}
+	.markdown tfoot > tr.label_row > td > span.symbol{				text-align:center;					}
+	.markdown tfoot > tr.label_row > td > span.math_object{			text-align:center;	display: none;	}
+	.markdown tfoot > tr.label_row > td > span.unit{				text-align:center;					}
+	.markdown tfoot > tr.label_row > td > span.VarName{			text-align:center;					}
+	.markdown tfoot > tr.label_row > td > span.measurands{			text-align:center;	display: none;	}
+	.markdown tfoot > tr.label_row > td > span.dependencies{		text-align:center;	display: none;	}
 
 	/* Variable Rows: Text Align & Default Display */
 	.markdown tfoot > tr.Var{														display: none;	}
 	.markdown tfoot > tr.Var > td:nth-child(1){				text-align:center;					} /* Var symbol */
 	.markdown tfoot > tr.Var > td:nth-child(3){				text-align:center;					} /* Var unit   */
 	.markdown tfoot > tr.Var > td > span.symbol{				text-align:center;					}
-	.markdown tfoot > tr.Var > td > span.mathObject{			text-align:center;	display: none;	}
+	.markdown tfoot > tr.Var > td > span.math_object{			text-align:center;	display: none;	}
 	.markdown tfoot > tr.Var > td > span.unit{				text-align:center;					}
 	.markdown tfoot > tr.Var > td > span.VarName{				text-align:center;					}
 	.markdown tfoot > tr.Var > td > span.measurands{			text-align:center;	display: none;	}
