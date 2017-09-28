@@ -1,16 +1,8 @@
 #Electromagnetics
 
 Electromagnetic
-	Lorentz Equation: \[ \vec{F} = q [\vec{E} + (\vec{v}\times\vec{B})] \]
-		||
-		| \( \vec{F} \)	| (N)						| Force				&
-		| q				| (C) 						| Charge			&
-		| E				| (N/C) = (V/m)				| Electric Field	&
-		| \( \vec{v} \)	| \( (m s^{-1}) \)			| Velocity			&
-		| \( \vec{B} \)	| (T)						| Magnetic Field	&
-		||
 	Charge
-		Quantification of Charge: \[ q = \pm n q_{e} \]
+		Quantification of Charge
 			Oil-Drop Experiment
 		Charge Density
 			Line
@@ -27,51 +19,6 @@ Electric Fields: \[ E_T = \sum E_i \]
 			Same Electric Potential
 			Perpendicular to Electric Field Lines
 	Electric Fields from Charge Shapes
-		Charged Plate(s): \[ E = \frac{\sigma}{2 \varepsilon_0} \]
-			Between Parallel Plates of equal charge: \[ E = \frac{\sigma}{\varepsilon_0} \]
-			OutSide Parallel Plates of equal charge: \[ E = 0 \]
-			Derivation: Consider a cylinder perpendicular to plan holding charge:
-				Gauss's Law: \[ \oint \vec{E} \cdot d\vec{A} = \frac{Q}{\varepsilon_0} \]
-				\[ 2EA = \frac{\sigma A}{\varepsilon_0} \]
-				\[ E = \frac{\sigma}{2 \varepsilon_0} \]
-			||
-			| E					| (N/C) = (V/m)				| Electric Field		&
-			| \( \sigma \)		| (C/m^2)					| Area Charge Density	&
-			| \( \varepsilon_{0} = 8.85418781762 \times 10^{-12} \) = 8.85418781762e-12								| \( (F m^-1) \)		| Vacuum Permittivity		&
-			||
-		Line of Charge: \[ dE = k_e \frac{dq}{r^2} = k_e \frac{\lambda ds}{r^2} \]
-			\[ E = \frac{2 k_e \lambda}{r_\perp} \]
-			||
-			| E					| (N/C) = (V/m)				| Electric Field	&
-			| \( \lambda \)		| (C/m)						| Line Charge Density	&
-			| s					| (m)						| Arc					&
-			| q					| (C) = (A s)				| Charge				&
-			| r					| (m)						| Position				&
-			||
-			||
-			| Coulomb's constant	|:	\( k_e = \frac{1}{4 \pi \varepsilon_0 } = 8.9875517873681764 \times 10^9	(N m^{2} C^{-2}) \)		:|:		(N m^2 C^-2)	:|:		8.9875517873681764e9	:&
-			||
-		Charge Ring (Straight On): \[ E = k_e \frac{qz}{(z^2 +R^2)^{3/2}} \]
-			||
-			| q					| (C) = (A s)				| Charge			&
-			| E					| (N/C) = (V/m)				| Electric Field	&
-			| z					| (m)						| Distance			&
-			| R					| (m)						| Ring Radius		&
-			||
-			||
-			| Coulomb's constant	|:	\( k_e = \frac{1}{4 \pi \varepsilon_0 } = 8.9875517873681764 \times 10^9	(N m^{2} C^{-2}) \)		:|:		(N m^2 C^-2)	:|:		8.9875517873681764e9	:&
-			||
-		Charged Disk (Straight On): \[ E = \frac{\sigma}{2 \varepsilon_0} \left( 1- \frac{|z|}{\sqrt{z^2 + R^2}} \right) \]
-			||
-			| E					| (N/C) = (V/m)				| Electric Field		&
-			| \( \sigma \)		| \( (C m^{-2}) \)			| Area Charge Density	&
-			| R					| (m)						| Disk Radius			&
-			| q					| (C) = (A s)				| Charge				&
-			| z					| (m)						| Distance				&
-			||
-			||
-			| Vacuum Permittivity	|:	\( \varepsilon_{0} = 8.85418781762 \times 10^{-12}	(F m^{-1}) \)									:|:		(F m^-1)		:|:		8.85418781762e-12		:&
-			||
 		Dipole: \[ E = \frac{1}{2 \pi \varepsilon_0} \frac{p}{r^3} \]
 			Iff at a distance that's large compared to the length of the electric dipole.
 			||
