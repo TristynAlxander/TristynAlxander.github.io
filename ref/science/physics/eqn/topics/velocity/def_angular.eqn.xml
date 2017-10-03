@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Angular Velocity">
-	<LaTeX> \omega = \frac{d\theta}{dt} </LaTeX>
-	<Variables>
-		<Var 	symbol="\omega"				math_object=""				unit="^(R) s^{-1}"		name="Angular Velocity"			/>
-		<Var 	symbol="\theta"				math_object=""				unit="^(R)"				name="Angle"					/>	
-		<Var 	symbol="t"					math_object=""				unit="s"				name="Time"						/>	
-	</Variables>
-	<Assumptions></Assumptions>
-</Equation>

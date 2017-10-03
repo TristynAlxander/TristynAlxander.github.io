@@ -1,7 +1,0 @@
-<Equation version="1.0" name="Coulomb's Constant">
-	<LaTeX>  k_{e} = \frac{1}{4 \pi \varepsilon_0 } </LaTeX>
-	<Variables>
-		<Var 	symbol="k_{e}"				mathObject="Constant"			unit="8.9875517873681764 \times 10^9 N m^{2} C^{-2}"		name="Coulomb's Constant"								measurands=""		dependencies=""/>
-		<Var 	symbol="\varepsilon_{0}"	mathObject="Constant"			unit="8.85418781762 \times 10^{-12}  F m^{-1}, 8.85418781762 \times 10^{-12} s^4 A^2 m^{-3} kg^{-1}"						name="Vacuum Permittivity, Permittivity of Free Space, Vacuum Dielectric Constant, Dielectric Constant of Free Space"			measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

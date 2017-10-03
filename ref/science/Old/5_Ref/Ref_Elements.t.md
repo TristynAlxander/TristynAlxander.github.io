@@ -31,9 +31,6 @@
 		| D-block :		| Transition Metals			&
 		||
 [Elements]("Atoms defined by number of Protons.")
-	1 Hydrogen (H)
-		Mass: 1.00794 u, 1.67372267e-27 kg
-		Isotopes:
 	2 Helium (He)
 		Mass: 4.002602 u, 6.6464727e-27 kg
 	3 Lithium (Li)

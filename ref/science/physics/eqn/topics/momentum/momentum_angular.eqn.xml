@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Angular Momentum">
-	<LaTeX> \vec{L} = \vec{r} \times \vec{p} </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{L}"			math_object="Vector"			unit="J s"				name="Angular Momentum"			/>
-		<Var 	symbol="\vec{r}"			math_object="Vector"			unit="m"				name="Radius"				/>
-		<Var 	symbol="\vec{p}"			math_object="Vector"			unit="kg m s^{-1}"		name="Momentum"				/>
-	</Variables>
-	<Assumptions></Assumptions>
-</Equation>

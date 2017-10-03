@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Rotational Energy Levels">
-	<LaTeX> E_{J} = \frac{\hbar^2}{2 I} J(J+1) </LaTeX>
-	<Variables>
-		<Var symbol="E_{J}"				mathObject=""		 		unit=""					name="Rotational Energy Level J"			measurands=""		dependencies=""/>
-		<Var symbol="J"					mathObject="Whole Number"	unit="unitless"			name="Rotational Quantum Number"			measurands=""		dependencies=""/>
-		<Var symbol="I"					mathObject=""		 		unit="kg m^2"			name="Moment of Inertia, Angular Mass"		measurands=""		dependencies=""/>
-		<Var symbol="\hbar"				mathObject="Constant"		unit="1.054571800 \times 10^{-34} J s, 6.582119514 \times 10^{-16} eV s"			name="Reduced Planck's Constant"						measurands=""		dependencies=""/>
-	</Variables>
-</Equation>
