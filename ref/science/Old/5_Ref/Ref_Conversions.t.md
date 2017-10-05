@@ -11,9 +11,6 @@ Electricity
 	\( (F) = (s^{4} A^{2} m^{-2} kg^{-1}) \)
 	Electric Fields: \( (N/C) = (V/m) =  (kg m s^{−3} A^{−1}) \)
 	
-Distance
-	\(10 \AA=1nm\)
-
 Pressure
 	Pa = kg m^{-1} s^{-2}
 
