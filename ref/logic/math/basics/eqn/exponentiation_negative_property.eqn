@@ -1,9 +1,0 @@
-<Equation version="1.0" name="Negative Property of Exponentiation">
-	<LaTeX>
-		x ^ {-y} = \frac{1}{x ^ {y}}
-	</LaTeX>
-	<Variables>
-		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
-		<Var symbol="y"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

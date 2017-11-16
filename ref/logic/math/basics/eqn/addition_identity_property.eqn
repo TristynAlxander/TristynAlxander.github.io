@@ -1,6 +1,0 @@
-<Equation version="1.0" name="Identity Property of Addition">
-	<LaTeX>		x + 0 = x		</LaTeX>
-	<Variables>
-		<Var symbol="x"			mathObject="" 				unit=""			name=""		measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

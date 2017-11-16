@@ -1,4 +1,4 @@
-<Equation version="1.0" name="Rational-Empirical Bridge">
+<Equation name="Rational-Empirical Bridge">
 	<LaTeX> R_\ell(x_1 , ..., x_i , ..., x_n) </LaTeX>
 	<Variables>
 		<Var 	symbol="x_i"			math_object="Math Object"		unit="???"				name="Observation"	/>

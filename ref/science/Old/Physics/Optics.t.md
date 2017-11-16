@@ -215,7 +215,7 @@ Diffraction
 							| i		|		| Dummy Variable for [Bases](note.html?SolidStatePhysics.t.md).		&
 							||
 							Intensity: \[ F^{*} F \propto I \]
-			Scattering from charge distribution: \[ f_a = \int \rho(\vec{r}) e^{i(\vec{r}_{j} \cdot \vec{s})} d^{3}r = \int_0^R 4\pi r^2 \rho(r) \frac{sin(sr)}{sr} dr \]
+			    Scattering from charge distribution: \[ f_a = \int \rho(\vec{r}) e^{i(\vec{r}_{j} \cdot \vec{s})} d^{3}r = \int_0^R 4\pi r^2 \rho(r) \frac{sin(sr)}{sr} dr \]
 				||
 				| \( f_a \)								| (m)			| Atomic Scattering Factor		&
 				| R										| (m)			| Radius of Atom				&

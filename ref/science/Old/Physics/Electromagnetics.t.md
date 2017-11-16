@@ -11,13 +11,6 @@ Electromagnetic
 
 Electric Fields: \[ E_T = \sum E_i \]
     Permittivity
-    [math](equations/Coulombs_Law_Electric_Field_of_a_Point Charge.eqn)
-    [math](equations/Coulombs_Constant.eqn)
-    Electric Field Visualization
-        Electric Field Lines: Positive to negative 
-        +Equipotential Lines: 
-            Same Electric Potential
-            Perpendicular to Electric Field Lines
     Electric Flux: \[ \Phi_E = \vec{E} \cdot \vec{A} = \int \vec{E} \cdot d\vec{A} \]
         Gauss's Law (Electric): \[ \Phi_{E,T} = \oint \vec{E} \cdot d\vec{A} = \frac{Q}{\varepsilon_0} \]
             In words: The total electric flux is proportional to the total enclosed charge.

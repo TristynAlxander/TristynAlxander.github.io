@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Divide by Zero Error">
-	<LaTeX>
-		\frac{x}{0} = ?
-	</LaTeX>
-	<Variables>
-		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

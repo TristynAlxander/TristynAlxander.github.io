@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Identity Property of Division">
-	<LaTeX>
-		\frac{x}{1} = x
-	</LaTeX>
-	<Variables>
-		<Var symbol="x"			mathObject="" 				unit=""			name=""						measurands=""		dependencies=""/>
-	</Variables>
-</Equation>

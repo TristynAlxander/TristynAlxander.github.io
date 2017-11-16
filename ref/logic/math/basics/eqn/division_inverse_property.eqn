@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Inverse Property of Division">
-	<LaTeX>
-		\frac{x}{x} = 1
-	</LaTeX>
-	<Variables>
-		<Var symbol="x"			mathObject="Non-Zero Number" 				unit=""			name=""						measurands=""		dependencies=""/>
-	</Variables>
-</Equation>
