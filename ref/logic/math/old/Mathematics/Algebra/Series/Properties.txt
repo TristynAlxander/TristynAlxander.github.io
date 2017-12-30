@@ -1,6 +1,0 @@
-Properties:
-	Constant Factor: $$ \sum_{i = 1}^{n} {c \, a_i} = c \, \sum_{i = 1}^{n} {a_i} $$
-	Constant: $$ \sum_{i = 1}^{n} {c} = {nc} $$
-	Addition: $$ \sum_{i = 1}^{n} {a_i \pm b_i} = \sum_{i = 1}^{n} {a_i} \pm \sum_{i = 1}^{n} {a_i} $$
-	Derivatives: $$ \frac{d}{dx} \left[ \sum_{n = 0}^{\infty} c_n (x - a)^n \right] = \sum_{n = 0}^{\infty} {\frac{d}{dx}} \left[ c_n (x - a)^n \right] $$
-	Integrals: $$ \int \left[ \sum_{n = 0}^{\infty} c_n (x - a)^n \right] dx = \sum_{n = 0}^{\infty} \int \left[ c_n (x - a)^n \right] dx $$

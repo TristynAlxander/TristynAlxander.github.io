@@ -1,8 +1,0 @@
-Logic
-Zermelo–Fraenkel_set_theory
-Identity_of_indiscernibles (Equals)
-Existential_quantification		& Propositional_Expansion
-Universal_quantification		& Propositional_Expansion
-Propositional Variable 		P(o) = T XOR P(o) = F
-Continued Fractions
-Error Functions

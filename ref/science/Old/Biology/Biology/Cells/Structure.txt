@@ -1,9 +1,0 @@
-Cell
-	
-	Membrane
-	Cytoskeleton 
-	Cytoplasm
-		Cytosol
-		Organelles
-			Nucleus
-			Mitochondria 

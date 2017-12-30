@@ -1,7 +1,0 @@
-Oxidase
-	catalyzes an oxidation-reduction reaction
-Kinases
-	Add Phosphates
-Phospho-	-mutase
-	Move phosphate
-dehydrogenase (NADH <--> NAD)

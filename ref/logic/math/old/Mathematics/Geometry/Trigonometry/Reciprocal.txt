@@ -1,7 +1,0 @@
-Reciprocal: 
-	CoSecant Sine: $$ \csc ( \theta ) = \frac{1}{\sin ( \theta )} $$
-	Secant CoSine: $$ \sec ( \theta ) = \frac{1}{\cos ( \theta )} $$
-	CoTangent Tangent: 
-		$$ \cot ( \theta ) = \frac{1}{\tan ( \theta )} $$
-		Tangent: $$ \tan ( \theta ) = \frac{ \sin ( \theta ) }{ \cos ( \theta ) } $$
-		CoTangent: $$ \cot ( \theta ) = \frac{ \cos ( \theta ) }{ \sin ( \theta ) } $$

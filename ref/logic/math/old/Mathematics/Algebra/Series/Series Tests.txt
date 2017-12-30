@@ -1,9 +1,0 @@
-Series Tests: 
-	Comparison: $$ 0 < a(i) \leq b(i) \land \sum_{i = 1}^{\infty} b(i) \text{Converges} \implies \sum_{i = 1}^{\infty} a(i) \text{Converges} $$ $$ 0 < a(i) \leq b(i) \land \sum_{i = 1}^{\infty} a(i) \text{Diverges} \implies \sum_{i = 1}^{\infty} b(i) \text{Diverges} $$
-	Divergence: $$ \lim_{n \to \infty} a_n \nexists \lor \lim_{n \to \infty} a_n \not= 0 \implies \sum_{n = 1}^{\infty} a_n \; \text{diverges} $$
-	Integral: $$ \left( f(x) \in C^{0} \land x \geq 1 \land f'(x) < 0 \land f(x) > 0 \right) \\ \implies \\ \left( \sum_{k = 1}^{\infty} f(k) \iff \int_{1}^{\infty} f(x) dx \right) $$
-	Limit Comparison: $$ 0 < a(i) \land 0 < b(i) \land 0 < L < \infty \land \lim_{i \to \infty}{\frac{a(i)}{b(i)}} = L  \\ \implies \\ \left( \sum_{i = 1}^{\infty} b(i) \text{converges} \land \sum_{i = 1}^{\infty} a(i) \text{converges} \right) \veebar \left( \sum_{i = 1}^{\infty} b(i) \text{diverges} \land \sum_{i = 1}^{\infty} a(i) \text{diverges} \right) $$
-	p-Series: $$ p > 1 \land \sum_{n = 1}^{\infty} \frac{1}{n^{p}} \implies \text{Converges} $$ $$ p \leq 1 \land \sum_{n = 1}^{\infty} \frac{1}{n^{p}} \implies \text{Diverges} $$
-	Ratio: $$ \lim_{n \to \infty}{\left| \frac{a_{n+1}}{a_{n}} \right|} < 1 \implies \text{Converges} $$ $$ \lim_{n \to \infty}{\left| \frac{a_{n+1}}{a_{n}} \right|} > 1 \implies \text{Diverges} $$
-	Root: $$ \lim_{n \to \infty} \sqrt[n]{{\left| a_n \right|}} < 1 \implies \text{Converges} $$ $$ \lim_{n \to \infty} \sqrt[n]{{\left| a_n \right|}} > 1 \implies \text{Diverges} $$
-	Alternating: $$ 0 < a(n_1) \leq a(n) \land \lim_{n \to \infty}{a_n} = 0 \implies \sum_{n = 1 \lor n = 0}^{\infty}{(-1)^{n} \, a_n} \text{Converges} $$

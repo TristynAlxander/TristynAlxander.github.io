@@ -1,1 +1,0 @@
-|Impulse					| \( \vec{I}, \vec{J}, \vec{Imp} \) &

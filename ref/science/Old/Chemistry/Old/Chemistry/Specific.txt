@@ -1,3 +1,0 @@
-H_2 O_2
-	t_{1/2}= 10^{-5} s
-	Can diffuse across bacterial membranes

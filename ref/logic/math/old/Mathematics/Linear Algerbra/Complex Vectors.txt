@@ -1,5 +1,0 @@
-Complex Vectors:
-	$$ \vec{z} \overline{\vec{z}} = ||\vec{z}||^{2} $$
-	$$ \overline{\vec{z}} = ( \overline{z_{1}}, ..., \overline{z_{n}} ) $$
-	$$ \overline{Z} = (\overline{z_{i,j}})_{m \times n} $$
-	$$ Z^{H} = \overline{z^{T}} $$

@@ -1,4 +1,0 @@
-CoFunction: 
-	Sine CoSine: $$ \sin ( \frac{2 \pi}{4} - \theta ) = \cos ( \theta ) $$ $$ \cos ( \frac{2 \pi}{4} - \theta ) = \sin ( \theta ) $$
-	Secant CoSecant: $$ \sec ( \frac{2 \pi}{4} - \theta ) = \csc ( \theta ) $$ $$ \csc ( \frac{2 \pi}{4} - \theta ) = \sec ( \theta ) $$
-	Tangent CoTangent: $$ \tan ( \frac{2 \pi}{4} - \theta ) = \cot ( \theta ) $$ $$ \cot ( \frac{2 \pi}{4} - \theta ) = \tan ( \theta ) $$

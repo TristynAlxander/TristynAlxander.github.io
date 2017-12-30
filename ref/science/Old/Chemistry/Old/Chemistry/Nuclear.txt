@@ -1,9 +1,0 @@
-Alpha Decay 
-^{A} X \rightarrow ^{A-4}X + \alpha
-	\alpha = ^{4} He
-Beta Decay
-^{A}_{Z} X \rightarrow ^{A}_{Z+1} X + \beta^{-}
-	\beta^{-} = e^{-} + \upsilon
-
-^{A}_{Z} X \rightarrow ^{A}_{Z-1} X + \beta^{+}
-	\beta^{+} = e^{+} + \upsilon

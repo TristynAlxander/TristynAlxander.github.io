@@ -1,8 +1,0 @@
-<Equation version="1.0" name="Absolute Value of a Cross Product">
-	<LaTeX> | \vec{v} \times \vec{u} | = |\vec{v}| |\vec{u}| \sin(\theta) </LaTeX>
-	<Variables>
-		<Var 	symbol="\vec{v}"			mathObject=""				unit=""			name=""						measurands=""		dependencies=""/>
-		<Var 	symbol="\vec{u}"			mathObject=""				unit=""			name=""						measurands=""		dependencies=""/>	
-		<Var 	symbol="\theta"				mathObject=""				unit=""			name=""						measurands=""		dependencies=""/>	
-	</Variables>
-</Equation>
