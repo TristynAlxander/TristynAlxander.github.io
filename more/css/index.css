@@ -1,5 +1,5 @@
 /* Background */
-body{overflow:hidden;background-color:#938873;}
+body{overflow:hidden;background-color:#000000;}
 body::after{										/* Gears Background */	
 	content: "";
 	background:url(http://tristyn.me/more/images/gears.svg);
@@ -32,8 +32,8 @@ body::before{										/* Gears Background */
 	margin: 0 auto 0 auto;
 	background-color: #ffffff;
 	overflow: hidden;
-	border-left:1px solid #000000;
-	border-right:1px solid #000000;
+	border-left:2px solid #000000;
+	border-right:2px solid #000000;
 	}
 #myframe iframe{				/*	Child Container, Hides Scrollbar	*/
 	height:100%; width:64em;
