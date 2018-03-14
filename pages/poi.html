@@ -8,58 +8,18 @@
 <table id="logoBox">
 <tr><td rowspan=2><img src="../more/images/point_of_interest.svg"/></td><td id="Title">Points&nbsp;of&nbsp;Interest</td></tr>
 <tr><td id="search">
-	<input id="search_bar" type="text" autofocus="autofocus"  placeholder="Input Identifier">
-	<span id="not_found" href="">File not found!</span>
-	<a id="found" href="">We've got that!</a>
-	<span id="links"><a href="http://tristyn.me/ref/note.html">Index</a> | <a href="http://tristyn.me/pages/resume_wrapper.html" target="_blank">Resume</a> | <a href="http://tristyn.me/ref/note.html" target="_blank">Diagrams</a> | <a href="https://github.com/TristynAlxander/" target="_blank">Code</a></span>
+	<input id="search_bar" type="text" autofocus="autofocus"  placeholder="What's your Interest?">
+	<span id="links">
+        <a href="http://tristyn.me/ref/note.html">Points</a> | 
+        <a href="http://tristyn.me/ref/note.html" target="_blank">Diagrams</a> | 
+        <a href="https://gist.github.com/TristynAlxander" target="_blank">Writings</a> | 
+        <a href="https://github.com/TristynAlxander/" target="_blank">Code</a> |
+        <a href="http://tristyn.me/pages/resume_wrapper.html" target="_blank">Resume</a>
+    </span>
 </td></tr>
 </table>
 <div id="test"></div>
 </body>
-<script type="text/javascript">
-
-var search_bar = document.getElementById("search_bar");
-search_bar.addEventListener("keyup", function(){find_paper(this)}, false);
-
-function find_paper(tis){
-	
-	var not_found = document.getElementById("not_found");
-	var found = document.getElementById("found");
-	if(tis.value === ""){
-		not_found.style.display = "none";
-		found.style.display = "none";
-		found.setAttribute("href","");
-		}
-	else{
-		var doi_str = tis.value+".md";
-		while(doi_str.includes("\/")){ doi_str = doi_str.replace("\/","@");}
-		var url_str = "http://tristyn.me/ref/note.html?papers/"+doi_str;
-		
-		
-		var docstr;
-		var dochttp;
-		if (window.XMLHttpRequest){dochttp = new XMLHttpRequest();} else {dochttp = new ActiveXObject("Microsoft.XMLHTTP");}
-		
-		dochttp.open('HEAD', "http://tristyn.me/ref/papers/"+doi_str, true);												// Notice: this is not note.html
-		dochttp.onreadystatechange = function(){
-			if (dochttp.readyState == 4){
-				if(dochttp.status == 200){
-					not_found.style.display = "none";
-					found.style.display = "inline";
-					found.setAttribute("href",url_str);
-					}
-				else{
-					not_found.style.display = "inline";
-					found.style.display = "none";
-					found.setAttribute("href","");
-					}
-				}
-			}
-		dochttp.send(null);
-		
-		}
-	}
-</script>
 
 
 </html>
