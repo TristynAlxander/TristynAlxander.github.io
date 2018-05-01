@@ -44,6 +44,7 @@
 #logoBox #search{
 		font-size:0.8em;
 		vertical-align:top;
+		height:1em;
 		}
 #logoBox #search input{font-size:1.3em; font-family:"Courier New", Courier, monospace;
 		padding:0.25em;padding-left:0.5em;
