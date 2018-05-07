@@ -34,13 +34,15 @@
 #logoBox #links{
 	padding-left: 0.15em;
 	font-size:0.8em;
-	vertical-align:top;
+	text-align:center;
+    vertical-align:top;
 	}
 #logoBox img{width: 10em;height:10em;margin-right:1em;}
 #logoBox #Title{
 		font-size:3em;font-weight:bold;
 		text-align:center;vertical-align:bottom; 
-		height:1.5em;}
+		height:1.5em;
+        }
 #logoBox #search{
 		font-size:0.8em;
 		vertical-align:top;
@@ -48,10 +50,12 @@
 		}
 #logoBox #search input{font-size:1.3em; font-family:"Courier New", Courier, monospace;
 		padding:0.25em;padding-left:0.5em;
-		margin-bottom: 0.1em;
+		text-align:center;
+        caret-color: #fbfbfb;
+        margin-bottom: 0.1em;
 		border-top: 1px solid #000000;
 		border-bottom: 1px solid #000000;
-		width: 20em;
+		width: 18em;
 		}
 body#PoI{
 	background-color:#fbfbfb;
