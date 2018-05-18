@@ -8,7 +8,7 @@
 <table id="logoBox">
 <tr><td rowspan=3><img src="../more/images/point_of_interest.svg"/></td><td id="Title">Interest&nbsp;Point</td></tr>
 <tr><td id="search">
-	<input id="search_bar" type="text" autofocus="autofocus"  placeholder="Point of Interest">
+	<input id="search_bar" type="text" autofocus="autofocus"  placeholder="Point of Interest" onkeypress="detect_code(event)">
 </td></tr>
 <tr><td id="links">
         <a href="http://tristyn.me/ref/note.html" target="_blank">Diagrams</a> | 
@@ -19,7 +19,15 @@
 </table>
 <div id="test"></div>
 </body>
-
+<script type="text/javascript">
+function detect_code(e) {
+    if(e.keyCode == 13){
+        var code = document.getElementById("search_bar").value
+        if(code == "poi"){window.top.location.replace("");}
+        
+        }
+}
+</script>
 
 
 <select id="profiles" style="display:none;">
