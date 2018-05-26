@@ -3,21 +3,18 @@
 body{
     overflow-x:hidden;
     overflow-y:scroll;
-    
-    
-    background-color:#000000;
-    
+    background-color:#333333;
     background-image: url(http://tristyn.me/more/images/gears.svg), url(http://tristyn.me/more/images/gears180.svg);
     background-position: left, right;
-    background-attachment: fixed;
-    
+    background-attachment: fixed, fixed;
+    background-repeat: repeat-y, repeat-y;
     }
 .page{						/*	Page	*/
 	height:100%; width: 8.7in;
 	text-align:center;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 1em auto;
 	background-color: #ffffff;
 	overflow: hidden;
-	border-left:1px solid #000000;
-	border-right:1px solid #000000;
+	border:1px solid #000000;
+	
 	}
