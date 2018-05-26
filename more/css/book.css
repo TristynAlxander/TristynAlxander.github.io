@@ -1,5 +1,3 @@
-
-
 body{
     overflow-x:hidden;
     overflow-y:scroll;
@@ -9,12 +7,14 @@ body{
     background-attachment: fixed, fixed;
     background-repeat: repeat-y, repeat-y;
     }
-.page{						/*	Page	*/
-	height:100%; width: 8.7in;
-	text-align:center;
-	margin: 0 auto 1em auto;
-	background-color: #ffffff;
-	overflow: hidden;
-	border:1px solid #000000;
-	
-	}
+.page{                                          /* Paper Page */
+    height:9in; width: 6.5in; padding:1in;      /* Page Dimensions */
+    font-size: 0.15 in;
+    overflow: hidden;
+    background-color: #ffffff;                  /* Page Color */
+    border:1px solid #000000;                   /* Edge Color */
+    margin: 0.5em auto 1em auto;                /* Spacing between Pages */
+    }
+.page .index{
+    color:#666666;
+    }

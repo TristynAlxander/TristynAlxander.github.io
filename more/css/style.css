@@ -13,6 +13,4 @@
 	p:before{content:"\00a0\00a0\00a0\00a0";}
 /* Decorations */
 	code{background-color:rgba(150,150,200,0.1); font-family: monospace;}
-
-/* Links */
-	a:hover{background-color:rgba(0,0,255,0.05);}
+    
