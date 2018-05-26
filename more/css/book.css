@@ -1,0 +1,40 @@
+
+
+body{
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background-color:#000000;
+    }
+body::after{										/* Gears Background */	
+	content: "";
+	background:url(http://tristyn.me/more/images/gears.svg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	opacity: 0.2;		
+	position: absolute;		z-index: -1;
+	top: 0;		left: 0;		bottom: 0;		right: 0;
+	}
+body::before{										/* Gears Background */	
+	-webkit-transform: rotate(180deg);
+	-moz-transform:    rotate(180deg);
+	-ms-transform:     rotate(180deg);
+	-o-transform:      rotate(180deg);
+	transform:         rotate(180deg);
+	content: "";
+	background:url(http://tristyn.me/more/images/gears.svg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	opacity: 0.2;		
+	position: absolute;		z-index: -1;
+	top: 0;		left: 0;		bottom: 0;		right: 0;
+	}
+
+.page{						/*	Page	*/
+	height:100%; width: 8.7in;
+	text-align:center;
+	margin: 0 auto 0 auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	}
