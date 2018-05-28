@@ -8,6 +8,7 @@ body{
     background-repeat: repeat-y, repeat-y;
     }
 .page{                                          /* Paper Page */
+    position: relative;
     height:9in; width: 6.5in; padding:1in;      /* Page Dimensions */
     font-size: 0.15 in;
     overflow: hidden;
@@ -16,5 +17,11 @@ body{
     margin: 0.5em auto 1em auto;                /* Spacing between Pages */
     }
 .page .index{
+    position:absolute; bottom:0.5in; right: 0.5in;
+    width: 3em; text-align:center; 
+    font-size:0.8em;color:#666666;
+    }
+.page .index a{
+    text-decoration: none;
     color:#666666;
     }

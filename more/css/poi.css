@@ -1,10 +1,5 @@
 #logoBox{
-	position: absolute;
-	top: 30%;
-	right: 50%;
-	bottom: 0;
-	left:50%;
-	transform: translateX(-50%);
+	position:absolute; top:30%; right:50%; bottom:0; left:50%; transform:translateX(-50%);
 	}
 #logoBox a{
 	color:#888888;

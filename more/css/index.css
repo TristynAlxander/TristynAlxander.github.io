@@ -1,29 +1,11 @@
 /* Background */
-body{overflow:hidden;background-color:#000000;}
-body::after{										/* Gears Background */	
-	content: "";
-	background:url(http://tristyn.me/more/images/gears.svg);
-	background-repeat: no-repeat;
-	background-size:cover;
-	opacity: 0.2;		
-	position: absolute;		z-index: -1;
-	top: 0;		left: 0;		bottom: 0;		right: 0;
-	}
-body::before{										/* Gears Background */	
-	-webkit-transform: rotate(180deg);
-	-moz-transform:    rotate(180deg);
-	-ms-transform:     rotate(180deg);
-	-o-transform:      rotate(180deg);
-	transform:         rotate(180deg);
-	content: "";
-	background:url(http://tristyn.me/more/images/gears.svg);
-	background-repeat: no-repeat;
-	background-size:cover;
-	opacity: 0.2;		
-	position: absolute;		z-index: -1;
-	top: 0;		left: 0;		bottom: 0;		right: 0;
-	}
-
+body{overflow:hidden;
+    background-color:#333333;
+    background-image: url(http://tristyn.me/more/images/gears.svg), url(http://tristyn.me/more/images/gears180.svg);
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    background-repeat: repeat-y, repeat-y;
+    }
 
 /* My iFrame */
 #myframe{						/*	Parent Container	*/
