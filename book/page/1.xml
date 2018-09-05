@@ -3,22 +3,60 @@
 <h1>Index</h1>
 
 <ul>
-    <li> Philosophy of Science&#183;&#183;&#183;&#183;&#183;</li>
+    <li> <div class="page_content">Prologue</div>                           <span class="dots">&#xA0;</span><a class="page_number">4</a> </li>
+    <li> <div class="page_content">Introduction to Science</div>                           <span class="dots">&#xA0;</span><a class="page_number">4</a> </li>
     <ul>
-        <li> Philosophy of Science&#183;&#183;&#183;&#183;&#183;</li>
+        <li> <div class="page_content">Alethiology</div>                    <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <ul>
+            <li> <div class="page_content">A-Priori's</div>                 <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+            <li> <div class="page_content">Standards of Truth</div>         <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        </ul>
+        <li> <div class="page_content">Philosophy of Science</div>          <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <ul>
+            <li> <div class="page_content">Data &#38; Models</div>          <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+            <li> <div class="page_content">Epistemically Predictive</div>   <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+            <li> <div class="page_content">Decomposition</div>              <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+            <li> <div class="page_content">Operationalization</div>         <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        </ul>
+        <li> <div class="page_content">Experimental Design</div>            <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <ul>
+            <li> <div class="page_content">Controls</div>                   <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        </ul>
+    </ul>
+    <li><div class="page_content">Mathematics</div>                         <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+    <ul>
+        <li> <div class="page_content">Algebra</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Trigonometry</div>                   <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Calculus</div>                       <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Statistics</div>                     <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Game Theory</div>                    <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+    </ul>
+    <li> <div class="page_content">Science</div>                            <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+    <ul>
+        <li> <div class="page_content">Physics</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Chemistry</div>                      <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Biology</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+    </ul>
+    <li> <div class="page_content">Other</div>                            <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+    <ul>
+        <li> <div class="page_content">Economics</div>                      <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Evidence-Based Policy</div>          <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">English</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
+        <li> <div class="page_content">Programming</div>                    <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
     </ul>
 </ul>
 
-Page&#183;1 <br/>
-<table>
-<tr><td>1</td><td>2</td></tr>
-<tr><td>3</td><td>4</td></tr>
+
+<table class="math">
+<tr><td class="title" rowspan="4"> Cross Product Sine From </td></tr>
+<tr><td class="latex" rowspan="4"> \( \vec{v} \times \vec{u}  = |\vec{v}| |\vec{u}| \sin(\theta) \hat{n} \) </td></tr>
+<tr class="title">  <td class="symbol"> Symbol      </td>  <td class="math_object"> Math&#xA0;Object </td>  <td class="unit"> Unit </td>  <td class="name"> Name </td>  </tr>
+<tr>                <td class="symbol"> \(\vec{v}\) </td>  <td class="math_object"> vector           </td>  <td class="unit">      </td>  <td class="name">      </td>  </tr>
+<tr>                <td class="symbol"> \(\vec{u}\) </td>  <td class="math_object"> vector           </td>  <td class="unit">      </td>  <td class="name">      </td>  </tr>
+<tr>                <td class="symbol"> \(\vec{n}\) </td>  <td class="math_object"> unit vector      </td>  <td class="unit">      </td>  <td class="name">      </td>  </tr>
+<tr>                <td class="symbol"> \(\theta\)  </td>  <td class="math_object"> angle            </td>  <td class="unit">      </td>  <td class="name">      </td>  </tr>
 </table>
-Page 1 <br/>
-Page 1 <br/>
-Page 1 <br/>
-Page 1 <br/>
-Page 1 <br/>
+
 
 
 

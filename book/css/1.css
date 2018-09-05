@@ -1,14 +1,11 @@
 #p1 h1{font-size:2em;font-weight:bold;text-align:center;}
 
-#p1 .logoBox td{text-align:center; vertical-align:top;}
-#p1 .logoBox td.title{font-size:3em;font-weight:bold;}
-#p1 .logoBox td.subtitle{font-size:0.8em;color:#888888;}
-#p1 .logoBox img{width: 10em;height:10em;padding:1em;}
-#p1 .logoBox input{font-size:1.3em; font-family:"Courier New", Courier, monospace;
-		text-align:center;
-        
-        caret-color: #fbfbfb;
-        margin-bottom: 0.1em;
-		width: 18em;
-		}
-        
+#p1 ul{overflow-x: hidden;}
+#p1 li .page_content{float:left;  background: white; padding-right:1em;}
+#p1 li a.page_number{float:right; background: white; display: block; width: 3em; text-align: center; }
+#p1 ul li .dots:after{
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+    }

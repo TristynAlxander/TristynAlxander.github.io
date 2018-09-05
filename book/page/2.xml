@@ -1,13 +1,10 @@
 <page> 
-Page 2 <br/>
-<table>
-<tr><td>1</td><td>2</td></tr>
-<tr><td>3</td><td>4</td></tr>
-</table>
-Page 2 <br/>
-Page 2 <br/>
-Page 2 <br/>
-Page 2 <br/>
+
+<h1> Alethiology </h1>
+<hr/>
+
+
+
 
 <div class="index"><a href="#p2">2</a></div>
 </page>

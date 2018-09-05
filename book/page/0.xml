@@ -2,7 +2,7 @@
 
 <table class="logoBox">
 <tr><td class="title">Interest&#xA0;Point</td></tr>
-<tr><td class="subtitle">A Simple Math and Science Reference</td></tr>
+<tr><td class="subtitle">A Simple Reference for Systematic Studies</td></tr>
 <tr><td><img src="img/point_of_interest.svg"/></td></tr>
 <tr><td><input id="search_bar" type="text" autofocus="autofocus"  placeholder="" onkeypress="detect_code(event)"/></td></tr>
 </table>
