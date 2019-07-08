@@ -7,10 +7,17 @@ body{
     background-attachment: fixed, fixed;
     background-repeat: repeat-y, repeat-y;
     }
+sup{
+    font-size:0.65em;
+    }
+.footnote{
+    position:absolute; bottom:0.7in; left: 0.5in;
+    font-size:0.7em;color:#666666;
+    }
 .page{                                          /* Paper Page */
     position: relative;
     height:9in; width: 6.5in; padding:1in;      /* Page Dimensions */
-    font-size: 0.15 in;
+    font-size: 0.15in;
     overflow: hidden;
     background-color: #ffffff;                  /* Page Color */
     border:1px solid #000000;                   /* Edge Color */

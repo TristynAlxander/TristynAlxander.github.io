@@ -1,12 +1,15 @@
-#p0 .logoBox{position:absolute; top:20%; right:50%; bottom:0; left:50%; transform:translateX(-50%);}
-#p0 .logoBox td{text-align:center; vertical-align:top;}
-#p0 .logoBox td.title{font-size:3em;font-weight:bold;}
-#p0 .logoBox td.subtitle{font-size:0.8em;color:#888888;}
-#p0 .logoBox img{width: 10em;height:10em;padding:1em;}
-#p0 .logoBox input{font-size:1.3em; font-family:"Courier New", Courier, monospace;
+#p0 #logo{position:absolute; top:25%; right:50%; bottom:0; left:50%; transform:translateX(-50%);}
+#p0 #logo td{text-align:center; vertical-align:top;}
+#p0 #logo td.title{font-size:3em; font-weight:bold; text-align:center; vertical-align:bottom; height:1.5em;}
+#p0 #logo td.subtitle{font-size:0.8em;color:#888888;}
+#p0 #logo img{width:10em; height:10em; margin-right:1em;}
+#p0 #logo td#search{font-size:0.8em; vertical-align:top; height:1em;}
+#p0 #logo td#search input{font-size:1.3em; font-family:"Courier New", Courier, monospace;
+		padding:0.25em;padding-left:0.5em;
 		text-align:center;
-        color:#888888;
         caret-color: #fbfbfb;
         margin-bottom: 0.1em;
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #000000;
 		width: 18em;
 		}

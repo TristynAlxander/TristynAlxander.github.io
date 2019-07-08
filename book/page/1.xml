@@ -3,8 +3,28 @@
 <h1>Index</h1>
 
 <ul>
-    <li> <div class="page_content">Prologue</div>                           <span class="dots">&#xA0;</span><a class="page_number">4</a> </li>
-    <li> <div class="page_content">Introduction to Science</div>                           <span class="dots">&#xA0;</span><a class="page_number">4</a> </li>
+    <li> <div class="page_content">Prologue</div>                   <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+    <li> <div class="page_content">Meta</div>                       <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+    <li> <div class="page_content">Mathematics</div>                <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li><ul>
+        <li> <div class="page_content">Algebra</div>                <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Trigonometry</div>           <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Calculus</div>               <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Statistics</div>             <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Game Theory</div>            <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+    </ul>
+    <li> <div class="page_content">Programming</div>                <span class="dots">&#xA0;</span><a class="page_number" href="">4</a> </li>
+    <li> <div class="page_content">Science</div>                    <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li><ul>
+        <li> <div class="page_content">Physics</div>                <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Chemistry</div>              <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Biology</div>                <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+    </ul>
+    <li> <div class="page_content">Humanities</div>                 <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li><ul>
+        <li> <div class="page_content">Economics</div>              <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">Evidence-Based Policy</div>  <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+        <li> <div class="page_content">English</div>                <span class="dots">&#xA0;</span><a class="page_number" href="">4</a></li>
+    </ul>
+    
+    <li> <div class="page_content">Introduction to Science</div>            <span class="dots">&#xA0;</span><a class="page_number">4</a> </li>
     <ul>
         <li> <div class="page_content">Alethiology</div>                    <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
         <ul>
@@ -23,27 +43,7 @@
             <li> <div class="page_content">Controls</div>                   <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
         </ul>
     </ul>
-    <li><div class="page_content">Mathematics</div>                         <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-    <ul>
-        <li> <div class="page_content">Algebra</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Trigonometry</div>                   <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Calculus</div>                       <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Statistics</div>                     <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Game Theory</div>                    <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-    </ul>
-    <li> <div class="page_content">Science</div>                            <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-    <ul>
-        <li> <div class="page_content">Physics</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Chemistry</div>                      <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Biology</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-    </ul>
-    <li> <div class="page_content">Other</div>                            <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-    <ul>
-        <li> <div class="page_content">Economics</div>                      <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Evidence-Based Policy</div>          <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">English</div>                        <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-        <li> <div class="page_content">Programming</div>                    <span class="dots">&#xA0;</span><a class="page_number">4</a></li>
-    </ul>
+    
 </ul>
 
 
