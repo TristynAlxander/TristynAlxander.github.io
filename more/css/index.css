@@ -19,7 +19,7 @@ iframe{				/*	Child Container, Hides Scrollbar	*/
 	}
 
 
-canvas#particles-js{
+#particles-js{
     position:  absolute;
     display:  block;
     top: 0;
