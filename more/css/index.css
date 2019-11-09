@@ -18,6 +18,15 @@ iframe{				/*	Child Container, Hides Scrollbar	*/
 	border-right:2px solid #000000;
 	}
 
+
+canvas.particles-js{
+    position:  absolute;
+    display:  block;
+    top: 0;
+    left: 0;
+    z-index: 0; 
+    }
+
 #tristyn{
 	font-size:0.8em;
 	position:absolute;
