@@ -2,7 +2,7 @@
 
 <table id="logo">
 <tr><td rowspan="3"><img src="img/point_of_interest.svg"/></td><td class="title">Interest&#xA0;Point</td></tr>
-<tr><td id="search"><input id="search_bar" type="text" autofocus="autofocus"  placeholder="Point of Interest"/></td></tr>
+<tr><td id="search"><input id="search_bar" type="text" autofocus="autofocus"  placeholder="Point of Interest" onkeypress="detect_code(event)"/></td></tr>
 <tr><td class="subtitle">A Simple Reference for Points of Interest.</td></tr>
 </table>
 
