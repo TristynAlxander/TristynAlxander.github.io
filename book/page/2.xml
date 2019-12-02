@@ -4,20 +4,46 @@
 <br/>
 
 <p>
+<i>What is Truth?</i> Defining truth is fundamental to understanding it; however, there are several definitions of truth. 
+In each definition, "truth" just means consistency against some standards. As such, these <i>standards of truth</i> are the bases for truth-value.<sup>1</sup>
+While standards can be defined arbitrarily, four common standards are sufficient for most practical purposes: coherence, correspondence, consensus, and authority.<sup>2</sup> 
+Different combinations of these standards define different truths. 
+Once defined, truths can be further refined with conceptual-frameworks that define exact rules for determining truth-value. 
+</p>
+
+<table>
+    <tr><td> <b> Standards of Truth </b>    </td><td> <b> Definition </b>                                       </td></tr>
+    <tr><td> Coherence                      </td><td> Requirement for consistency within a set of propositions. </td></tr>
+    <tr><td> Correspondence                 </td><td> Requirement for consistency with empirical observations.  </td></tr>
+    <tr><td> Consensus                      </td><td> Requirement for consistency between of individuals.       </td></tr>
+    <tr><td> Authority                      </td><td> Requirement for consistency with particular individuals.  </td></tr>
+    <tfoot> <tr><td colspan="2"> Table of Common Standards of Truth. </td></tr> </tfoot>
+</table>
+
+defined truth
+defined standards of truth
+pointed to different truths & Conceptual frameworks
+
+When unspecified, truth usually refers to <i>Absolute Truth</i>.
+
+
+It is valuable to understand each of these common standards before exploring different truths.
+
+
+Absolute Truth refers to coherence with everything (e.g. coherence with both logical and emperical data). 
+Relative Truths 
+    Mathematical Truth (Standard: Coherence)
+    Scientific Truth (Standards: Coherence and Correspondence)
+    Social Truth (Standards: Consensus and Authority)
+
 The conceptual framework for truth is categorical with each category arising from combinations of different <i>standards of truth</i>.
 
-These standards are the bases on which truth value 
- 
-While  many standards of truth, just four are sufficient for both practical and epistemic purposes. 
-These four standards can be divided into two self-evident standards and two social standards. 
-
-
-The self-evident standards logically precede the 
 
 
 
 
-</p>
+
+
 <p>
 Some standards of truth are derived from self-evident and fundamental concepts: nothingness,<sup>1</sup> existence,<sup>2</sup> distinction, and experience.
 Nothingness and existence are not directly relevant, but epistemicly precede distinction. 
@@ -57,9 +83,20 @@ Alethiology refers to the study of Truth.
 
 a-priori is latin for from-self. It refers to concepts so fundamental they must be regarded as self-evident and self-proving. 
 <br/>
-1: *Nothingness* is annoyingly ineffable. No description is technically correct; however, Martin Heidegger famously stated "The nothing itself nothings."
+1: Truth-values are measures of consistency.
 <br/>
-2: *Existence* is everything, except nothingness. 
+2: The Epistemic Order: coherence, correspondence, consensus &amp; authority. 
+2.1: Coherence derives from consistency, which derives from a-priori fundementals of logic: nothingness, existence, &amp; distinction.
+2.1.1: *Nothingness* is essentially the blank slate we start with. It's required in a-priori arguments. It's annoyingly ineffable, and no description is technically correct. Martin Heidegger famously stated "The nothing itself nothings." 
+2.1.2: *Existence*   is essentially the idea that concepts exist.  It's required in a-priori arguments. 
+2.1.3: Distinction   is essentially the differences between concepts. It allows you to define variables and relations in mathematics. 
+2.2: Correspondence derives from the a-priori fundemntal of experience.
+2.2.1: Experience is the immutable existence of a physical reality. Also known as the emperical.
+2.2.2: This allows you to asign emperical measures to mathematical variables. 
+2.3: Consensus &amp; Authority derive from complex social relations. 
+2.3.1: They are extremely displaced from any a-priori fundementals.
+<br/>
+
 </div>
 <div class="index"><a href="#p2">2</a></div>
 </page>
