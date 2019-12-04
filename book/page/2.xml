@@ -5,10 +5,12 @@
 
 <p>
 <i>What is Truth?</i> Defining truth is fundamental to understanding it; however, there are several definitions of truth. 
-In each definition, "truth" just means consistency against some standards. As such, these <i>standards of truth</i> are the bases for truth-value.<sup>1</sup>
-While standards can be defined arbitrarily, four common standards are sufficient for most practical purposes: coherence, correspondence, consensus, and authority.<sup>2</sup> 
-Different combinations of these standards define different truths. 
-Once defined, truths can be further refined with conceptual-frameworks that define exact rules for determining truth-value. 
+In each definition, "truth" just means consistency against some standards. 
+As a truth's standards become more well-defined, they coalesce into complex conceptual-frameworks.<sup>1</sup>  
+These conceptual-frameworks define exactly how truth-value is determined from a truth's standards.
+Each <i>standard of truth</i> is a basis for truth-value.<sup>2</sup>
+As such, choosing well-defined standards is cucial to evaluating the truth-value of a statement. 
+I would like to call attention to four standards: coherence, correspondence, consensus, and authority.<sup>3</sup> 
 </p>
 
 <table>
@@ -20,17 +22,33 @@ Once defined, truths can be further refined with conceptual-frameworks that defi
     <tfoot> <tr><td colspan="2"> Table of Common Standards of Truth. </td></tr> </tfoot>
 </table>
 
+
+
 defined truth
 defined standards of truth
-pointed to different truths & Conceptual frameworks
+pointed to different truths &amp; Conceptual frameworks
 
-When unspecified, truth usually refers to <i>Absolute Truth</i>.
+
+define exact standards
+define common conceptual frameworks associate with these standards
+define absolute truth note impossible to actualyl identify
+define common relative truths  common conceptual-frameworks associated with these truths.
+
+
+
+<p>
+When unspecified, "truth" usually refers to <i>Absolute Truth</i>. This 
+
+Absolute Truth has standards   to coherence with everything (e.g. coherence with both logical and emperical data). 
+
+
+</p>
 
 
 It is valuable to understand each of these common standards before exploring different truths.
 
 
-Absolute Truth refers to coherence with everything (e.g. coherence with both logical and emperical data). 
+
 Relative Truths 
     Mathematical Truth (Standard: Coherence)
     Scientific Truth (Standards: Coherence and Correspondence)
@@ -83,18 +101,20 @@ Alethiology refers to the study of Truth.
 
 a-priori is latin for from-self. It refers to concepts so fundamental they must be regarded as self-evident and self-proving. 
 <br/>
-1: Truth-values are measures of consistency.
+2: Truth-values <i>are</i> measures of consistency.
 <br/>
-2: The Epistemic Order: coherence, correspondence, consensus &amp; authority. 
-2.1: Coherence derives from consistency, which derives from a-priori fundementals of logic: nothingness, existence, &amp; distinction.
-2.1.1: *Nothingness* is essentially the blank slate we start with. It's required in a-priori arguments. It's annoyingly ineffable, and no description is technically correct. Martin Heidegger famously stated "The nothing itself nothings." 
-2.1.2: *Existence*   is essentially the idea that concepts exist.  It's required in a-priori arguments. 
-2.1.3: Distinction   is essentially the differences between concepts. It allows you to define variables and relations in mathematics. 
-2.2: Correspondence derives from the a-priori fundemntal of experience.
-2.2.1: Experience is the immutable existence of a physical reality. Also known as the emperical.
-2.2.2: This allows you to asign emperical measures to mathematical variables. 
-2.3: Consensus &amp; Authority derive from complex social relations. 
-2.3.1: They are extremely displaced from any a-priori fundementals.
+1: Conceptual-Frameworks are a set of concepts and relations that act as the <i>premise</i> (i.e. the given) for determining the truth-value of a proposition. 
+<br/>
+3: The Epistemic Order: coherence, correspondence, consensus &amp; authority. 
+3.1: Coherence derives from consistency, which derives from a-priori fundementals of logic: nothingness, existence, &amp; distinction.
+3.1.1: *Nothingness* is essentially the blank slate we start with. It's required in a-priori arguments. It's annoyingly ineffable, and no description is technically correct. Martin Heidegger famously stated "The nothing itself nothings." 
+3.1.2: *Existence*   is essentially the idea that concepts exist.  It's required in a-priori arguments. 
+3.1.3: Distinction   is essentially the differences between concepts. It allows you to define variables and relations in mathematics. 
+3.2: Correspondence derives from the a-priori fundemntal of experience.
+3.2.1: Experience is the immutable existence of a physical reality. Also known as the emperical.
+3.2.2: This allows you to asign emperical measures to mathematical variables. 
+3.3: Consensus &amp; Authority derive from complex social relations. 
+3.3.1: They are extremely displaced from any a-priori fundementals.
 <br/>
 
 </div>
