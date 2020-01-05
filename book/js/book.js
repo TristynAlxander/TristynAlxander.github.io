@@ -1,6 +1,7 @@
 pages = document.getElementsByClassName("page");
 for(var i=0; i<pages.length;i++){
     load_page(pages[i],"page/"+String(i)+".xml");
+    // Search for all svg# ids 
     }
 
 function load_page(page_node, page_url){
@@ -15,4 +16,3 @@ function load_page(page_node, page_url){
 	xml_http.open("GET", page_url, true);
 	xml_http.send();
 	}
-
