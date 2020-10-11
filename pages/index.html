@@ -1,34 +1,21 @@
 <!DOCTYPE HTML PUBLIC>
-<html><head><title>Points of Interest</title>
+<html><head><title>Index</title>
 <link rel="icon" type="image/png"		href="../more/images/poi.ico.png">
 <link rel="stylesheet" type="text/css"	href="../more/css/style.css" />
-<link rel="stylesheet" type="text/css"	href="../more/css/poi.css" />
+<link rel="stylesheet" type="text/css"	href="../more/css/name_box.css" />
 </head><body id="PoI">
 
-<table id="logoBox">
-<tr><td rowspan=3><img src="../more/images/point_of_interest.svg"/></td><td id="Title">Interest&#xA0;Point</td></tr>
-<tr><td id="search">
-	<input id="search_bar" type="text" autofocus="autofocus"  placeholder="Point of Interest" onkeypress="detect_code(event)">
-</td></tr>
+<table id="NameBox">
+<tr><td rowspan=3><img title="Tristin's Insignia" src="../more/images/point_of_interest.svg"/></td><td class="Title">Tristin&#xA0;Alexander&#xA0;S.</td></tr>
+<tr><td class="SubTitle">Molecular&#xA0;Biology&#xA0;Researcher</td></tr>
 <tr><td id="links">
-        <a href="https://gist.github.com/TristynAlxander" target="_blank">Concepts &amp; Diagrams</a> |
+        <a href="https://gist.github.com/TristynAlxander" target="_blank">Research&#xA0;Interests</a> |
         <a href="https://gist.github.com/TristynAlxander" target="_blank">Protocols</a> | 
-        <a href="https://github.com/TristynAlxander/" target="_blank">Code</a> |
-        <a href="http://tristyn.me/pages/about.html" target="_self">About</a>
+        <a href="https://github.com/TristynAlxander/" target="_blank">Code</a> | 
+        <a href="http://tristyn.me/pages/publications.html" target="_blank">Publications</a> | 
+        <a href="http://tristyn.me/pages/resume.html" target="_self"><i title="Curriculum Vitae">C.V.</i></a> 
 </td></tr>
 </table>
-<div id="test"></div>
-</body>
-<script type="text/javascript">
-function detect_code(e) {
-    if(e.keyCode == 13){
-        var code = document.getElementById("search_bar").value
-        if(code == "reload"){window.top.location.replace("");}
-        // Redirect this to book
-        if(code == "truth"){location.href = "https://github.com/TristynAlxander/";}
-        location.href
-        }
-    }
-</script>
 
+</body>
 </html>
